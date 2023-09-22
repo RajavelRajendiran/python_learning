@@ -6,6 +6,14 @@ y = int(2.8)
 z = complex(1)
 #import random number
 import random
+#casting
+a=int(1.3)
+b=float("2")
+c=str(3)
+#print
+print(a)
+print(b)
+print(c)
 print(random.randrange(1, 10))
 print(x)
 print(y)
