@@ -18,5 +18,5 @@ print(c)
 c.pop((2))
 print(c)
 [print(x) for x in c]#comprehention
-
-
+d=[x for x in c if "ol" in x]
+print(d)
