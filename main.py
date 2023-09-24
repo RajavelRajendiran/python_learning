@@ -20,3 +20,7 @@ print(c)
 [print(x) for x in c]#comprehention
 d=[x for x in c if "ol" in x]
 print(d)
+e=[x for x in c if x!="lol"]
+print(e)
+f=[x.upper() for x in e]
+print(f)
