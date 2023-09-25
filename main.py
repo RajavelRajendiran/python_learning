@@ -24,3 +24,11 @@ e=[x for x in c if x!="lol"]
 print(e)
 f=[x.upper() for x in e]
 print(f)
+def myfunc(n):
+ return abs(n-50)
+g=[100,50,69,23,24,234]
+h=[]
+(g.sort(key = myfunc))
+h.append(g)
+print(h)
+
