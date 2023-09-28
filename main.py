@@ -10,12 +10,12 @@ with open(input_file_name, "r") as input_file:
 # Initialize an empty list to store the extracted data
 extracted_data = []
 
-# Iterate through the lines and extract the first 17 characters from lines starting with "BO_"
+# Iterate through the lines and extract the required datafrom lines starting with "BO_"
 for line in lines:
     if line.startswith("BO_"):
         extracted_text=line
         a=extracted_text.rindex(":")
-        updated_text = line.strip()[3:a]  # Extract the first 17 characters after "BO_"
+        updated_text = line.strip()[3:a]  # Extract the required data after "BO_"
         extracted_data.append(updated_text)
 
 # Open the output file for writing and write the extracted data to it
