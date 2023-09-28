@@ -1,6 +1,7 @@
+import json
 # Specify the input and output file names
 input_file_name = "ChassisCAN1.dbc"
-output_file_name = "CANoutput.dbc"
+output_file_name = "CANoutput.json"
 
 # Open the input file for reading
 with open(input_file_name, "r") as input_file:
@@ -10,18 +11,15 @@ with open(input_file_name, "r") as input_file:
 # Initialize an empty list to store the extracted data
 extracted_data = []
 
-# Iterate through the lines and extract the required datafrom lines starting with "BO_"
+# Iterate through the lines and extract the required from lines starting with "BO_"
 for line in lines:
     if line.startswith("BO_"):
-        extracted_text=line
-        a=extracted_text.rindex(":")
-        updated_text = line.strip()[3:a]  # Extract the required data after "BO_"
+        extracted_text = line
+        a = extracted_text.rindex(":")
+        updated_text = line.strip()[3:a]  # Extract the required data
         extracted_data.append(updated_text)
+# Convert the extracted lines to a JSON structure and write it to the output JSON file
+with open(output_file_name, 'w') as output_file:
+    json.dump(extracted_data, output_file, indent=2)
 
-# Open the output file for writing and write the extracted data to it
-with open(output_file_name, "w") as output_file:
-    for data in extracted_data:
-        output_file.write(data + "\n")
-
-# Print a confirmation message
-print(f"Extracted and wrote to {output_file_name}:\n{extracted_data}")
+print(f"Extracted lines saved to {output_file_name}")
