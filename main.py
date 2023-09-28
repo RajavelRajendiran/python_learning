@@ -14,5 +14,5 @@ class students:
     self.rollno=rollno
   def __str__(self):
     return f"{self.name} {self.rollno}"
-a1=students("raja",4)
-print(a1)
+a2=students("raja",4)
+print(a2)
