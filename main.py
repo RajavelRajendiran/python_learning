@@ -16,3 +16,18 @@ class students:
     return f"{self.name} {self.rollno}"
 a2=students("raja",4)
 print(a2)
+
+class person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+c=person("rajavel","rajendiran")
+c.printname()
+
+class students(person):
+  pass
+d=students("sam","victor")
+d.printname()
