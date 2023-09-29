@@ -1,482 +1,602 @@
 [
   {
-    "message": " 147 AsdmChas1Fr01 ",
-    "sender_node": "ASDM"
+    "message": "147AsdmChas1Fr01",
+    "sender_node": "ASDM",
+    "signal": "RcwmBrkReqQM_UB"
   },
   {
-    "message": " 51 AsdmChas1Fr03 ",
-    "sender_node": "ASDM"
+    "message": "51AsdmChas1Fr03",
+    "sender_node": "ASDM",
+    "signal": "AsyPinionAgReqSafeAsyPinionAgReqCntr"
   },
   {
-    "message": " 1321 AsdmChas1NMFr ",
-    "sender_node": "ASDM"
+    "message": "1321AsdmChas1NMFr",
+    "sender_node": "ASDM",
+    "signal": "AsyPinionAgReqSafeAsyPinionAgReqCntr"
   },
   {
-    "message": " 308 BcmChas1Fr01 ",
-    "sender_node": "BBM"
+    "message": "308BcmChas1Fr01",
+    "sender_node": "BBM",
+    "signal": "BrkWssInfoFrntWssCoreMonRob"
   },
   {
-    "message": " 327 BcmChas1Fr02 ",
-    "sender_node": "BBM"
+    "message": "327BcmChas1Fr02",
+    "sender_node": "BBM",
+    "signal": "EpbStsEpbSts"
   },
   {
-    "message": " 84 BcmChas1Fr03 ",
-    "sender_node": "BBM"
+    "message": "84BcmChas1Fr03",
+    "sender_node": "BBM",
+    "signal": "SBMHealthChkCmd_UB"
   },
   {
-    "message": " 129 BcmChas1Fr06 ",
-    "sender_node": "BBM"
+    "message": "129BcmChas1Fr06",
+    "sender_node": "BBM",
+    "signal": "RbuCtrlModReqSafeCntr"
   },
   {
-    "message": " 265 BcmChas1Fr07 ",
-    "sender_node": "BBM"
+    "message": "265BcmChas1Fr07",
+    "sender_node": "BBM",
+    "signal": "PrimBrkSysStCntr"
   },
   {
-    "message": " 185 BcmChas1Fr09 ",
-    "sender_node": "BBM"
+    "message": "185BcmChas1Fr09",
+    "sender_node": "BBM",
+    "signal": "ALgtStdFromWhlSpdQf"
   },
   {
-    "message": " 1334 BcmChas1NMFr ",
-    "sender_node": "BBM"
+    "message": "1334BcmChas1NMFr",
+    "sender_node": "BBM",
+    "signal": "ALgtStdFromWhlSpdQf"
   },
   {
-    "message": " 544 EcmChas1BsgFr41 ",
-    "sender_node": "VDDM"
+    "message": "544EcmChas1BsgFr41",
+    "sender_node": "VDDM",
+    "signal": "AccrPedlRatCntr"
   },
   {
-    "message": " 1111 EcmChas1Fr08 ",
-    "sender_node": "VDDM"
+    "message": "1111EcmChas1Fr08",
+    "sender_node": "VDDM",
+    "signal": "PtTqAtWhlFrntActPtTqAtWhlsFrntQly"
   },
   {
-    "message": " 131 EcmChas1Fr31 ",
-    "sender_node": "VDDM"
+    "message": "131EcmChas1Fr31",
+    "sender_node": "VDDM",
+    "signal": "EngSt1WdStsEngSt1WdSts"
   },
   {
-    "message": " 752 EcmChas1Fr37 ",
-    "sender_node": "VDDM"
+    "message": "752EcmChas1Fr37",
+    "sender_node": "VDDM",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1429 EtcToMvemXcpFr01 ",
-    "sender_node": "ETC"
+    "message": "1429EtcToMvemXcpFr01",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1424 EtcToMvemXcpFr02 ",
-    "sender_node": "ETC"
+    "message": "1424EtcToMvemXcpFr02",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1425 EtcToMvemXcpFr03 ",
-    "sender_node": "ETC"
+    "message": "1425EtcToMvemXcpFr03",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1441 EtcToPscm1cChas1XcpFr01 ",
-    "sender_node": "ETC"
+    "message": "1441EtcToPscm1cChas1XcpFr01",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1409 EtcToPscmChas1XcpFr01 ",
-    "sender_node": "ETC"
+    "message": "1409EtcToPscmChas1XcpFr01",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1416 EtcToPscmChas1XcpFr02 ",
-    "sender_node": "ETC"
+    "message": "1416EtcToPscmChas1XcpFr02",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1418 EtcToPscmChas1XcpFr03 ",
-    "sender_node": "ETC"
+    "message": "1418EtcToPscmChas1XcpFr03",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1420 EtcToPscmChas1XcpFr04 ",
-    "sender_node": "ETC"
+    "message": "1420EtcToPscmChas1XcpFr04",
+    "sender_node": "ETC",
+    "signal": "EngSt1WdSts1_UB"
   },
   {
-    "message": " 1431 EtcToPscmDevelFr ",
-    "sender_node": "ETC"
+    "message": "1431EtcToPscmDevelFr",
+    "sender_node": "ETC",
+    "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1442 EtcToRasmChas1XcpFr01 ",
-    "sender_node": "ETC"
+    "message": "1442EtcToRasmChas1XcpFr01",
+    "sender_node": "ETC",
+    "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1504 EtcToRbcmChas1DevFr01 ",
-    "sender_node": "ETC"
+    "message": "1504EtcToRbcmChas1DevFr01",
+    "sender_node": "ETC",
+    "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1414 EtcToTcmXcpFr01 ",
-    "sender_node": "ETC"
+    "message": "1414EtcToTcmXcpFr01",
+    "sender_node": "ETC",
+    "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1411 EtcToTcmXcpFr02 ",
-    "sender_node": "ETC"
+    "message": "1411EtcToTcmXcpFr02",
+    "sender_node": "ETC",
+    "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1421 EtctoVddmBcmXCPFr01 ",
-    "sender_node": "ETC"
+    "message": "1421EtctoVddmBcmXCPFr01",
+    "sender_node": "ETC",
+    "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1432 EtctoVddmDevelFr01 ",
-    "sender_node": "ETC"
+    "message": "1432EtctoVddmDevelFr01",
+    "sender_node": "ETC",
+    "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1433 EtctoVddmDevelFr02 ",
-    "sender_node": "ETC"
+    "message": "1433EtctoVddmDevelFr02",
+    "sender_node": "ETC",
+    "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8"
   },
   {
-    "message": " 235 PasChas1Fr02 ",
-    "sender_node": "ASDM"
+    "message": "235PasChas1Fr02",
+    "sender_node": "ASDM",
+    "signal": "PrkgPinionAgReqGroupQF"
   },
   {
-    "message": " 149 PasChas1Fr04 ",
-    "sender_node": "ASDM"
+    "message": "149PasChas1Fr04",
+    "sender_node": "ASDM",
+    "signal": "PrkgGearReqGroupReqSts1"
   },
   {
-    "message": " 1331 Pscm100FITbChas1NMFr ",
-    "sender_node": "PSCM2"
+    "message": "1331Pscm100FITbChas1NMFr",
+    "sender_node": "PSCM2",
+    "signal": "PrkgGearReqGroupReqSts1"
   },
   {
-    "message": " 1652 Pscm100FITbToVddmChas1DiagResFrame ",
-    "sender_node": "PSCM2"
+    "message": "1652Pscm100FITbToVddmChas1DiagResFrame",
+    "sender_node": "PSCM2",
+    "signal": "PrkgGearReqGroupReqSts1"
   },
   {
-    "message": " 246 PscmChas1Fr01 ",
-    "sender_node": "PSCM1"
+    "message": "246PscmChas1Fr01",
+    "sender_node": "PSCM1",
+    "signal": "UBoostReqBySteerFrnt_UB"
   },
   {
-    "message": " 70 PscmChas1Fr02 ",
-    "sender_node": "PSCM1"
+    "message": "70PscmChas1Fr02",
+    "sender_node": "PSCM1",
+    "signal": "TqAssAddl_UB"
   },
   {
-    "message": " 444 PscmChas1Fr03 ",
-    "sender_node": "PSCM1"
+    "message": "444PscmChas1Fr03",
+    "sender_node": "PSCM1",
+    "signal": "SteerStsToParkAssi_UB"
   },
   {
-    "message": " 955 PscmChas1Fr06 ",
-    "sender_node": "PSCM1"
+    "message": "955PscmChas1Fr06",
+    "sender_node": "PSCM1",
+    "signal": "PinionSteerAgMax1_UB"
   },
   {
-    "message": " 78 PscmChas1Fr07 ",
-    "sender_node": "PSCM1"
+    "message": "78PscmChas1Fr07",
+    "sender_node": "PSCM1",
+    "signal": "PinionSteerAgGroupSteerWhlTqQf"
   },
   {
-    "message": " 1315 PscmChas1NMFr ",
-    "sender_node": "PSCM1"
+    "message": "1315PscmChas1NMFr",
+    "sender_node": "PSCM1",
+    "signal": "PinionSteerAgGroupSteerWhlTqQf"
   },
   {
-    "message": " 1430 PscmDevelpFr ",
-    "sender_node": "PSCM1"
+    "message": "1430PscmDevelpFr",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1410 PscmToEtcChas1XcpFr01 ",
-    "sender_node": "PSCM1"
+    "message": "1410PscmToEtcChas1XcpFr01",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1410 PscmToEtcChas1XcpFr01 ",
-    "sender_node": "PSCM2"
+    "message": "1410PscmToEtcChas1XcpFr01",
+    "sender_node": "PSCM2",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1417 PscmToEtcChas1XcpFr02 ",
-    "sender_node": "PSCM1"
+    "message": "1417PscmToEtcChas1XcpFr02",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1417 PscmToEtcChas1XcpFr02 ",
-    "sender_node": "PSCM2"
+    "message": "1417PscmToEtcChas1XcpFr02",
+    "sender_node": "PSCM2",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1419 PscmToEtcChas1XcpFr03 ",
-    "sender_node": "PSCM1"
+    "message": "1419PscmToEtcChas1XcpFr03",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1419 PscmToEtcChas1XcpFr03 ",
-    "sender_node": "PSCM2"
+    "message": "1419PscmToEtcChas1XcpFr03",
+    "sender_node": "PSCM2",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1415 PscmToEtcChas1XcpFr04 ",
-    "sender_node": "PSCM1"
+    "message": "1415PscmToEtcChas1XcpFr04",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1415 PscmToEtcChas1XcpFr04 ",
-    "sender_node": "PSCM2"
+    "message": "1415PscmToEtcChas1XcpFr04",
+    "sender_node": "PSCM2",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1412 PscmToEtcChas1XcpFr05 ",
-    "sender_node": "PSCM1"
+    "message": "1412PscmToEtcChas1XcpFr05",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1412 PscmToEtcChas1XcpFr05 ",
-    "sender_node": "PSCM2"
+    "message": "1412PscmToEtcChas1XcpFr05",
+    "sender_node": "PSCM2",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1423 PscmToEtcChas1XcpFr06 ",
-    "sender_node": "PSCM1"
+    "message": "1423PscmToEtcChas1XcpFr06",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1423 PscmToEtcChas1XcpFr06 ",
-    "sender_node": "PSCM2"
+    "message": "1423PscmToEtcChas1XcpFr06",
+    "sender_node": "PSCM2",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1648 PscmToVddmChas1DiagResFrame ",
-    "sender_node": "PSCM1"
+    "message": "1648PscmToVddmChas1DiagResFrame",
+    "sender_node": "PSCM1",
+    "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 66 RbcmChas1Fr01 ",
-    "sender_node": "RBCM"
+    "message": "66RbcmChas1Fr01",
+    "sender_node": "RBCM",
+    "signal": "TakeoverWarnForBackupTakeoverWarnForBackup"
   },
   {
-    "message": " 289 RbcmChas1Fr02 ",
-    "sender_node": "RBCM"
+    "message": "289RbcmChas1Fr02",
+    "sender_node": "RBCM",
+    "signal": "SecBrkSysStCntr"
   },
   {
-    "message": " 545 RbcmChas1Fr03 ",
-    "sender_node": "RBCM"
+    "message": "545RbcmChas1Fr03",
+    "sender_node": "RBCM",
+    "signal": "VehSpdLgtForBkpVehSpdLgtQf"
   },
   {
-    "message": " 562 RbcmChas1Fr04 ",
-    "sender_node": "RBCM"
+    "message": "562RbcmChas1Fr04",
+    "sender_node": "RBCM",
+    "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi"
   },
   {
-    "message": " 569 RbcmChas1Fr05 ",
-    "sender_node": "RBCM"
+    "message": "569RbcmChas1Fr05",
+    "sender_node": "RBCM",
+    "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf"
   },
   {
-    "message": " 593 RbcmChas1Fr06 ",
-    "sender_node": "RBCM"
+    "message": "593RbcmChas1Fr06",
+    "sender_node": "RBCM",
+    "signal": "WhlRotToothCntrForBkpWhlRotToothCntrReRi"
   },
   {
-    "message": " 323 RbcmChas1Fr09 ",
-    "sender_node": "RBCM"
+    "message": "323RbcmChas1Fr09",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUAcceXHead"
   },
   {
-    "message": " 177 RbcmChas1Fr10 ",
-    "sender_node": "RBCM"
+    "message": "177RbcmChas1Fr10",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUAcceYHead"
   },
   {
-    "message": " 181 RbcmChas1Fr11 ",
-    "sender_node": "RBCM"
+    "message": "181RbcmChas1Fr11",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUAcceZHead"
   },
   {
-    "message": " 193 RbcmChas1Fr12 ",
-    "sender_node": "RBCM"
+    "message": "193RbcmChas1Fr12",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUGyroXHead"
   },
   {
-    "message": " 200 RbcmChas1Fr13 ",
-    "sender_node": "RBCM"
+    "message": "200RbcmChas1Fr13",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUGyroYHead"
   },
   {
-    "message": " 166 RbcmChas1Fr14 ",
-    "sender_node": "RBCM"
+    "message": "166RbcmChas1Fr14",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUGyroZHead"
   },
   {
-    "message": " 1333 RbcmChas1NMFr ",
-    "sender_node": "RBCM"
+    "message": "1333RbcmChas1NMFr",
+    "sender_node": "RBCM",
+    "signal": "AD4IMUGyroZHead"
   },
   {
-    "message": " 1383 RbcmChas1VFCVectorFr ",
-    "sender_node": "RBCM"
+    "message": "1383RbcmChas1VFCVectorFr",
+    "sender_node": "RBCM",
+    "signal": "VFCVectorRBCMVFCid9"
   },
   {
-    "message": " 1521 RbcmToEtcChas1DevFr01 ",
-    "sender_node": "RBCM"
+    "message": "1521RbcmToEtcChas1DevFr01",
+    "sender_node": "RBCM",
+    "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1653 RbcmToVddmChas1DiagResFrame ",
-    "sender_node": "RBCM"
+    "message": "1653RbcmToVddmChas1DiagResFrame",
+    "sender_node": "RBCM",
+    "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 64 SasChas1Fr01 ",
-    "sender_node": "SAS"
+    "message": "64SasChas1Fr01",
+    "sender_node": "SAS",
+    "signal": "SteerWhlSnsrQf"
   },
   {
-    "message": " 1319 SasChas1NMFr ",
-    "sender_node": "SAS"
+    "message": "1319SasChas1NMFr",
+    "sender_node": "SAS",
+    "signal": "SteerWhlSnsrQf"
   },
   {
-    "message": " 1650 SasToVddmChas1DiagResFrame ",
-    "sender_node": "SAS"
+    "message": "1650SasToVddmChas1DiagResFrame",
+    "sender_node": "SAS",
+    "signal": "SteerWhlSnsrQf"
   },
   {
-    "message": " 512 TcmChas1Fr09 ",
-    "sender_node": "IEM"
+    "message": "512TcmChas1Fr09",
+    "sender_node": "IEM",
+    "signal": "TrsmClrRdyReq_UB"
   },
   {
-    "message": " 257 TcmChas1Fr11 ",
-    "sender_node": "IEM"
+    "message": "257TcmChas1Fr11",
+    "sender_node": "IEM",
+    "signal": "TrsmModAct_UB"
   },
   {
-    "message": " 261 TcmChas1Fr12 ",
-    "sender_node": "IEM"
+    "message": "261TcmChas1Fr12",
+    "sender_node": "IEM",
+    "signal": "TrsmModNotAvlSts_UB"
   },
   {
-    "message": " 629 TcmChas1Fr13 ",
-    "sender_node": "IEM"
+    "message": "629TcmChas1Fr13",
+    "sender_node": "IEM",
+    "signal": "TrsmTqLossTrsmTqLoss"
   },
   {
-    "message": " 326 TcmChas1Fr14 ",
-    "sender_node": "IEM"
+    "message": "326TcmChas1Fr14",
+    "sender_node": "IEM",
+    "signal": "TrsmGearNotAvlSts_UB"
   },
   {
-    "message": " 263 TcmChas1Fr15 ",
-    "sender_node": "IEM"
+    "message": "263TcmChas1Fr15",
+    "sender_node": "IEM",
+    "signal": "TrsmWhlMotSysSpdReq_UB"
   },
   {
-    "message": " 86 TcmChas1Fr16 ",
-    "sender_node": "IEM"
+    "message": "86TcmChas1Fr16",
+    "sender_node": "IEM",
+    "signal": "TrsmN2TrsmNOutpOk"
   },
   {
-    "message": " 402 TCMChas1Fr23 ",
-    "sender_node": "IEM"
+    "message": "402TCMChas1Fr23",
+    "sender_node": "IEM",
+    "signal": "TrsmShiftInProgD2_UB"
   },
   {
-    "message": " 54 VcuChas1Fr01 ",
-    "sender_node": "VDDM"
+    "message": "54VcuChas1Fr01",
+    "sender_node": "VDDM",
+    "signal": "PrpsnTqReReq_UB"
   },
   {
-    "message": " 274 VcuChas1Fr02 ",
-    "sender_node": "VDDM"
+    "message": "274VcuChas1Fr02",
+    "sender_node": "VDDM",
+    "signal": "SecParkBrkSysSt2Cntr"
   },
   {
-    "message": " 85 VcuChas1Fr03 ",
-    "sender_node": "VDDM"
+    "message": "85VcuChas1Fr03",
+    "sender_node": "VDDM",
+    "signal": "AgDataRaw2SafePitchRateQf"
   },
   {
-    "message": " 375 VcuChas1Fr04 ",
-    "sender_node": "VDDM"
+    "message": "375VcuChas1Fr04",
+    "sender_node": "VDDM",
+    "signal": "RlyPwrDistbnCmd1WdIgnRlyCmd_UB"
   },
   {
-    "message": " 342 VcuChas1Fr06 ",
-    "sender_node": "VDDM"
+    "message": "342VcuChas1Fr06",
+    "sender_node": "VDDM",
+    "signal": "TiAndDateIndcnYr1"
   },
   {
-    "message": " 1365 VcuChas1VFCVectorFr ",
-    "sender_node": "VDDM"
+    "message": "1365VcuChas1VFCVectorFr",
+    "sender_node": "VDDM",
+    "signal": "VFCVectorVCUVFCid9"
   },
   {
-    "message": " 1434 VddmChas1DevFr01 ",
-    "sender_node": "BBM"
+    "message": "1434VddmChas1DevFr01",
+    "sender_node": "BBM",
+    "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8"
   },
   {
-    "message": " 1435 VddmChas1DevFr02 ",
-    "sender_node": "BBM"
+    "message": "1435VddmChas1DevFr02",
+    "sender_node": "BBM",
+    "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8"
   },
   {
-    "message": " 81 VddmChas1Fr01 ",
-    "sender_node": "VDDM"
+    "message": "81VddmChas1Fr01",
+    "sender_node": "VDDM",
+    "signal": "AsyDataWithCmpSafeYawRateWithCmp"
   },
   {
-    "message": " 160 VddmChas1Fr03 ",
-    "sender_node": "VDDM"
+    "message": "160VddmChas1Fr03",
+    "sender_node": "VDDM",
+    "signal": "ADataRawSafeCntr"
   },
   {
-    "message": " 400 VddmChas1Fr04 ",
-    "sender_node": "BBM"
+    "message": "400VddmChas1Fr04",
+    "sender_node": "BBM",
+    "signal": "LatCtrlReqSafeSteerWhlHptcWarnReq"
   },
   {
-    "message": " 224 VddmChas1Fr05 ",
-    "sender_node": "BBM"
+    "message": "224VddmChas1Fr05",
+    "sender_node": "BBM",
+    "signal": "VehSpdLgtQf"
   },
   {
-    "message": " 928 VddmChas1Fr08 ",
-    "sender_node": "BBM"
+    "message": "928VddmChas1Fr08",
+    "sender_node": "BBM",
+    "signal": "WhlBrkWrm_UB"
   },
   {
-    "message": " 433 VddmChas1Fr10 ",
-    "sender_node": "BBM"
+    "message": "433VddmChas1Fr10",
+    "sender_node": "BBM",
+    "signal": "WhlSpdCircumlFrntWhlSpdCircumlFrntRi"
   },
   {
-    "message": " 432 VddmChas1Fr14 ",
-    "sender_node": "VDDM"
+    "message": "432VddmChas1Fr14",
+    "sender_node": "VDDM",
+    "signal": "AgDataRawSafeYawRateQf"
   },
   {
-    "message": " 736 VddmChas1Fr19 ",
-    "sender_node": "VDDM"
+    "message": "736VddmChas1Fr19",
+    "sender_node": "VDDM",
+    "signal": "VehModMngtGlbSafe1UsgModSts"
   },
   {
-    "message": " 1123 VddmChas1Fr22 ",
-    "sender_node": "VDDM"
+    "message": "1123VddmChas1Fr22",
+    "sender_node": "VDDM",
+    "signal": "SteerSetgSteerMod"
   },
   {
-    "message": " 784 VddmChas1Fr23 ",
-    "sender_node": "VDDM"
+    "message": "784VddmChas1Fr23",
+    "sender_node": "VDDM",
+    "signal": "CmptmtTFrntQf"
   },
   {
-    "message": " 137 VddmChas1Fr24 ",
-    "sender_node": "BBM"
+    "message": "137VddmChas1Fr24",
+    "sender_node": "BBM",
+    "signal": "WhlFastSpdSafeQF"
   },
   {
-    "message": " 592 VddmChas1Fr30 ",
-    "sender_node": "VDDM"
+    "message": "592VddmChas1Fr30",
+    "sender_node": "VDDM",
+    "signal": "VehCfgPrmCCPBytePosn8"
   },
   {
-    "message": " 1015 VddmChas1Fr33 ",
-    "sender_node": "VDDM"
+    "message": "1015VddmChas1Fr33",
+    "sender_node": "VDDM",
+    "signal": "VehCfgPrmExtCCPBytePosn8"
   },
   {
-    "message": " 686 VddmChas1Fr41 ",
-    "sender_node": "BBM"
+    "message": "686VddmChas1Fr41",
+    "sender_node": "BBM",
+    "signal": "ULoWarnULoWarn"
   },
   {
-    "message": " 1267 VddmChas1Fr44 ",
-    "sender_node": "BBM"
+    "message": "1267VddmChas1Fr44",
+    "sender_node": "BBM",
+    "signal": "EscStEscSt"
   },
   {
-    "message": " 1099 VddmChas1Fr46 ",
-    "sender_node": "BBM"
+    "message": "1099VddmChas1Fr46",
+    "sender_node": "BBM",
+    "signal": "WhlRotToothCntrReRi"
   },
   {
-    "message": " 26 VddmChas1Fr47 ",
-    "sender_node": "VDDM"
+    "message": "26VddmChas1Fr47",
+    "sender_node": "VDDM",
+    "signal": "AgDataCmpQualityYawRateCmpQuality"
   },
   {
-    "message": " 1159 VddmChas1Fr48 ",
-    "sender_node": "BBM"
+    "message": "1159VddmChas1Fr48",
+    "sender_node": "BBM",
+    "signal": "VehMtnStVehMtnSt"
   },
   {
-    "message": " 864 VddmChas1Fr49 ",
-    "sender_node": "VDDM"
+    "message": "864VddmChas1Fr49",
+    "sender_node": "VDDM",
+    "signal": "SaveSetgToMemPrmnt_UB"
   },
   {
-    "message": " 896 VddmChas1Fr50 ",
-    "sender_node": "VDDM"
+    "message": "896VddmChas1Fr50",
+    "sender_node": "VDDM",
+    "signal": "VehBattUSysUQf"
   },
   {
-    "message": " 496 VddmChas1Fr53 ",
-    "sender_node": "VDDM"
+    "message": "496VddmChas1Fr53",
+    "sender_node": "VDDM",
+    "signal": "DrvModReqForChampnMod_UB"
   },
   {
-    "message": " 580 VddmChas1Fr54 ",
-    "sender_node": "VDDM"
+    "message": "580VddmChas1Fr54",
+    "sender_node": "VDDM",
+    "signal": "IDcDcActLoSideIDcDcActLoSide"
   },
   {
-    "message": " 439 VddmChas1Fr55 ",
-    "sender_node": "BBM"
+    "message": "439VddmChas1Fr55",
+    "sender_node": "BBM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1313 VddmChas1NMFr ",
-    "sender_node": "VDDM"
+    "message": "1313VddmChas1NMFr",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 2047 VddmToAllFuncChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "2047VddmToAllFuncChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1908 VddmToPscm100FITbChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "1908VddmToPscm100FITbChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1904 VddmToPscmChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "1904VddmToPscmChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1905 VddmToRasmChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "1905VddmToRasmChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1909 VddmToRbcmChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "1909VddmToRbcmChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1906 VddmToSasChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "1906VddmToSasChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   },
   {
-    "message": " 1911 VddmToShvcChas1DiagReqFrame ",
-    "sender_node": "VDDM"
+    "message": "1911VddmToShvcChas1DiagReqFrame",
+    "sender_node": "VDDM",
+    "signal": "WhlSpdCircumlReRiQf"
   }
 ]
