@@ -8,18 +8,7 @@ output_file_name = "CANoutput.json"
 extracted_data = []
 
 # Initialize variables to hold message, sender_node, and signal information
-message = None
-sender_node = None
-signal = None
-bit_position = None
-length_of_bit = None
-factor = None
-offset = None
-min_value = None
-max_value = None
-unit = None
-receiver_node = None
-current_bo = None  # Added to keep track of the current BO_
+current_bo = None
 current_sg = None
 
 # Open the input file for reading
@@ -28,8 +17,8 @@ with open(input_file_name, "r") as input_file:
         # Remove leading and trailing whitespace
         line = line.strip()
 
-        # Skip lines that do not start with "BO_" or "SG_"
-        if not line.startswith(("BO_", "SG_")):
+        # Skip lines that do not start with "BO_", "SG_", or other relevant prefixes
+        if not line.startswith(("BO_", "SG_", "BA_DEF_REL_", "BA_REL_", "BA_DEF_DEF_REL_", "BU_SG_REL_", "BU_EV_REL_", "BU_BO_REL_")):
             continue
 
         if line.startswith("BO_"):
@@ -40,7 +29,7 @@ with open(input_file_name, "r") as input_file:
                 extracted_data.append(current_bo)
             bo_parts = line.strip().split()
             if len(bo_parts) >= 2:
-                # Extract the current BO_ information
+                # Extract the current BO information
                 current_bo = {
                     "BO": line.strip(),
                     "message": bo_parts[2],
@@ -51,16 +40,13 @@ with open(input_file_name, "r") as input_file:
                 current_bo = None
         elif line.startswith("SG_"):
             if current_bo is not None:
-                current_bo["SG"].append(line.strip())
-            else:
-                # Handle signals that are not associated with a message
-                if current_sg is not None:
-                    extracted_data.append(current_sg)
                 sg_parts = line.strip().split()
                 if len(sg_parts) >= 2:
+                    # Extract the SG information and add it to the current BO dictionary's SG list
                     current_sg = {
                         "signal": sg_parts[1]
                     }
+                    current_bo["SG"].append(current_sg)
 
 # Add the last extracted BO_ (if any) to the extracted_data list
 if current_bo is not None:

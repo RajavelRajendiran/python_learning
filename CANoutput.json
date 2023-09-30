@@ -4,12 +4,27 @@
     "message": "AsdmChas1Fr01",
     "sender_node": "ASDM",
     "SG": [
-      "SG_ PASFuncActive : 15|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ PASFuncActive_UB : 14|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ RctaBrkReqQM : 13|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ RctaBrkReqQM_UB : 12|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ RcwmBrkReqQM : 11|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ RcwmBrkReqQM_UB : 10|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "PASFuncActive"
+      },
+      {
+        "signal": "PASFuncActive_UB"
+      },
+      {
+        "signal": "RctaBrkReqQM"
+      },
+      {
+        "signal": "RctaBrkReqQM_UB"
+      },
+      {
+        "signal": "RcwmBrkReqQM"
+      },
+      {
+        "signal": "RcwmBrkReqQM_UB"
+      },
+      {
+        "signal": "RcwmBrkReqQM_UB"
+      }
     ]
   },
   {
@@ -17,33 +32,71 @@
     "message": "AsdmChas1Fr03",
     "sender_node": "ASDM",
     "SG": [
-      "SG_ AgCtrlTqLowrLim : 6|9@0+ (0.125,-30.0) [-30.0|30.0] \"Nm\" PSCM1",
-      "SG_ AgCtrlTqLowrLim_UB : 13|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AgCtrlTqUpprLim : 43|9@0+ (0.125,-30.0) [-30.0|30.0] \"Nm\" PSCM1",
-      "SG_ AgCtrlTqUpprLim_UB : 50|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AsyPinionAgReqSafe_UB : 7|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AsyPinionAgReqSafeAsyPinionAgReq : 23|15@0+ (0.0009765625,-14.5) [-14.5|17.4990234375] \"rad\" PSCM1",
-      "SG_ AsyPinionAgReqSafeAsyPinionAgReqChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ AsyPinionAgReqSafeAsyPinionAgReqCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1"
+      {
+        "signal": "AgCtrlTqLowrLim"
+      },
+      {
+        "signal": "AgCtrlTqLowrLim_UB"
+      },
+      {
+        "signal": "AgCtrlTqUpprLim"
+      },
+      {
+        "signal": "AgCtrlTqUpprLim_UB"
+      },
+      {
+        "signal": "AsyPinionAgReqSafe_UB"
+      },
+      {
+        "signal": "AsyPinionAgReqSafeAsyPinionAgReq"
+      },
+      {
+        "signal": "AsyPinionAgReqSafeAsyPinionAgReqChks"
+      },
+      {
+        "signal": "AsyPinionAgReqSafeAsyPinionAgReqCntr"
+      },
+      {
+        "signal": "AsyPinionAgReqSafeAsyPinionAgReqCntr"
+      }
     ]
   },
   {
     "BO": "BO_ 1321 AsdmChas1NMFr : 8 ASDM",
     "message": "AsdmChas1NMFr",
     "sender_node": "ASDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "AsyPinionAgReqSafeAsyPinionAgReqCntr"
+      }
+    ]
   },
   {
     "BO": "BO_ 308 BcmChas1Fr01 : 8 BBM",
     "message": "BcmChas1Fr01",
     "sender_node": "BBM",
     "SG": [
-      "SG_ BrkWssInfoFrnt_UB : 51|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ BrkWssInfoFrntChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoFrntCntr : 55|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoFrntTTCFactorFL : 7|16@0+ (0.00000916,0.7) [0.7|1.3003006] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoFrntTTCFactorFR : 23|16@0+ (0.00000916,0.7) [0.7|1.3003006] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoFrntWssCoreMonRob : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM"
+      {
+        "signal": "BrkWssInfoFrnt_UB"
+      },
+      {
+        "signal": "BrkWssInfoFrntChks"
+      },
+      {
+        "signal": "BrkWssInfoFrntCntr"
+      },
+      {
+        "signal": "BrkWssInfoFrntTTCFactorFL"
+      },
+      {
+        "signal": "BrkWssInfoFrntTTCFactorFR"
+      },
+      {
+        "signal": "BrkWssInfoFrntWssCoreMonRob"
+      },
+      {
+        "signal": "BrkWssInfoFrntWssCoreMonRob"
+      }
     ]
   },
   {
@@ -51,15 +104,36 @@
     "message": "BcmChas1Fr02",
     "sender_node": "BBM",
     "SG": [
-      "SG_ BrkWssInfoRe_UB : 43|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ BrkWssInfoReChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoReCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoReTTCFactorRL : 7|16@0+ (0.00000916,0.7) [0.7|1.3003006] \"Unitless\" RBCM",
-      "SG_ BrkWssInfoReTTCFactorRR : 23|16@0+ (0.00000916,0.7) [0.7|1.3003006] \"Unitless\" RBCM",
-      "SG_ EpbSts_UB : 40|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ EpbStsChks : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ EpbStsCntr : 51|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-      "SG_ EpbStsEpbSts : 55|4@0+ (1,0) [0|15] \"\" RBCM"
+      {
+        "signal": "BrkWssInfoRe_UB"
+      },
+      {
+        "signal": "BrkWssInfoReChks"
+      },
+      {
+        "signal": "BrkWssInfoReCntr"
+      },
+      {
+        "signal": "BrkWssInfoReTTCFactorRL"
+      },
+      {
+        "signal": "BrkWssInfoReTTCFactorRR"
+      },
+      {
+        "signal": "EpbSts_UB"
+      },
+      {
+        "signal": "EpbStsChks"
+      },
+      {
+        "signal": "EpbStsCntr"
+      },
+      {
+        "signal": "EpbStsEpbSts"
+      },
+      {
+        "signal": "EpbStsEpbSts"
+      }
     ]
   },
   {
@@ -67,8 +141,15 @@
     "message": "BcmChas1Fr03",
     "sender_node": "BBM",
     "SG": [
-      "SG_ SBMHealthChkCmd : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ SBMHealthChkCmd_UB : 27|1@0+ (1,0) [0|1] \"\" RBCM"
+      {
+        "signal": "SBMHealthChkCmd"
+      },
+      {
+        "signal": "SBMHealthChkCmd_UB"
+      },
+      {
+        "signal": "SBMHealthChkCmd_UB"
+      }
     ]
   },
   {
@@ -76,15 +157,36 @@
     "message": "BcmChas1Fr06",
     "sender_node": "BBM",
     "SG": [
-      "SG_ BrkFAct_UB : 5|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ BrkFActAutParkBrkSpprtReq : 4|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ BrkFActChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ BrkFActCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-      "SG_ BrkFActForce : 23|16@0+ (1.0,0.0) [0.0|50000.0] \"N\" RBCM",
-      "SG_ RbuCtrlModReqSafe_UB : 6|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ RbuCtrlModReqSafeBrkSysModCfmd : 39|4@0+ (1,0) [0|15] \"\" RBCM",
-      "SG_ RbuCtrlModReqSafeChks : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RbuCtrlModReqSafeCntr : 35|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM"
+      {
+        "signal": "BrkFAct_UB"
+      },
+      {
+        "signal": "BrkFActAutParkBrkSpprtReq"
+      },
+      {
+        "signal": "BrkFActChks"
+      },
+      {
+        "signal": "BrkFActCntr"
+      },
+      {
+        "signal": "BrkFActForce"
+      },
+      {
+        "signal": "RbuCtrlModReqSafe_UB"
+      },
+      {
+        "signal": "RbuCtrlModReqSafeBrkSysModCfmd"
+      },
+      {
+        "signal": "RbuCtrlModReqSafeChks"
+      },
+      {
+        "signal": "RbuCtrlModReqSafeCntr"
+      },
+      {
+        "signal": "RbuCtrlModReqSafeCntr"
+      }
     ]
   },
   {
@@ -92,23 +194,60 @@
     "message": "BcmChas1Fr07",
     "sender_node": "BBM",
     "SG": [
-      "SG_ EpbAvlPrim_UB : 57|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimApplyFunctionalitiesAvailable : 27|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ EpbAvlPrimCntr : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ EpbAvlPrimDriveAwayIntention : 26|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimHostAvailabilityFull : 25|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimHostAvailabilityRelOnly : 24|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimPrimarySystemAvailable : 39|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimReserved1 : 38|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimReserved2 : 37|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimReserved3 : 36|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimReserved4 : 35|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EpbAvlPrimRollerTestBench : 34|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ PrimBrkSysSt_UB : 56|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ PrimBrkSysStBrkSysSt : 7|4@0+ (1,0) [0|15] \"\" RBCM",
-      "SG_ PrimBrkSysStChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ PrimBrkSysStCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM"
+      {
+        "signal": "EpbAvlPrim_UB"
+      },
+      {
+        "signal": "EpbAvlPrimApplyFunctionalitiesAvailable"
+      },
+      {
+        "signal": "EpbAvlPrimChks"
+      },
+      {
+        "signal": "EpbAvlPrimCntr"
+      },
+      {
+        "signal": "EpbAvlPrimDriveAwayIntention"
+      },
+      {
+        "signal": "EpbAvlPrimHostAvailabilityFull"
+      },
+      {
+        "signal": "EpbAvlPrimHostAvailabilityRelOnly"
+      },
+      {
+        "signal": "EpbAvlPrimPrimarySystemAvailable"
+      },
+      {
+        "signal": "EpbAvlPrimReserved1"
+      },
+      {
+        "signal": "EpbAvlPrimReserved2"
+      },
+      {
+        "signal": "EpbAvlPrimReserved3"
+      },
+      {
+        "signal": "EpbAvlPrimReserved4"
+      },
+      {
+        "signal": "EpbAvlPrimRollerTestBench"
+      },
+      {
+        "signal": "PrimBrkSysSt_UB"
+      },
+      {
+        "signal": "PrimBrkSysStBrkSysSt"
+      },
+      {
+        "signal": "PrimBrkSysStChks"
+      },
+      {
+        "signal": "PrimBrkSysStCntr"
+      },
+      {
+        "signal": "PrimBrkSysStCntr"
+      }
     ]
   },
   {
@@ -116,28 +255,56 @@
     "message": "BcmChas1Fr09",
     "sender_node": "BBM",
     "SG": [
-      "SG_ ALgtStdFromWhlSpd_UB : 6|1@0+ (1,0) [0|1] \"\" IEM",
-      "SG_ ALgtStdFromWhlSpdALgtStdFromWhlSpd : 23|16@0- (0.0009765625,0.0) [-18.0|18.0] \"m/s^2\" IEM",
-      "SG_ ALgtStdFromWhlSpdChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" IEM",
-      "SG_ ALgtStdFromWhlSpdCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" IEM",
-      "SG_ ALgtStdFromWhlSpdQf : 5|2@0+ (1,0) [0|3] \"\" IEM"
+      {
+        "signal": "ALgtStdFromWhlSpd_UB"
+      },
+      {
+        "signal": "ALgtStdFromWhlSpdALgtStdFromWhlSpd"
+      },
+      {
+        "signal": "ALgtStdFromWhlSpdChks"
+      },
+      {
+        "signal": "ALgtStdFromWhlSpdCntr"
+      },
+      {
+        "signal": "ALgtStdFromWhlSpdQf"
+      },
+      {
+        "signal": "ALgtStdFromWhlSpdQf"
+      }
     ]
   },
   {
     "BO": "BO_ 1334 BcmChas1NMFr : 8 BBM",
     "message": "BcmChas1NMFr",
     "sender_node": "BBM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "ALgtStdFromWhlSpdQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 544 EcmChas1BsgFr41 : 8 VDDM",
     "message": "EcmChas1BsgFr41",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ AccrPedlRat_UB : 7|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AccrPedlRatAccrPedlRat : 6|15@0+ (0.00390625,0.0) [0.0|100.0] \"%\" Vector__XXX",
-      "SG_ AccrPedlRatChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AccrPedlRatCntr : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AccrPedlRat_UB"
+      },
+      {
+        "signal": "AccrPedlRatAccrPedlRat"
+      },
+      {
+        "signal": "AccrPedlRatChks"
+      },
+      {
+        "signal": "AccrPedlRatCntr"
+      },
+      {
+        "signal": "AccrPedlRatCntr"
+      }
     ]
   },
   {
@@ -145,13 +312,30 @@
     "message": "EcmChas1Fr08",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ PtTqAtWhlFrntAct_UB : 7|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ PtTqAtWhlFrntActChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PtTqAtWhlFrntActCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ PtTqAtWhlFrntActPtTqAtAxleFrntAct : 55|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" PSCM1",
-      "SG_ PtTqAtWhlFrntActPtTqAtWhlFrntLeAct : 39|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" PSCM1",
-      "SG_ PtTqAtWhlFrntActPtTqAtWhlFrntRiAct : 23|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" PSCM1",
-      "SG_ PtTqAtWhlFrntActPtTqAtWhlsFrntQly : 6|3@0+ (1,0) [0|7] \"\" PSCM1"
+      {
+        "signal": "PtTqAtWhlFrntAct_UB"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActChks"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActCntr"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActPtTqAtAxleFrntAct"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActPtTqAtWhlFrntLeAct"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActPtTqAtWhlFrntRiAct"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActPtTqAtWhlsFrntQly"
+      },
+      {
+        "signal": "PtTqAtWhlFrntActPtTqAtWhlsFrntQly"
+      }
     ]
   },
   {
@@ -159,10 +343,21 @@
     "message": "EcmChas1Fr31",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ EngSt1WdSts_UB : 23|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EngSt1WdStsChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ EngSt1WdStsCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ EngSt1WdStsEngSt1WdSts : 11|4@0+ (1,0) [0|15] \"\" Vector__XXX"
+      {
+        "signal": "EngSt1WdSts_UB"
+      },
+      {
+        "signal": "EngSt1WdStsChks"
+      },
+      {
+        "signal": "EngSt1WdStsCntr"
+      },
+      {
+        "signal": "EngSt1WdStsEngSt1WdSts"
+      },
+      {
+        "signal": "EngSt1WdStsEngSt1WdSts"
+      }
     ]
   },
   {
@@ -170,127 +365,243 @@
     "message": "EcmChas1Fr37",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ DrvrGearLvrInfoIndcn : 15|3@0+ (1,0) [0|7] \"\" Vector__XXX",
-      "SG_ DrvrGearLvrInfoIndcn_UB : 12|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EngSt1WdSts1 : 11|4@0+ (1,0) [0|15] \"\" SAS",
-      "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS"
+      {
+        "signal": "DrvrGearLvrInfoIndcn"
+      },
+      {
+        "signal": "DrvrGearLvrInfoIndcn_UB"
+      },
+      {
+        "signal": "EngSt1WdSts1"
+      },
+      {
+        "signal": "EngSt1WdSts1_UB"
+      },
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
     ]
   },
   {
     "BO": "BO_ 1429 EtcToMvemXcpFr01 : 8 ETC",
     "message": "EtcToMvemXcpFr01",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1424 EtcToMvemXcpFr02 : 8 ETC",
     "message": "EtcToMvemXcpFr02",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1425 EtcToMvemXcpFr03 : 8 ETC",
     "message": "EtcToMvemXcpFr03",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1441 EtcToPscm1cChas1XcpFr01 : 8 ETC",
     "message": "EtcToPscm1cChas1XcpFr01",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1409 EtcToPscmChas1XcpFr01 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr01",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1416 EtcToPscmChas1XcpFr02 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr02",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1418 EtcToPscmChas1XcpFr03 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr03",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1420 EtcToPscmChas1XcpFr04 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr04",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "EngSt1WdSts1_UB"
+      }
+    ]
   },
   {
     "BO": "BO_ 1431 EtcToPscmDevelFr : 8 ETC",
     "message": "EtcToPscmDevelFr",
     "sender_node": "ETC",
     "SG": [
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1"
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
     ]
   },
   {
     "BO": "BO_ 1442 EtcToRasmChas1XcpFr01 : 8 ETC",
     "message": "EtcToRasmChas1XcpFr01",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1504 EtcToRbcmChas1DevFr01 : 8 ETC",
     "message": "EtcToRbcmChas1DevFr01",
     "sender_node": "ETC",
     "SG": [
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM"
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
     ]
   },
   {
     "BO": "BO_ 1414 EtcToTcmXcpFr01 : 8 ETC",
     "message": "EtcToTcmXcpFr01",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1411 EtcToTcmXcpFr02 : 8 ETC",
     "message": "EtcToTcmXcpFr02",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1421 EtctoVddmBcmXCPFr01 : 8 ETC",
     "message": "EtctoVddmBcmXCPFr01",
     "sender_node": "ETC",
-    "SG": []
+    "SG": [
+      {
+        "signal": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1432 EtctoVddmDevelFr01 : 8 ETC",
     "message": "EtctoVddmDevelFr01",
     "sender_node": "ETC",
     "SG": [
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM"
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8"
+      }
     ]
   },
   {
@@ -298,14 +609,33 @@
     "message": "EtctoVddmDevelFr02",
     "sender_node": "ETC",
     "SG": [
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM"
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8"
+      }
     ]
   },
   {
@@ -313,11 +643,24 @@
     "message": "PasChas1Fr02",
     "sender_node": "ASDM",
     "SG": [
-      "SG_ PrkgPinionAgReqGroup_UB : 24|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ PrkgPinionAgReqGroupParkAssiPinionAgReq : 23|15@0+ (0.000976563,-14.5) [-14.5|17.499039821] \"rad\" PSCM1",
-      "SG_ PrkgPinionAgReqGroupParkAssiPinionAgReqChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ PrkgPinionAgReqGroupParkAssiPinionAgReqCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ PrkgPinionAgReqGroupQF : 11|2@0+ (1,0) [0|3] \"\" PSCM1"
+      {
+        "signal": "PrkgPinionAgReqGroup_UB"
+      },
+      {
+        "signal": "PrkgPinionAgReqGroupParkAssiPinionAgReq"
+      },
+      {
+        "signal": "PrkgPinionAgReqGroupParkAssiPinionAgReqChks"
+      },
+      {
+        "signal": "PrkgPinionAgReqGroupParkAssiPinionAgReqCntr"
+      },
+      {
+        "signal": "PrkgPinionAgReqGroupQF"
+      },
+      {
+        "signal": "PrkgPinionAgReqGroupQF"
+      }
     ]
   },
   {
@@ -325,37 +668,75 @@
     "message": "PasChas1Fr04",
     "sender_node": "ASDM",
     "SG": [
-      "SG_ PrkgGearReqGroup_UB : 10|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ PrkgGearReqGroupChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ PrkgGearReqGroupCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ PrkgGearReqGroupReqSts1 : 11|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "PrkgGearReqGroup_UB"
+      },
+      {
+        "signal": "PrkgGearReqGroupChks"
+      },
+      {
+        "signal": "PrkgGearReqGroupCntr"
+      },
+      {
+        "signal": "PrkgGearReqGroupReqSts1"
+      },
+      {
+        "signal": "PrkgGearReqGroupReqSts1"
+      }
     ]
   },
   {
     "BO": "BO_ 1331 Pscm100FITbChas1NMFr : 8 PSCM2",
     "message": "Pscm100FITbChas1NMFr",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PrkgGearReqGroupReqSts1"
+      }
+    ]
   },
   {
     "BO": "BO_ 1652 Pscm100FITbToVddmChas1DiagResFrame : 8 PSCM2",
     "message": "Pscm100FITbToVddmChas1DiagResFrame",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PrkgGearReqGroupReqSts1"
+      }
+    ]
   },
   {
     "BO": "BO_ 246 PscmChas1Fr01 : 8 PSCM1",
     "message": "PscmChas1Fr01",
     "sender_node": "PSCM1",
     "SG": [
-      "SG_ DrvrSteerActv_UB : 10|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ DrvrSteerActvChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ASDM",
-      "SG_ DrvrSteerActvCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" ASDM",
-      "SG_ DrvrSteerActvDrvrSteerActv : 11|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ FrntSteerFEstimd1 : 47|16@0- (1.0,0.0) [-32768.0|32767.0] \"N\" BBM",
-      "SG_ FrntSteerFEstimd1_UB : 56|1@0+ (1,0) [0|1] \"\" BBM",
-      "SG_ UBoostReqBySteerFrnt : 59|2@0+ (1,0) [0|3] \"\" VDDM",
-      "SG_ UBoostReqBySteerFrnt_UB : 57|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "DrvrSteerActv_UB"
+      },
+      {
+        "signal": "DrvrSteerActvChks"
+      },
+      {
+        "signal": "DrvrSteerActvCntr"
+      },
+      {
+        "signal": "DrvrSteerActvDrvrSteerActv"
+      },
+      {
+        "signal": "FrntSteerFEstimd1"
+      },
+      {
+        "signal": "FrntSteerFEstimd1_UB"
+      },
+      {
+        "signal": "UBoostReqBySteerFrnt"
+      },
+      {
+        "signal": "UBoostReqBySteerFrnt_UB"
+      },
+      {
+        "signal": "UBoostReqBySteerFrnt_UB"
+      }
     ]
   },
   {
@@ -363,16 +744,39 @@
     "message": "PscmChas1Fr02",
     "sender_node": "PSCM1",
     "SG": [
-      "SG_ LatCtrlModCfmd_UB : 23|1@0+ (1,0) [0|1] \"\" ASDM,BBM,VDDM",
-      "SG_ LatCtrlModCfmdChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ASDM,BBM,VDDM",
-      "SG_ LatCtrlModCfmdCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" ASDM,BBM,VDDM",
-      "SG_ LatCtrlModCfmdLatCtrlMod : 11|4@0+ (1,0) [0|15] \"\" ASDM,BBM,VDDM",
-      "SG_ SteerServoSts : 40|1@0+ (1,0) [0|1] \"\" ASDM,VDDM",
-      "SG_ SteerServoSts_UB : 55|1@0+ (1,0) [0|1] \"\" ASDM,VDDM",
-      "SG_ SteerWhlTqAddl : 39|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" ASDM,BBM,VDDM",
-      "SG_ SteerWhlTqAddl_UB : 41|1@0+ (1,0) [0|1] \"\" ASDM,BBM,VDDM",
-      "SG_ TqAssAddl : 53|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" ASDM,VDDM",
-      "SG_ TqAssAddl_UB : 54|1@0+ (1,0) [0|1] \"\" ASDM,VDDM"
+      {
+        "signal": "LatCtrlModCfmd_UB"
+      },
+      {
+        "signal": "LatCtrlModCfmdChks"
+      },
+      {
+        "signal": "LatCtrlModCfmdCntr"
+      },
+      {
+        "signal": "LatCtrlModCfmdLatCtrlMod"
+      },
+      {
+        "signal": "SteerServoSts"
+      },
+      {
+        "signal": "SteerServoSts_UB"
+      },
+      {
+        "signal": "SteerWhlTqAddl"
+      },
+      {
+        "signal": "SteerWhlTqAddl_UB"
+      },
+      {
+        "signal": "TqAssAddl"
+      },
+      {
+        "signal": "TqAssAddl_UB"
+      },
+      {
+        "signal": "TqAssAddl_UB"
+      }
     ]
   },
   {
@@ -380,23 +784,60 @@
     "message": "PscmChas1Fr03",
     "sender_node": "PSCM1",
     "SG": [
-      "SG_ DrvrSteerWhlHldGroup_UB : 1|1@0+ (1,0) [0|1] \"\" ASDM,VDDM",
-      "SG_ DrvrSteerWhlHldGroupDrvrSteerWhlHld : 7|2@0+ (1,0) [0|3] \"\" ASDM,VDDM",
-      "SG_ DrvrSteerWhlHldGroupDrvrSteerWhlHldQly : 5|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" ASDM,VDDM",
-      "SG_ SteerErrReq : 46|3@0+ (1,0) [0|7] \"\" VDDM",
-      "SG_ SteerErrReq_UB : 47|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ SteerExtFctSts_UB : 43|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsChks : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ASDM",
-      "SG_ SteerExtFctStsCntr : 51|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" ASDM",
-      "SG_ SteerExtFctStsDrvrSteerOvrd : 52|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsExtFctLowerLimActive : 53|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsExtFctRateLimActive : 54|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsExtFctUpperLimActive : 55|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsExtSafeLimActive : 40|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsLatAgReqNotInRange : 41|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerExtFctStsLatCtrlReqNotInRange : 42|1@0+ (1,0) [0|1] \"\" ASDM",
-      "SG_ SteerStsToParkAssi : 15|3@0+ (1,0) [0|7] \"\" ASDM,BBM",
-      "SG_ SteerStsToParkAssi_UB : 0|1@0+ (1,0) [0|1] \"\" ASDM,BBM"
+      {
+        "signal": "DrvrSteerWhlHldGroup_UB"
+      },
+      {
+        "signal": "DrvrSteerWhlHldGroupDrvrSteerWhlHld"
+      },
+      {
+        "signal": "DrvrSteerWhlHldGroupDrvrSteerWhlHldQly"
+      },
+      {
+        "signal": "SteerErrReq"
+      },
+      {
+        "signal": "SteerErrReq_UB"
+      },
+      {
+        "signal": "SteerExtFctSts_UB"
+      },
+      {
+        "signal": "SteerExtFctStsChks"
+      },
+      {
+        "signal": "SteerExtFctStsCntr"
+      },
+      {
+        "signal": "SteerExtFctStsDrvrSteerOvrd"
+      },
+      {
+        "signal": "SteerExtFctStsExtFctLowerLimActive"
+      },
+      {
+        "signal": "SteerExtFctStsExtFctRateLimActive"
+      },
+      {
+        "signal": "SteerExtFctStsExtFctUpperLimActive"
+      },
+      {
+        "signal": "SteerExtFctStsExtSafeLimActive"
+      },
+      {
+        "signal": "SteerExtFctStsLatAgReqNotInRange"
+      },
+      {
+        "signal": "SteerExtFctStsLatCtrlReqNotInRange"
+      },
+      {
+        "signal": "SteerStsToParkAssi"
+      },
+      {
+        "signal": "SteerStsToParkAssi_UB"
+      },
+      {
+        "signal": "SteerStsToParkAssi_UB"
+      }
     ]
   },
   {
@@ -404,8 +845,15 @@
     "message": "PscmChas1Fr06",
     "sender_node": "PSCM1",
     "SG": [
-      "SG_ PinionSteerAgMax1 : 54|15@0- (0.0009765625,0.0) [-14.5|14.5] \"rad\" VDDM",
-      "SG_ PinionSteerAgMax1_UB : 55|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "PinionSteerAgMax1"
+      },
+      {
+        "signal": "PinionSteerAgMax1_UB"
+      },
+      {
+        "signal": "PinionSteerAgMax1_UB"
+      }
     ]
   },
   {
@@ -413,129 +861,244 @@
     "message": "PscmChas1Fr07",
     "sender_node": "PSCM1",
     "SG": [
-      "SG_ PinionSteerAgGroup_UB : 57|1@0+ (1,0) [0|1] \"\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupCntr : 63|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupPinionSteerAg1 : 46|15@0- (0.0009765625,0.0) [-14.5|14.5] \"rad\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupPinionSteerAg1Qf : 15|2@0+ (1,0) [0|3] \"\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupPinionSteerAgSpd1 : 13|14@0- (0.0078125,0.0) [-50.0|50.0] \"rad/s\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupPinionSteerAgSpd1Qf : 31|2@0+ (1,0) [0|3] \"\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupSteerWhlTq : 29|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" ASDM,BBM,VDDM",
-      "SG_ PinionSteerAgGroupSteerWhlTqQf : 59|2@0+ (1,0) [0|3] \"\" ASDM,BBM,VDDM"
+      {
+        "signal": "PinionSteerAgGroup_UB"
+      },
+      {
+        "signal": "PinionSteerAgGroupChks"
+      },
+      {
+        "signal": "PinionSteerAgGroupCntr"
+      },
+      {
+        "signal": "PinionSteerAgGroupPinionSteerAg1"
+      },
+      {
+        "signal": "PinionSteerAgGroupPinionSteerAg1Qf"
+      },
+      {
+        "signal": "PinionSteerAgGroupPinionSteerAgSpd1"
+      },
+      {
+        "signal": "PinionSteerAgGroupPinionSteerAgSpd1Qf"
+      },
+      {
+        "signal": "PinionSteerAgGroupSteerWhlTq"
+      },
+      {
+        "signal": "PinionSteerAgGroupSteerWhlTqQf"
+      },
+      {
+        "signal": "PinionSteerAgGroupSteerWhlTqQf"
+      }
     ]
   },
   {
     "BO": "BO_ 1315 PscmChas1NMFr : 8 PSCM1",
     "message": "PscmChas1NMFr",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PinionSteerAgGroupSteerWhlTqQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1430 PscmDevelpFr : 8 PSCM1",
     "message": "PscmDevelpFr",
     "sender_node": "PSCM1",
     "SG": [
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC"
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
     ]
   },
   {
     "BO": "BO_ 1410 PscmToEtcChas1XcpFr01 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr01",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1410 PscmToEtcChas1XcpFr01 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr01",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1417 PscmToEtcChas1XcpFr02 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr02",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1417 PscmToEtcChas1XcpFr02 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr02",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1419 PscmToEtcChas1XcpFr03 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr03",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1419 PscmToEtcChas1XcpFr03 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr03",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1415 PscmToEtcChas1XcpFr04 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr04",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1415 PscmToEtcChas1XcpFr04 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr04",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1412 PscmToEtcChas1XcpFr05 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr05",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1412 PscmToEtcChas1XcpFr05 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr05",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1423 PscmToEtcChas1XcpFr06 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr06",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1423 PscmToEtcChas1XcpFr06 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr06",
     "sender_node": "PSCM2",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 1648 PscmToVddmChas1DiagResFrame : 8 PSCM1",
     "message": "PscmToVddmChas1DiagResFrame",
     "sender_node": "PSCM1",
-    "SG": []
+    "SG": [
+      {
+        "signal": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 66 RbcmChas1Fr01 : 8 RBCM",
     "message": "RbcmChas1Fr01",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AsySftyHWLReqBkp : 23|2@0+ (1,0) [0|3] \"\" Vector__XXX",
-      "SG_ AsySftyHWLReqBkp_UB : 21|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ SBMHealthChkResp : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ SBMHealthChkResp_UB : 20|1@0+ (1,0) [0|1] \"\" BBM",
-      "SG_ TakeoverWarnForBackup_UB : 7|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ TakeoverWarnForBackupChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ TakeoverWarnForBackupCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ TakeoverWarnForBackupTakeoverWarnForBackup : 6|3@0+ (1,0) [0|7] \"\" Vector__XXX"
+      {
+        "signal": "AsySftyHWLReqBkp"
+      },
+      {
+        "signal": "AsySftyHWLReqBkp_UB"
+      },
+      {
+        "signal": "SBMHealthChkResp"
+      },
+      {
+        "signal": "SBMHealthChkResp_UB"
+      },
+      {
+        "signal": "TakeoverWarnForBackup_UB"
+      },
+      {
+        "signal": "TakeoverWarnForBackupChks"
+      },
+      {
+        "signal": "TakeoverWarnForBackupCntr"
+      },
+      {
+        "signal": "TakeoverWarnForBackupTakeoverWarnForBackup"
+      },
+      {
+        "signal": "TakeoverWarnForBackupTakeoverWarnForBackup"
+      }
     ]
   },
   {
@@ -543,16 +1106,39 @@
     "message": "RbcmChas1Fr02",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUStat_UB : 61|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUStatChks : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUStatCntr : 39|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUStatHead : 35|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUStatIMUStat : 63|2@0+ (1,0) [0|3] \"\" Vector__XXX",
-      "SG_ AD4IMUStatIMUTemp : 47|16@0- (0.01,0.0) [-50.0|150.0] \"degC\" Vector__XXX",
-      "SG_ SecBrkSysSt_UB : 23|1@0+ (1,0) [0|1] \"\" BBM,VDDM",
-      "SG_ SecBrkSysStBrkSysSt : 7|4@0+ (1,0) [0|15] \"\" BBM,VDDM",
-      "SG_ SecBrkSysStChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM,VDDM",
-      "SG_ SecBrkSysStCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" BBM,VDDM"
+      {
+        "signal": "AD4IMUStat_UB"
+      },
+      {
+        "signal": "AD4IMUStatChks"
+      },
+      {
+        "signal": "AD4IMUStatCntr"
+      },
+      {
+        "signal": "AD4IMUStatHead"
+      },
+      {
+        "signal": "AD4IMUStatIMUStat"
+      },
+      {
+        "signal": "AD4IMUStatIMUTemp"
+      },
+      {
+        "signal": "SecBrkSysSt_UB"
+      },
+      {
+        "signal": "SecBrkSysStBrkSysSt"
+      },
+      {
+        "signal": "SecBrkSysStChks"
+      },
+      {
+        "signal": "SecBrkSysStCntr"
+      },
+      {
+        "signal": "SecBrkSysStCntr"
+      }
     ]
   },
   {
@@ -560,15 +1146,36 @@
     "message": "RbcmChas1Fr03",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ BrkLiOnReqForBkp_UB : 5|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ BrkLiOnReqForBkpBrkLiOnReqChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ BrkLiOnReqForBkpBrkLiOnReqCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ BrkLiOnReqForBkpBrkLiOnReqSts : 4|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ VehSpdLgtForBkp_UB : 55|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ VehSpdLgtForBkpVehSpdLgtA : 30|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" VDDM",
-      "SG_ VehSpdLgtForBkpVehSpdLgtChks : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ VehSpdLgtForBkpVehSpdLgtCntr : 21|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ VehSpdLgtForBkpVehSpdLgtQf : 17|2@0+ (1,0) [0|3] \"\" VDDM"
+      {
+        "signal": "BrkLiOnReqForBkp_UB"
+      },
+      {
+        "signal": "BrkLiOnReqForBkpBrkLiOnReqChks"
+      },
+      {
+        "signal": "BrkLiOnReqForBkpBrkLiOnReqCntr"
+      },
+      {
+        "signal": "BrkLiOnReqForBkpBrkLiOnReqSts"
+      },
+      {
+        "signal": "VehSpdLgtForBkp_UB"
+      },
+      {
+        "signal": "VehSpdLgtForBkpVehSpdLgtA"
+      },
+      {
+        "signal": "VehSpdLgtForBkpVehSpdLgtChks"
+      },
+      {
+        "signal": "VehSpdLgtForBkpVehSpdLgtCntr"
+      },
+      {
+        "signal": "VehSpdLgtForBkpVehSpdLgtQf"
+      },
+      {
+        "signal": "VehSpdLgtForBkpVehSpdLgtQf"
+      }
     ]
   },
   {
@@ -576,13 +1183,30 @@
     "message": "RbcmChas1Fr04",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ WhlSpdCircumlFrntForBkp_UB : 40|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntLe : 39|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" VDDM",
-      "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntLeQf : 7|2@0+ (1,0) [0|3] \"\" VDDM",
-      "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntRiQf : 5|2@0+ (1,0) [0|3] \"\" VDDM",
-      "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi : 23|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" VDDM"
+      {
+        "signal": "WhlSpdCircumlFrntForBkp_UB"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntChks"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntCntr"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntLe"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntLeQf"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntRiQf"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi"
+      }
     ]
   },
   {
@@ -590,13 +1214,30 @@
     "message": "RbcmChas1Fr05",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ WhlSpdCircumlReForBkp_UB : 40|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReLe : 39|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" VDDM",
-      "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReLeQf : 7|2@0+ (1,0) [0|3] \"\" VDDM",
-      "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReRi : 23|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" VDDM",
-      "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf : 5|2@0+ (1,0) [0|3] \"\" VDDM"
+      {
+        "signal": "WhlSpdCircumlReForBkp_UB"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReChks"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReCntr"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReLe"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReLeQf"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReRi"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf"
+      },
+      {
+        "signal": "WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf"
+      }
     ]
   },
   {
@@ -604,13 +1245,30 @@
     "message": "RbcmChas1Fr06",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ WhlRotToothCntrForBkp_UB : 43|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ WhlRotToothCntrForBkpChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ WhlRotToothCntrForBkpCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ WhlRotToothCntrForBkpWhlRotToothCntrFrntLe : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ WhlRotToothCntrForBkpWhlRotToothCntrFrntRi : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ WhlRotToothCntrForBkpWhlRotToothCntrReLe : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ WhlRotToothCntrForBkpWhlRotToothCntrReRi : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM"
+      {
+        "signal": "WhlRotToothCntrForBkp_UB"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpChks"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpCntr"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpWhlRotToothCntrFrntLe"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpWhlRotToothCntrFrntRi"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpWhlRotToothCntrReLe"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpWhlRotToothCntrReRi"
+      },
+      {
+        "signal": "WhlRotToothCntrForBkpWhlRotToothCntrReRi"
+      }
     ]
   },
   {
@@ -618,11 +1276,24 @@
     "message": "RbcmChas1Fr09",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUAcceX_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUAcceXAcce : 7|32@0- (0.00002,0.0) [-10.0|10.0] \"g\" Vector__XXX",
-      "SG_ AD4IMUAcceXChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUAcceXCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUAcceXHead : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AD4IMUAcceX_UB"
+      },
+      {
+        "signal": "AD4IMUAcceXAcce"
+      },
+      {
+        "signal": "AD4IMUAcceXChks"
+      },
+      {
+        "signal": "AD4IMUAcceXCntr"
+      },
+      {
+        "signal": "AD4IMUAcceXHead"
+      },
+      {
+        "signal": "AD4IMUAcceXHead"
+      }
     ]
   },
   {
@@ -630,11 +1301,24 @@
     "message": "RbcmChas1Fr10",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUAcceY_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUAcceYAcce : 7|32@0- (0.00002,0.0) [-10.0|10.0] \"g\" Vector__XXX",
-      "SG_ AD4IMUAcceYChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUAcceYCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUAcceYHead : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AD4IMUAcceY_UB"
+      },
+      {
+        "signal": "AD4IMUAcceYAcce"
+      },
+      {
+        "signal": "AD4IMUAcceYChks"
+      },
+      {
+        "signal": "AD4IMUAcceYCntr"
+      },
+      {
+        "signal": "AD4IMUAcceYHead"
+      },
+      {
+        "signal": "AD4IMUAcceYHead"
+      }
     ]
   },
   {
@@ -642,11 +1326,24 @@
     "message": "RbcmChas1Fr11",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUAcceZ_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUAcceZAcce : 7|32@0- (0.00002,0.0) [-10.0|10.0] \"g\" Vector__XXX",
-      "SG_ AD4IMUAcceZChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUAcceZCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUAcceZHead : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AD4IMUAcceZ_UB"
+      },
+      {
+        "signal": "AD4IMUAcceZAcce"
+      },
+      {
+        "signal": "AD4IMUAcceZChks"
+      },
+      {
+        "signal": "AD4IMUAcceZCntr"
+      },
+      {
+        "signal": "AD4IMUAcceZHead"
+      },
+      {
+        "signal": "AD4IMUAcceZHead"
+      }
     ]
   },
   {
@@ -654,11 +1351,24 @@
     "message": "RbcmChas1Fr12",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUGyroX_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUGyroXChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUGyroXCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUGyroXGyro : 23|32@0- (0.001,0.0) [-500.0|500.0] \"DegPerSec\" Vector__XXX",
-      "SG_ AD4IMUGyroXHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AD4IMUGyroX_UB"
+      },
+      {
+        "signal": "AD4IMUGyroXChks"
+      },
+      {
+        "signal": "AD4IMUGyroXCntr"
+      },
+      {
+        "signal": "AD4IMUGyroXGyro"
+      },
+      {
+        "signal": "AD4IMUGyroXHead"
+      },
+      {
+        "signal": "AD4IMUGyroXHead"
+      }
     ]
   },
   {
@@ -666,11 +1376,24 @@
     "message": "RbcmChas1Fr13",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUGyroY_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUGyroYChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUGyroYCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUGyroYGyro : 23|32@0- (0.001,0.0) [-500.0|500.0] \"DegPerSec\" Vector__XXX",
-      "SG_ AD4IMUGyroYHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AD4IMUGyroY_UB"
+      },
+      {
+        "signal": "AD4IMUGyroYChks"
+      },
+      {
+        "signal": "AD4IMUGyroYCntr"
+      },
+      {
+        "signal": "AD4IMUGyroYGyro"
+      },
+      {
+        "signal": "AD4IMUGyroYHead"
+      },
+      {
+        "signal": "AD4IMUGyroYHead"
+      }
     ]
   },
   {
@@ -678,87 +1401,233 @@
     "message": "RbcmChas1Fr14",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ AD4IMUGyroZ_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AD4IMUGyroZChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUGyroZCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ AD4IMUGyroZGyro : 23|32@0- (0.001,0.0) [-500.0|500.0] \"DegPerSec\" Vector__XXX",
-      "SG_ AD4IMUGyroZHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX"
+      {
+        "signal": "AD4IMUGyroZ_UB"
+      },
+      {
+        "signal": "AD4IMUGyroZChks"
+      },
+      {
+        "signal": "AD4IMUGyroZCntr"
+      },
+      {
+        "signal": "AD4IMUGyroZGyro"
+      },
+      {
+        "signal": "AD4IMUGyroZHead"
+      },
+      {
+        "signal": "AD4IMUGyroZHead"
+      }
     ]
   },
   {
     "BO": "BO_ 1333 RbcmChas1NMFr : 8 RBCM",
     "message": "RbcmChas1NMFr",
     "sender_node": "RBCM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "AD4IMUGyroZHead"
+      }
+    ]
   },
   {
     "BO": "BO_ 1383 RbcmChas1VFCVectorFr : 8 RBCM",
     "message": "RbcmChas1VFCVectorFr",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ VFCVectorRBCMBlockID : 1|2@0+ (1.0,0.0) [0.0|3.0] \"Unitless\" ETC",
-      "SG_ VFCVectorRBCMVFCid0 : 2|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid1 : 3|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid10 : 12|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid11 : 13|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid12 : 14|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid13 : 15|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid14 : 16|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid15 : 17|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid16 : 18|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid17 : 19|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid18 : 20|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid19 : 21|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid2 : 4|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid20 : 22|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid21 : 23|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid22 : 24|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid23 : 25|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid24 : 26|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid25 : 27|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid26 : 28|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid27 : 29|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid28 : 30|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid29 : 31|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid3 : 5|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid30 : 32|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid31 : 33|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid32 : 34|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid33 : 35|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid34 : 36|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid35 : 37|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid36 : 38|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid37 : 39|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid38 : 40|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid39 : 41|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid4 : 6|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid40 : 42|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid41 : 43|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid42 : 44|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid43 : 45|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid44 : 46|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid45 : 47|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid46 : 48|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid47 : 49|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid48 : 50|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid49 : 51|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid5 : 7|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid50 : 52|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid51 : 53|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid52 : 54|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid53 : 55|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid54 : 56|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid55 : 57|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid56 : 58|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid57 : 59|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid58 : 60|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid59 : 61|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid6 : 8|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid60 : 62|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid61 : 63|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid7 : 9|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid8 : 10|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorRBCMVFCid9 : 11|1@0+ (1,0) [0|1] \"\" ETC"
+      {
+        "signal": "VFCVectorRBCMBlockID"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid0"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid1"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid10"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid11"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid12"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid13"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid14"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid15"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid16"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid17"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid18"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid19"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid2"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid20"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid21"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid22"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid23"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid24"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid25"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid26"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid27"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid28"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid29"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid3"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid30"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid31"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid32"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid33"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid34"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid35"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid36"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid37"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid38"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid39"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid4"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid40"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid41"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid42"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid43"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid44"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid45"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid46"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid47"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid48"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid49"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid5"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid50"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid51"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid52"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid53"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid54"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid55"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid56"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid57"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid58"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid59"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid6"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid60"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid61"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid7"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid8"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid9"
+      },
+      {
+        "signal": "VFCVectorRBCMVFCid9"
+      }
     ]
   },
   {
@@ -766,54 +1635,107 @@
     "message": "RbcmToEtcChas1DevFr01",
     "sender_node": "RBCM",
     "SG": [
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC"
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
     ]
   },
   {
     "BO": "BO_ 1653 RbcmToVddmChas1DiagResFrame : 8 RBCM",
     "message": "RbcmToVddmChas1DiagResFrame",
     "sender_node": "RBCM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
+    ]
   },
   {
     "BO": "BO_ 64 SasChas1Fr01 : 8 SAS",
     "message": "SasChas1Fr01",
     "sender_node": "SAS",
     "SG": [
-      "SG_ SteerWhlSnsr_UB : 7|1@0+ (1,0) [0|1] \"\" ASDM,BBM,PSCM1,RBCM,VDDM",
-      "SG_ SteerWhlSnsrAg : 6|15@0- (0.0009765625,0.0) [-14.5|14.5] \"rad\" ASDM,BBM,PSCM1,RBCM,VDDM",
-      "SG_ SteerWhlSnsrAgSpd : 21|14@0- (0.0078125,0.0) [-50.0|50.0] \"rad/s\" ASDM,BBM,PSCM1,RBCM,VDDM",
-      "SG_ SteerWhlSnsrChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ASDM,BBM,PSCM1,RBCM,VDDM",
-      "SG_ SteerWhlSnsrCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" ASDM,BBM,PSCM1,RBCM,VDDM",
-      "SG_ SteerWhlSnsrQf : 23|2@0+ (1,0) [0|3] \"\" ASDM,BBM,PSCM1,RBCM,VDDM"
+      {
+        "signal": "SteerWhlSnsr_UB"
+      },
+      {
+        "signal": "SteerWhlSnsrAg"
+      },
+      {
+        "signal": "SteerWhlSnsrAgSpd"
+      },
+      {
+        "signal": "SteerWhlSnsrChks"
+      },
+      {
+        "signal": "SteerWhlSnsrCntr"
+      },
+      {
+        "signal": "SteerWhlSnsrQf"
+      },
+      {
+        "signal": "SteerWhlSnsrQf"
+      }
     ]
   },
   {
     "BO": "BO_ 1319 SasChas1NMFr : 8 SAS",
     "message": "SasChas1NMFr",
     "sender_node": "SAS",
-    "SG": []
+    "SG": [
+      {
+        "signal": "SteerWhlSnsrQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1650 SasToVddmChas1DiagResFrame : 8 SAS",
     "message": "SasToVddmChas1DiagResFrame",
     "sender_node": "SAS",
-    "SG": []
+    "SG": [
+      {
+        "signal": "SteerWhlSnsrQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 512 TcmChas1Fr09 : 8 IEM",
     "message": "TcmChas1Fr09",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmClrRdyReq : 21|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmClrRdyReq_UB : 20|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmClrRdyReq"
+      },
+      {
+        "signal": "TrsmClrRdyReq_UB"
+      },
+      {
+        "signal": "TrsmClrRdyReq_UB"
+      }
     ]
   },
   {
@@ -821,8 +1743,15 @@
     "message": "TcmChas1Fr11",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmModAct : 58|3@0+ (1,0) [0|7] \"\" VDDM",
-      "SG_ TrsmModAct_UB : 59|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmModAct"
+      },
+      {
+        "signal": "TrsmModAct_UB"
+      },
+      {
+        "signal": "TrsmModAct_UB"
+      }
     ]
   },
   {
@@ -830,8 +1759,15 @@
     "message": "TcmChas1Fr12",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmModNotAvlSts : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ TrsmModNotAvlSts_UB : 48|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmModNotAvlSts"
+      },
+      {
+        "signal": "TrsmModNotAvlSts_UB"
+      },
+      {
+        "signal": "TrsmModNotAvlSts_UB"
+      }
     ]
   },
   {
@@ -839,15 +1775,36 @@
     "message": "TcmChas1Fr13",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmEngmtLimd_UB : 45|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmEngmtLimdChks : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ TrsmEngmtLimdCntr : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ TrsmEngmtLimdTrsmEngmtLimd : 44|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmTqLoss_UB : 6|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmTqLossChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ TrsmTqLossCntr : 5|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ TrsmTqLossTrsmTqEff : 1|10@0+ (0.1,0.0) [0.0|100.0] \"%\" VDDM",
-      "SG_ TrsmTqLossTrsmTqLoss : 31|8@0+ (0.5,0.0) [0.0|127.0] \"Unitless\" VDDM"
+      {
+        "signal": "TrsmEngmtLimd_UB"
+      },
+      {
+        "signal": "TrsmEngmtLimdChks"
+      },
+      {
+        "signal": "TrsmEngmtLimdCntr"
+      },
+      {
+        "signal": "TrsmEngmtLimdTrsmEngmtLimd"
+      },
+      {
+        "signal": "TrsmTqLoss_UB"
+      },
+      {
+        "signal": "TrsmTqLossChks"
+      },
+      {
+        "signal": "TrsmTqLossCntr"
+      },
+      {
+        "signal": "TrsmTqLossTrsmTqEff"
+      },
+      {
+        "signal": "TrsmTqLossTrsmTqLoss"
+      },
+      {
+        "signal": "TrsmTqLossTrsmTqLoss"
+      }
     ]
   },
   {
@@ -855,8 +1812,15 @@
     "message": "TcmChas1Fr14",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmGearNotAvlSts : 27|12@0+ (1.0,0.0) [0.0|4095.0] \"Unitless\" VDDM",
-      "SG_ TrsmGearNotAvlSts_UB : 28|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmGearNotAvlSts"
+      },
+      {
+        "signal": "TrsmGearNotAvlSts_UB"
+      },
+      {
+        "signal": "TrsmGearNotAvlSts_UB"
+      }
     ]
   },
   {
@@ -864,12 +1828,27 @@
     "message": "TcmChas1Fr15",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmFltIndcn : 52|5@0+ (1,0) [0|31] \"\" VDDM",
-      "SG_ TrsmFltIndcn_UB : 53|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmWhlMotSysModReq : 23|3@0+ (1,0) [0|7] \"\" VDDM",
-      "SG_ TrsmWhlMotSysModReq_UB : 54|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmWhlMotSysSpdReq : 7|16@0+ (1.0,-20000.0) [-20000.0|45535.0] \"rpm\" VDDM",
-      "SG_ TrsmWhlMotSysSpdReq_UB : 55|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmFltIndcn"
+      },
+      {
+        "signal": "TrsmFltIndcn_UB"
+      },
+      {
+        "signal": "TrsmWhlMotSysModReq"
+      },
+      {
+        "signal": "TrsmWhlMotSysModReq_UB"
+      },
+      {
+        "signal": "TrsmWhlMotSysSpdReq"
+      },
+      {
+        "signal": "TrsmWhlMotSysSpdReq_UB"
+      },
+      {
+        "signal": "TrsmWhlMotSysSpdReq_UB"
+      }
     ]
   },
   {
@@ -877,13 +1856,30 @@
     "message": "TcmChas1Fr16",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmN2_UB : 6|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmN2Chks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-      "SG_ TrsmN2Cntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" VDDM",
-      "SG_ TrsmN2TrsmNInp : 23|15@0- (1.0,0.0) [-16384.0|16383.0] \"rpm\" VDDM",
-      "SG_ TrsmN2TrsmNInpOk : 4|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmN2TrsmNOutp : 39|15@0- (1.0,0.0) [-16384.0|16383.0] \"rpm\" VDDM",
-      "SG_ TrsmN2TrsmNOutpOk : 5|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmN2_UB"
+      },
+      {
+        "signal": "TrsmN2Chks"
+      },
+      {
+        "signal": "TrsmN2Cntr"
+      },
+      {
+        "signal": "TrsmN2TrsmNInp"
+      },
+      {
+        "signal": "TrsmN2TrsmNInpOk"
+      },
+      {
+        "signal": "TrsmN2TrsmNOutp"
+      },
+      {
+        "signal": "TrsmN2TrsmNOutpOk"
+      },
+      {
+        "signal": "TrsmN2TrsmNOutpOk"
+      }
     ]
   },
   {
@@ -891,8 +1887,15 @@
     "message": "TCMChas1Fr23",
     "sender_node": "IEM",
     "SG": [
-      "SG_ TrsmShiftInProgD2 : 55|1@0+ (1,0) [0|1] \"\" VDDM",
-      "SG_ TrsmShiftInProgD2_UB : 54|1@0+ (1,0) [0|1] \"\" VDDM"
+      {
+        "signal": "TrsmShiftInProgD2"
+      },
+      {
+        "signal": "TrsmShiftInProgD2_UB"
+      },
+      {
+        "signal": "TrsmShiftInProgD2_UB"
+      }
     ]
   },
   {
@@ -900,8 +1903,15 @@
     "message": "VcuChas1Fr01",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ PrpsnTqReReq : 55|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" IEM",
-      "SG_ PrpsnTqReReq_UB : 19|1@0+ (1,0) [0|1] \"\" IEM"
+      {
+        "signal": "PrpsnTqReReq"
+      },
+      {
+        "signal": "PrpsnTqReReq_UB"
+      },
+      {
+        "signal": "PrpsnTqReReq_UB"
+      }
     ]
   },
   {
@@ -909,10 +1919,21 @@
     "message": "VcuChas1Fr02",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ SecParkBrkSysSt2_UB : 23|1@0+ (1,0) [0|1] \"\" BBM",
-      "SG_ SecParkBrkSysSt2BrkSysSt : 7|4@0+ (1,0) [0|15] \"\" BBM",
-      "SG_ SecParkBrkSysSt2Chks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-      "SG_ SecParkBrkSysSt2Cntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" BBM"
+      {
+        "signal": "SecParkBrkSysSt2_UB"
+      },
+      {
+        "signal": "SecParkBrkSysSt2BrkSysSt"
+      },
+      {
+        "signal": "SecParkBrkSysSt2Chks"
+      },
+      {
+        "signal": "SecParkBrkSysSt2Cntr"
+      },
+      {
+        "signal": "SecParkBrkSysSt2Cntr"
+      }
     ]
   },
   {
@@ -920,11 +1941,24 @@
     "message": "VcuChas1Fr03",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ AgDataRaw2Safe_UB : 38|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ AgDataRaw2SafeChks : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-      "SG_ AgDataRaw2SafeCntr : 35|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-      "SG_ AgDataRaw2SafePitchRate : 55|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" RBCM",
-      "SG_ AgDataRaw2SafePitchRateQf : 37|2@0+ (1,0) [0|3] \"\" RBCM"
+      {
+        "signal": "AgDataRaw2Safe_UB"
+      },
+      {
+        "signal": "AgDataRaw2SafeChks"
+      },
+      {
+        "signal": "AgDataRaw2SafeCntr"
+      },
+      {
+        "signal": "AgDataRaw2SafePitchRate"
+      },
+      {
+        "signal": "AgDataRaw2SafePitchRateQf"
+      },
+      {
+        "signal": "AgDataRaw2SafePitchRateQf"
+      }
     ]
   },
   {
@@ -932,8 +1966,15 @@
     "message": "VcuChas1Fr04",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ RlyPwrDistbnCmd1WdIgnRlyCmd : 58|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ RlyPwrDistbnCmd1WdIgnRlyCmd_UB : 57|1@0+ (1,0) [0|1] \"\" RBCM"
+      {
+        "signal": "RlyPwrDistbnCmd1WdIgnRlyCmd"
+      },
+      {
+        "signal": "RlyPwrDistbnCmd1WdIgnRlyCmd_UB"
+      },
+      {
+        "signal": "RlyPwrDistbnCmd1WdIgnRlyCmd_UB"
+      }
     ]
   },
   {
@@ -941,14 +1982,33 @@
     "message": "VcuChas1Fr06",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ TiAndDateIndcn_UB : 7|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ TiAndDateIndcnDataValid : 6|1@0+ (1,0) [0|1] \"\" RBCM",
-      "SG_ TiAndDateIndcnDay : 28|5@0+ (1.0,0.0) [1.0|31.0] \"Days\" RBCM",
-      "SG_ TiAndDateIndcnHr1 : 20|5@0+ (1.0,0.0) [0.0|23.0] \"hours\" RBCM",
-      "SG_ TiAndDateIndcnMins1 : 13|6@0+ (1.0,0.0) [0.0|59.0] \"Mins\" RBCM",
-      "SG_ TiAndDateIndcnMth1 : 35|4@0+ (1.0,0.0) [1.0|12.0] \"Month\" RBCM",
-      "SG_ TiAndDateIndcnSec1 : 5|6@0+ (1.0,0.0) [0.0|59.0] \"s\" RBCM",
-      "SG_ TiAndDateIndcnYr1 : 46|7@0+ (1.0,0.0) [0.0|99.0] \"Year\" RBCM"
+      {
+        "signal": "TiAndDateIndcn_UB"
+      },
+      {
+        "signal": "TiAndDateIndcnDataValid"
+      },
+      {
+        "signal": "TiAndDateIndcnDay"
+      },
+      {
+        "signal": "TiAndDateIndcnHr1"
+      },
+      {
+        "signal": "TiAndDateIndcnMins1"
+      },
+      {
+        "signal": "TiAndDateIndcnMth1"
+      },
+      {
+        "signal": "TiAndDateIndcnSec1"
+      },
+      {
+        "signal": "TiAndDateIndcnYr1"
+      },
+      {
+        "signal": "TiAndDateIndcnYr1"
+      }
     ]
   },
   {
@@ -956,69 +2016,198 @@
     "message": "VcuChas1VFCVectorFr",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ VFCVectorVCUBlockID : 1|2@0+ (1.0,0.0) [0.0|3.0] \"Unitless\" ETC",
-      "SG_ VFCVectorVCUVFCid0 : 2|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid1 : 3|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid10 : 12|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid11 : 13|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid12 : 14|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid13 : 15|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid14 : 16|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid15 : 17|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid16 : 18|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid17 : 19|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid18 : 20|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid19 : 21|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid2 : 4|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid20 : 22|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid21 : 23|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid22 : 24|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid23 : 25|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid24 : 26|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid25 : 27|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid26 : 28|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid27 : 29|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid28 : 30|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid29 : 31|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid3 : 5|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid30 : 32|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid31 : 33|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid32 : 34|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid33 : 35|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid34 : 36|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid35 : 37|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid36 : 38|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid37 : 39|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid38 : 40|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid39 : 41|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid4 : 6|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid40 : 42|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid41 : 43|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid42 : 44|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid43 : 45|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid44 : 46|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid45 : 47|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid46 : 48|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid47 : 49|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid48 : 50|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid49 : 51|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid5 : 7|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid50 : 52|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid51 : 53|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid52 : 54|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid53 : 55|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid54 : 56|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid55 : 57|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid56 : 58|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid57 : 59|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid58 : 60|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid59 : 61|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid6 : 8|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid60 : 62|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid61 : 63|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid7 : 9|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid8 : 10|1@0+ (1,0) [0|1] \"\" ETC",
-      "SG_ VFCVectorVCUVFCid9 : 11|1@0+ (1,0) [0|1] \"\" ETC"
+      {
+        "signal": "VFCVectorVCUBlockID"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid0"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid1"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid10"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid11"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid12"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid13"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid14"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid15"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid16"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid17"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid18"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid19"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid2"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid20"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid21"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid22"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid23"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid24"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid25"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid26"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid27"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid28"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid29"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid3"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid30"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid31"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid32"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid33"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid34"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid35"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid36"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid37"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid38"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid39"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid4"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid40"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid41"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid42"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid43"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid44"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid45"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid46"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid47"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid48"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid49"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid5"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid50"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid51"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid52"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid53"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid54"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid55"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid56"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid57"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid58"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid59"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid6"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid60"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid61"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid7"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid8"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid9"
+      },
+      {
+        "signal": "VFCVectorVCUVFCid9"
+      }
     ]
   },
   {
@@ -1026,14 +2215,33 @@
     "message": "VddmChas1DevFr01",
     "sender_node": "BBM",
     "SG": [
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC"
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8"
+      }
     ]
   },
   {
@@ -1041,14 +2249,33 @@
     "message": "VddmChas1DevFr02",
     "sender_node": "BBM",
     "SG": [
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-      "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC"
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup1"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup2"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup3"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup4"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup5"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup6"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup7"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8"
+      },
+      {
+        "signal": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8"
+      }
     ]
   },
   {
@@ -1056,15 +2283,36 @@
     "message": "VddmChas1Fr01",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ AsyDataWithCmpSafe_UB : 56|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AsyDataWithCmpSafeALat1Qf : 41|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ AsyDataWithCmpSafeALatWithCmp : 55|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" PSCM1",
-      "SG_ AsyDataWithCmpSafeALgt1Qf : 43|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ AsyDataWithCmpSafeChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ AsyDataWithCmpSafeCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ AsyDataWithCmpSafeGrdtOfALgt : 31|14@0- (0.00390625,0.0) [-30.0|30.0] \"m/s^3\" PSCM1",
-      "SG_ AsyDataWithCmpSafeYawRateQf : 33|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ AsyDataWithCmpSafeYawRateWithCmp : 7|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1"
+      {
+        "signal": "AsyDataWithCmpSafe_UB"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeALat1Qf"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeALatWithCmp"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeALgt1Qf"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeChks"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeCntr"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeGrdtOfALgt"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeYawRateQf"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeYawRateWithCmp"
+      },
+      {
+        "signal": "AsyDataWithCmpSafeYawRateWithCmp"
+      }
     ]
   },
   {
@@ -1072,15 +2320,36 @@
     "message": "VddmChas1Fr03",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ ADataRawSafe_UB : 56|1@0+ (1,0) [0|1] \"\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeALat : 23|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeALat1Qf : 11|2@0+ (1,0) [0|3] \"\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeALgt : 38|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeALgt1Qf : 9|2@0+ (1,0) [0|3] \"\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeAVert : 55|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeAVertQf : 24|2@0+ (1,0) [0|3] \"\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" IEM,PSCM1,RBCM",
-      "SG_ ADataRawSafeCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" IEM,PSCM1,RBCM"
+      {
+        "signal": "ADataRawSafe_UB"
+      },
+      {
+        "signal": "ADataRawSafeALat"
+      },
+      {
+        "signal": "ADataRawSafeALat1Qf"
+      },
+      {
+        "signal": "ADataRawSafeALgt"
+      },
+      {
+        "signal": "ADataRawSafeALgt1Qf"
+      },
+      {
+        "signal": "ADataRawSafeAVert"
+      },
+      {
+        "signal": "ADataRawSafeAVertQf"
+      },
+      {
+        "signal": "ADataRawSafeChks"
+      },
+      {
+        "signal": "ADataRawSafeCntr"
+      },
+      {
+        "signal": "ADataRawSafeCntr"
+      }
     ]
   },
   {
@@ -1088,19 +2357,48 @@
     "message": "VddmChas1Fr04",
     "sender_node": "BBM",
     "SG": [
-      "SG_ AbsCtrlActv_UB : 10|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AbsCtrlActvChks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ AbsCtrlActvCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ AbsCtrlActvCtrlSts1 : 11|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AmbTRaw_UB : 55|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AmbTRawAmbTVal : 50|11@0+ (0.1,-70.0) [-70.0|134.70000000000002] \"degC\" PSCM1",
-      "SG_ AmbTRawQly : 52|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ LatCtrlReqSafe_UB : 40|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ LatCtrlReqSafeChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ LatCtrlReqSafeCntr : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ LatCtrlReqSafeLatCtrlModReq : 27|4@0+ (1,0) [0|15] \"\" PSCM1",
-      "SG_ LatCtrlReqSafeSteerTqReq : 39|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" PSCM1",
-      "SG_ LatCtrlReqSafeSteerWhlHptcWarnReq : 41|1@0+ (1,0) [0|1] \"\" PSCM1"
+      {
+        "signal": "AbsCtrlActv_UB"
+      },
+      {
+        "signal": "AbsCtrlActvChks"
+      },
+      {
+        "signal": "AbsCtrlActvCntr"
+      },
+      {
+        "signal": "AbsCtrlActvCtrlSts1"
+      },
+      {
+        "signal": "AmbTRaw_UB"
+      },
+      {
+        "signal": "AmbTRawAmbTVal"
+      },
+      {
+        "signal": "AmbTRawQly"
+      },
+      {
+        "signal": "LatCtrlReqSafe_UB"
+      },
+      {
+        "signal": "LatCtrlReqSafeChks"
+      },
+      {
+        "signal": "LatCtrlReqSafeCntr"
+      },
+      {
+        "signal": "LatCtrlReqSafeLatCtrlModReq"
+      },
+      {
+        "signal": "LatCtrlReqSafeSteerTqReq"
+      },
+      {
+        "signal": "LatCtrlReqSafeSteerWhlHptcWarnReq"
+      },
+      {
+        "signal": "LatCtrlReqSafeSteerWhlHptcWarnReq"
+      }
     ]
   },
   {
@@ -1108,19 +2406,48 @@
     "message": "VddmChas1Fr05",
     "sender_node": "BBM",
     "SG": [
-      "SG_ CnvnReq : 23|3@0+ (1,0) [0|7] \"\" Vector__XXX",
-      "SG_ CnvnReq_UB : 16|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ DrvrCrsCtrlFctSeld : 20|3@0+ (1,0) [0|7] \"\" Vector__XXX",
-      "SG_ DrvrCrsCtrlFctSeld_UB : 17|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EngRunngReqByParkAssi_UB : 6|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ EngRunngReqByParkAssi1 : 5|2@0+ (1,0) [0|3] \"\" Vector__XXX",
-      "SG_ EngRunngReqByParkAssiChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" Vector__XXX",
-      "SG_ EngRunngReqByParkAssiCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-      "SG_ VehSpdLgt_UB : 39|1@0+ (1,0) [0|1] \"\" PSCM1,SAS",
-      "SG_ VehSpdLgtA : 38|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1,SAS",
-      "SG_ VehSpdLgtChks : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehSpdLgtCntr : 63|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehSpdLgtQf : 59|2@0+ (1,0) [0|3] \"\" PSCM1,SAS"
+      {
+        "signal": "CnvnReq"
+      },
+      {
+        "signal": "CnvnReq_UB"
+      },
+      {
+        "signal": "DrvrCrsCtrlFctSeld"
+      },
+      {
+        "signal": "DrvrCrsCtrlFctSeld_UB"
+      },
+      {
+        "signal": "EngRunngReqByParkAssi_UB"
+      },
+      {
+        "signal": "EngRunngReqByParkAssi1"
+      },
+      {
+        "signal": "EngRunngReqByParkAssiChks"
+      },
+      {
+        "signal": "EngRunngReqByParkAssiCntr"
+      },
+      {
+        "signal": "VehSpdLgt_UB"
+      },
+      {
+        "signal": "VehSpdLgtA"
+      },
+      {
+        "signal": "VehSpdLgtChks"
+      },
+      {
+        "signal": "VehSpdLgtCntr"
+      },
+      {
+        "signal": "VehSpdLgtQf"
+      },
+      {
+        "signal": "VehSpdLgtQf"
+      }
     ]
   },
   {
@@ -1128,12 +2455,27 @@
     "message": "VddmChas1Fr08",
     "sender_node": "BBM",
     "SG": [
-      "SG_ AmbTIndcdWithUnit_UB : 9|1@0+ (1,0) [0|1] \"\" SAS",
-      "SG_ AmbTIndcdWithUnitAmbTIndcd : 19|12@0+ (0.1,-100.0) [-100.0|309.5] \"Unitless\" SAS",
-      "SG_ AmbTIndcdWithUnitAmbTIndcdUnit : 23|2@0+ (1,0) [0|3] \"\" SAS",
-      "SG_ AmbTIndcdWithUnitQF : 21|2@0+ (1,0) [0|3] \"\" SAS",
-      "SG_ WhlBrkWrm : 36|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ WhlBrkWrm_UB : 35|1@0+ (1,0) [0|1] \"\" Vector__XXX"
+      {
+        "signal": "AmbTIndcdWithUnit_UB"
+      },
+      {
+        "signal": "AmbTIndcdWithUnitAmbTIndcd"
+      },
+      {
+        "signal": "AmbTIndcdWithUnitAmbTIndcdUnit"
+      },
+      {
+        "signal": "AmbTIndcdWithUnitQF"
+      },
+      {
+        "signal": "WhlBrkWrm"
+      },
+      {
+        "signal": "WhlBrkWrm_UB"
+      },
+      {
+        "signal": "WhlBrkWrm_UB"
+      }
     ]
   },
   {
@@ -1141,19 +2483,48 @@
     "message": "VddmChas1Fr10",
     "sender_node": "BBM",
     "SG": [
-      "SG_ BrkPedlPsd_UB : 40|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ BrkPedlPsdBrkPedlNotPsdSafe : 55|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ BrkPedlPsdBrkPedlPsd : 54|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ BrkPedlPsdChks : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ BrkPedlPsdCntr : 51|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ BrkPedlPsdQf : 53|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ WhlSpdCircumlFrnt_UB : 7|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ WhlSpdCircumlFrntChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlSpdCircumlFrntCntr : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ WhlSpdCircumlFrntLe : 6|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1",
-      "SG_ WhlSpdCircumlFrntLeQf : 27|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ WhlSpdCircumlFrntRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ WhlSpdCircumlFrntWhlSpdCircumlFrntRi : 39|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1"
+      {
+        "signal": "BrkPedlPsd_UB"
+      },
+      {
+        "signal": "BrkPedlPsdBrkPedlNotPsdSafe"
+      },
+      {
+        "signal": "BrkPedlPsdBrkPedlPsd"
+      },
+      {
+        "signal": "BrkPedlPsdChks"
+      },
+      {
+        "signal": "BrkPedlPsdCntr"
+      },
+      {
+        "signal": "BrkPedlPsdQf"
+      },
+      {
+        "signal": "WhlSpdCircumlFrnt_UB"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntChks"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntCntr"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntLe"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntLeQf"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntRiQf"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntWhlSpdCircumlFrntRi"
+      },
+      {
+        "signal": "WhlSpdCircumlFrntWhlSpdCircumlFrntRi"
+      }
     ]
   },
   {
@@ -1161,13 +2532,30 @@
     "message": "VddmChas1Fr14",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ AgDataRawSafe_UB : 49|1@0+ (1,0) [0|1] \"\" PSCM1,RBCM",
-      "SG_ AgDataRawSafeChks : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ AgDataRawSafeCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ AgDataRawSafeRollRate : 7|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1,RBCM",
-      "SG_ AgDataRawSafeRollRateQf : 43|2@0+ (1,0) [0|3] \"\" PSCM1,RBCM",
-      "SG_ AgDataRawSafeYawRate : 23|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1,RBCM",
-      "SG_ AgDataRawSafeYawRateQf : 41|2@0+ (1,0) [0|3] \"\" PSCM1,RBCM"
+      {
+        "signal": "AgDataRawSafe_UB"
+      },
+      {
+        "signal": "AgDataRawSafeChks"
+      },
+      {
+        "signal": "AgDataRawSafeCntr"
+      },
+      {
+        "signal": "AgDataRawSafeRollRate"
+      },
+      {
+        "signal": "AgDataRawSafeRollRateQf"
+      },
+      {
+        "signal": "AgDataRawSafeYawRate"
+      },
+      {
+        "signal": "AgDataRawSafeYawRateQf"
+      },
+      {
+        "signal": "AgDataRawSafeYawRateQf"
+      }
     ]
   },
   {
@@ -1175,17 +2563,42 @@
     "message": "VddmChas1Fr19",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ VehModMngtGlbSafe1_UB : 32|1@0+ (1,0) [0|1] \"\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1CarModSts1 : 39|3@0+ (1,0) [0|7] \"\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1CarModSubtypWdCarModSubtyp : 36|3@0+ (1.0,0.0) [0.0|7.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1Chks : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1Cntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1EgyLvlElecMai : 27|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1EgyLvlElecSubtyp : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1FltEgyCnsWdSts : 33|1@0+ (1,0) [0|1] \"\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1PwrLvlElecMai : 19|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1PwrLvlElecSubtyp : 23|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1,SAS",
-      "SG_ VehModMngtGlbSafe1UsgModSts : 11|4@0+ (1,0) [0|15] \"\" PSCM1,SAS"
+      {
+        "signal": "VehModMngtGlbSafe1_UB"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1CarModSts1"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1CarModSubtypWdCarModSubtyp"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1Chks"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1Cntr"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1EgyLvlElecMai"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1EgyLvlElecSubtyp"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1FltEgyCnsWdSts"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1PwrLvlElecMai"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1PwrLvlElecSubtyp"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1UsgModSts"
+      },
+      {
+        "signal": "VehModMngtGlbSafe1UsgModSts"
+      }
     ]
   },
   {
@@ -1193,10 +2606,21 @@
     "message": "VddmChas1Fr22",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ SteerSetg_UB : 51|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ SteerSetgPen : 59|4@0+ (1,0) [0|15] \"\" PSCM1",
-      "SG_ SteerSetgSteerAsscLvl : 62|3@0+ (1,0) [0|7] \"\" PSCM1",
-      "SG_ SteerSetgSteerMod : 50|3@0+ (1,0) [0|7] \"\" PSCM1"
+      {
+        "signal": "SteerSetg_UB"
+      },
+      {
+        "signal": "SteerSetgPen"
+      },
+      {
+        "signal": "SteerSetgSteerAsscLvl"
+      },
+      {
+        "signal": "SteerSetgSteerMod"
+      },
+      {
+        "signal": "SteerSetgSteerMod"
+      }
     ]
   },
   {
@@ -1204,10 +2628,21 @@
     "message": "VddmChas1Fr23",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ CmptmtTFrnt_UB : 23|1@0+ (1,0) [0|1] \"\" SAS",
-      "SG_ CmptmtTFrntCmptmtTFrnt : 21|11@0+ (0.1,-60.0) [-60.0|125.0] \"degC\" SAS",
-      "SG_ CmptmtTFrntFanForCmptmtTRunng : 24|1@0+ (1,0) [0|1] \"\" SAS",
-      "SG_ CmptmtTFrntQf : 26|2@0+ (1,0) [0|3] \"\" SAS"
+      {
+        "signal": "CmptmtTFrnt_UB"
+      },
+      {
+        "signal": "CmptmtTFrntCmptmtTFrnt"
+      },
+      {
+        "signal": "CmptmtTFrntFanForCmptmtTRunng"
+      },
+      {
+        "signal": "CmptmtTFrntQf"
+      },
+      {
+        "signal": "CmptmtTFrntQf"
+      }
     ]
   },
   {
@@ -1215,15 +2650,36 @@
     "message": "VddmChas1Fr24",
     "sender_node": "BBM",
     "SG": [
-      "SG_ HsaSt : 57|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ HsaSt_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ LVPwrSplyErrSts : 51|4@0+ (1,0) [0|15] \"\" Vector__XXX",
-      "SG_ LVPwrSplyErrSts_UB : 59|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ WhlFastSpdSafe_UB : 6|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ WhlFastSpdSafeA : 14|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1",
-      "SG_ WhlFastSpdSafeChks : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlFastSpdSafeCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ WhlFastSpdSafeQF : 5|2@0+ (1,0) [0|3] \"\" PSCM1"
+      {
+        "signal": "HsaSt"
+      },
+      {
+        "signal": "HsaSt_UB"
+      },
+      {
+        "signal": "LVPwrSplyErrSts"
+      },
+      {
+        "signal": "LVPwrSplyErrSts_UB"
+      },
+      {
+        "signal": "WhlFastSpdSafe_UB"
+      },
+      {
+        "signal": "WhlFastSpdSafeA"
+      },
+      {
+        "signal": "WhlFastSpdSafeChks"
+      },
+      {
+        "signal": "WhlFastSpdSafeCntr"
+      },
+      {
+        "signal": "WhlFastSpdSafeQF"
+      },
+      {
+        "signal": "WhlFastSpdSafeQF"
+      }
     ]
   },
   {
@@ -1231,14 +2687,33 @@
     "message": "VddmChas1Fr30",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ VehCfgPrmBlkIDBytePosn1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-      "SG_ VehCfgPrmCCPBytePosn8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS"
+      {
+        "signal": "VehCfgPrmBlkIDBytePosn1"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn2"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn3"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn4"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn5"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn6"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn7"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn8"
+      },
+      {
+        "signal": "VehCfgPrmCCPBytePosn8"
+      }
     ]
   },
   {
@@ -1246,14 +2721,33 @@
     "message": "VddmChas1Fr33",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ VehCfgPrmExtBlkIDBytePosn1 : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn2 : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn3 : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn4 : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn5 : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn6 : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-      "SG_ VehCfgPrmExtCCPBytePosn8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM"
+      {
+        "signal": "VehCfgPrmExtBlkIDBytePosn1"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn2"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn3"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn4"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn5"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn6"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn7"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn8"
+      },
+      {
+        "signal": "VehCfgPrmExtCCPBytePosn8"
+      }
     ]
   },
   {
@@ -1261,21 +2755,54 @@
     "message": "VddmChas1Fr41",
     "sender_node": "BBM",
     "SG": [
-      "SG_ AbsSts : 57|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ AbsSts_UB : 56|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ DrvModReq : 61|4@0+ (1,0) [0|15] \"\" PSCM1",
-      "SG_ DrvModReq_UB : 62|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ HvacHexAirT_UB : 38|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ HvacHexAirTHvacAirTForHeatrFrnt : 36|13@0- (0.1,0.0) [-256.0|255.9] \"degC\" Vector__XXX",
-      "SG_ HvacHexAirTHvacAirTForHeatrFrntQf : 37|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ TelmBookChrgnReq : 25|2@0+ (1,0) [0|3] \"\" Vector__XXX",
-      "SG_ TelmBookChrgnReq_UB : 63|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ TelmBookChrgnTyp : 55|3@0+ (1,0) [0|7] \"\" Vector__XXX",
-      "SG_ TelmBookChrgnTyp_UB : 52|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ ULoWarn_UB : 6|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ ULoWarnChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ ULoWarnCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ ULoWarnULoWarn : 5|2@0+ (1,0) [0|3] \"\" PSCM1"
+      {
+        "signal": "AbsSts"
+      },
+      {
+        "signal": "AbsSts_UB"
+      },
+      {
+        "signal": "DrvModReq"
+      },
+      {
+        "signal": "DrvModReq_UB"
+      },
+      {
+        "signal": "HvacHexAirT_UB"
+      },
+      {
+        "signal": "HvacHexAirTHvacAirTForHeatrFrnt"
+      },
+      {
+        "signal": "HvacHexAirTHvacAirTForHeatrFrntQf"
+      },
+      {
+        "signal": "TelmBookChrgnReq"
+      },
+      {
+        "signal": "TelmBookChrgnReq_UB"
+      },
+      {
+        "signal": "TelmBookChrgnTyp"
+      },
+      {
+        "signal": "TelmBookChrgnTyp_UB"
+      },
+      {
+        "signal": "ULoWarn_UB"
+      },
+      {
+        "signal": "ULoWarnChks"
+      },
+      {
+        "signal": "ULoWarnCntr"
+      },
+      {
+        "signal": "ULoWarnULoWarn"
+      },
+      {
+        "signal": "ULoWarnULoWarn"
+      }
     ]
   },
   {
@@ -1283,10 +2810,21 @@
     "message": "VddmChas1Fr44",
     "sender_node": "BBM",
     "SG": [
-      "SG_ EscSt_UB : 39|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ EscStChks : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ EscStCntr : 35|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ EscStEscSt : 38|3@0+ (1,0) [0|7] \"\" PSCM1"
+      {
+        "signal": "EscSt_UB"
+      },
+      {
+        "signal": "EscStChks"
+      },
+      {
+        "signal": "EscStCntr"
+      },
+      {
+        "signal": "EscStEscSt"
+      },
+      {
+        "signal": "EscStEscSt"
+      }
     ]
   },
   {
@@ -1294,17 +2832,42 @@
     "message": "VddmChas1Fr46",
     "sender_node": "BBM",
     "SG": [
-      "SG_ BrkTracCtrlActv : 20|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ BrkTracCtrlActv_UB : 21|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ HvacHeatgReq : 23|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ HvacHeatgReq_UB : 22|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-      "SG_ WhlRotToothCntr_UB : 5|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ WhlRotToothCntrChks : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlRotToothCntrCntr : 19|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ WhlRotToothCntrFrntLe : 39|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlRotToothCntrFrntRi : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlRotToothCntrReLe : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlRotToothCntrReRi : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1"
+      {
+        "signal": "BrkTracCtrlActv"
+      },
+      {
+        "signal": "BrkTracCtrlActv_UB"
+      },
+      {
+        "signal": "HvacHeatgReq"
+      },
+      {
+        "signal": "HvacHeatgReq_UB"
+      },
+      {
+        "signal": "WhlRotToothCntr_UB"
+      },
+      {
+        "signal": "WhlRotToothCntrChks"
+      },
+      {
+        "signal": "WhlRotToothCntrCntr"
+      },
+      {
+        "signal": "WhlRotToothCntrFrntLe"
+      },
+      {
+        "signal": "WhlRotToothCntrFrntRi"
+      },
+      {
+        "signal": "WhlRotToothCntrReLe"
+      },
+      {
+        "signal": "WhlRotToothCntrReRi"
+      },
+      {
+        "signal": "WhlRotToothCntrReRi"
+      }
     ]
   },
   {
@@ -1312,10 +2875,21 @@
     "message": "VddmChas1Fr47",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ AgDataCmpQuality_UB : 43|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ AgDataCmpQualityPitchRateCmpQuality : 7|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ AgDataCmpQualityRollRateCmpQuality : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ AgDataCmpQualityYawRateCmpQuality : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1"
+      {
+        "signal": "AgDataCmpQuality_UB"
+      },
+      {
+        "signal": "AgDataCmpQualityPitchRateCmpQuality"
+      },
+      {
+        "signal": "AgDataCmpQualityRollRateCmpQuality"
+      },
+      {
+        "signal": "AgDataCmpQualityYawRateCmpQuality"
+      },
+      {
+        "signal": "AgDataCmpQualityYawRateCmpQuality"
+      }
     ]
   },
   {
@@ -1323,10 +2897,21 @@
     "message": "VddmChas1Fr48",
     "sender_node": "BBM",
     "SG": [
-      "SG_ VehMtnSt_UB : 7|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ VehMtnStChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ VehMtnStCntr : 6|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ VehMtnStVehMtnSt : 2|3@0+ (1,0) [0|7] \"\" PSCM1"
+      {
+        "signal": "VehMtnSt_UB"
+      },
+      {
+        "signal": "VehMtnStChks"
+      },
+      {
+        "signal": "VehMtnStCntr"
+      },
+      {
+        "signal": "VehMtnStVehMtnSt"
+      },
+      {
+        "signal": "VehMtnStVehMtnSt"
+      }
     ]
   },
   {
@@ -1334,12 +2919,27 @@
     "message": "VddmChas1Fr49",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ CarTiGlb : 7|32@0+ (0.1,0.0) [0.0|429496729.5] \"s\" PSCM1,SAS",
-      "SG_ CarTiGlb_UB : 57|1@0+ (1,0) [0|1] \"\" PSCM1,SAS",
-      "SG_ ProfPenSts1 : 55|4@0+ (1,0) [0|15] \"\" PSCM1",
-      "SG_ ProfPenSts1_UB : 51|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ SaveSetgToMemPrmnt : 50|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ SaveSetgToMemPrmnt_UB : 48|1@0+ (1,0) [0|1] \"\" PSCM1"
+      {
+        "signal": "CarTiGlb"
+      },
+      {
+        "signal": "CarTiGlb_UB"
+      },
+      {
+        "signal": "ProfPenSts1"
+      },
+      {
+        "signal": "ProfPenSts1_UB"
+      },
+      {
+        "signal": "SaveSetgToMemPrmnt"
+      },
+      {
+        "signal": "SaveSetgToMemPrmnt_UB"
+      },
+      {
+        "signal": "SaveSetgToMemPrmnt_UB"
+      }
     ]
   },
   {
@@ -1347,9 +2947,18 @@
     "message": "VddmChas1Fr50",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ VehBattU_UB : 54|1@0+ (1,0) [0|1] \"\" PSCM1,SAS",
-      "SG_ VehBattUSysU : 63|8@0+ (0.1,0.0) [0.0|25.0] \"Volt\" PSCM1,SAS",
-      "SG_ VehBattUSysUQf : 49|2@0+ (1,0) [0|3] \"\" PSCM1,SAS"
+      {
+        "signal": "VehBattU_UB"
+      },
+      {
+        "signal": "VehBattUSysU"
+      },
+      {
+        "signal": "VehBattUSysUQf"
+      },
+      {
+        "signal": "VehBattUSysUQf"
+      }
     ]
   },
   {
@@ -1357,10 +2966,21 @@
     "message": "VddmChas1Fr53",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ BkpOfDstTrvld : 7|21@0+ (1.0,0.0) [0.0|2000000.0] \"km\" PSCM1,SAS",
-      "SG_ BkpOfDstTrvld_UB : 53|1@0+ (1,0) [0|1] \"\" PSCM1,SAS",
-      "SG_ DrvModReqForChampnMod : 18|3@0+ (1,0) [0|7] \"\" PSCM1",
-      "SG_ DrvModReqForChampnMod_UB : 54|1@0+ (1,0) [0|1] \"\" PSCM1"
+      {
+        "signal": "BkpOfDstTrvld"
+      },
+      {
+        "signal": "BkpOfDstTrvld_UB"
+      },
+      {
+        "signal": "DrvModReqForChampnMod"
+      },
+      {
+        "signal": "DrvModReqForChampnMod_UB"
+      },
+      {
+        "signal": "DrvModReqForChampnMod_UB"
+      }
     ]
   },
   {
@@ -1368,10 +2988,21 @@
     "message": "VddmChas1Fr54",
     "sender_node": "VDDM",
     "SG": [
-      "SG_ IDcDcActLoSide_UB : 4|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ IDcDcActLoSideChks : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ IDcDcActLoSideCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ IDcDcActLoSideIDcDcActLoSide : 23|12@0+ (0.1,0.0) [0.0|409.5] \"A\" PSCM1"
+      {
+        "signal": "IDcDcActLoSide_UB"
+      },
+      {
+        "signal": "IDcDcActLoSideChks"
+      },
+      {
+        "signal": "IDcDcActLoSideCntr"
+      },
+      {
+        "signal": "IDcDcActLoSideIDcDcActLoSide"
+      },
+      {
+        "signal": "IDcDcActLoSideIDcDcActLoSide"
+      }
     ]
   },
   {
@@ -1379,61 +3010,110 @@
     "message": "VddmChas1Fr55",
     "sender_node": "BBM",
     "SG": [
-      "SG_ WhlSpdCircumlRe_UB : 7|1@0+ (1,0) [0|1] \"\" PSCM1",
-      "SG_ WhlSpdCircumlReChks : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-      "SG_ WhlSpdCircumlReCntr : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-      "SG_ WhlSpdCircumlReLe : 6|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1",
-      "SG_ WhlSpdCircumlReLeQf : 27|2@0+ (1,0) [0|3] \"\" PSCM1",
-      "SG_ WhlSpdCircumlReRi : 39|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1",
-      "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1"
+      {
+        "signal": "WhlSpdCircumlRe_UB"
+      },
+      {
+        "signal": "WhlSpdCircumlReChks"
+      },
+      {
+        "signal": "WhlSpdCircumlReCntr"
+      },
+      {
+        "signal": "WhlSpdCircumlReLe"
+      },
+      {
+        "signal": "WhlSpdCircumlReLeQf"
+      },
+      {
+        "signal": "WhlSpdCircumlReRi"
+      },
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      },
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
     ]
   },
   {
     "BO": "BO_ 1313 VddmChas1NMFr : 8 VDDM",
     "message": "VddmChas1NMFr",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 2047 VddmToAllFuncChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToAllFuncChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1908 VddmToPscm100FITbChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToPscm100FITbChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1904 VddmToPscmChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToPscmChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1905 VddmToRasmChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToRasmChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1909 VddmToRbcmChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToRbcmChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1906 VddmToSasChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToSasChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   },
   {
     "BO": "BO_ 1911 VddmToShvcChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToShvcChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": []
+    "SG": [
+      {
+        "signal": "WhlSpdCircumlReRiQf"
+      }
+    ]
   }
 ]
