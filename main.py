@@ -44,7 +44,18 @@ with open(input_file_name, "r") as input_file:
                 if len(sg_parts) >= 2:
                     # Extract the SG information and add it to the current BO dictionary's SG list
                     current_sg = {
-                        "signal": sg_parts[1]
+                        "signal":line.strip(),
+                        "signal_name": sg_parts[1],
+                        "bit_position":sg_parts[3].split('|')[0].strip(),
+                        "length_of_bit":sg_parts[3].split('|')[1].strip("@0+"),
+                        "factor":sg_parts[4].strip("()").split(",")[0],
+                        "offset":sg_parts[4].strip("()").split(",")[1],
+                        "min_value":sg_parts[5].strip("[]").split("|")[0],
+                        "max_value":sg_parts[5].strip("[]").split("|")[1],
+                        "unit":sg_parts[6].strip("\"\""),
+                        "receiver_node":sg_parts[7]
+
+
                     }
                     current_bo["SG"].append(current_sg)
 
