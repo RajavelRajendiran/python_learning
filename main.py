@@ -18,7 +18,7 @@ with open(input_file_name, "r") as input_file:
         line = line.strip()
 
         # Skip lines that do not start with "BO_", "SG_", or other relevant prefixes
-        if not line.startswith(("BO_", "SG_", "BA_DEF_REL_", "BA_REL_", "BA_DEF_DEF_REL_", "BU_SG_REL_", "BU_EV_REL_", "BU_BO_REL_")):
+        if not line.startswith(("BO_", "SG_")):
             continue
 
         if line.startswith("BO_"):
