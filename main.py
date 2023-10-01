@@ -3,10 +3,8 @@ import json
 # Specify the input and output file names
 input_file_name = "ChassisCAN1.dbc"
 output_file_name = "CANoutput.json"
-
 # Initialize empty lists to store the extracted data
 extracted_data = []
-
 # Initialize variables to hold message, sender_node, and signal information
 current_bo = None
 current_sg = None
