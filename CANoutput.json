@@ -75,18 +75,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ RcwmBrkReqQM_UB : 10|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "RcwmBrkReqQM_UB",
-        "bit_position": "10",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -190,18 +178,6 @@
         "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ AsyPinionAgReqSafeAsyPinionAgReqCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-        "signal_name": "AsyPinionAgReqSafeAsyPinionAgReqCntr",
-        "bit_position": "47",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -209,20 +185,7 @@
     "BO": "BO_ 1321 AsdmChas1NMFr : 8 ASDM",
     "message": "AsdmChas1NMFr",
     "sender_node": "ASDM",
-    "SG": [
-      {
-        "signal": "SG_ AsyPinionAgReqSafeAsyPinionAgReqCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" PSCM1",
-        "signal_name": "AsyPinionAgReqSafeAsyPinionAgReqCntr",
-        "bit_position": "47",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 308 BcmChas1Fr01 : 8 BBM",
@@ -286,18 +249,6 @@
         "offset": "0.7",
         "min_value": "0.7",
         "max_value": "1.3003006",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ BrkWssInfoFrntWssCoreMonRob : 47|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-        "signal_name": "BrkWssInfoFrntWssCoreMonRob",
-        "bit_position": "47",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "RBCM"
       },
@@ -427,18 +378,6 @@
         "max_value": "15",
         "unit": "",
         "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ EpbStsEpbSts : 55|4@0+ (1,0) [0|15] \"\" RBCM",
-        "signal_name": "EpbStsEpbSts",
-        "bit_position": "55",
-        "length_of_bit": "4",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "15",
-        "unit": "",
-        "receiver_node": "RBCM"
       }
     ]
   },
@@ -457,18 +396,6 @@
         "min_value": "0.0",
         "max_value": "255.0",
         "unit": "Unitless",
-        "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ SBMHealthChkCmd_UB : 27|1@0+ (1,0) [0|1] \"\" RBCM",
-        "signal_name": "SBMHealthChkCmd_UB",
-        "bit_position": "27",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "RBCM"
       },
       {
@@ -583,18 +510,6 @@
         "offset": "0.0",
         "min_value": "0.0",
         "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ RbuCtrlModReqSafeCntr : 35|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-        "signal_name": "RbuCtrlModReqSafeCntr",
-        "bit_position": "35",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "RBCM"
       },
@@ -820,18 +735,6 @@
         "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ PrimBrkSysStCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" RBCM",
-        "signal_name": "PrimBrkSysStCntr",
-        "bit_position": "3",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
       }
     ]
   },
@@ -856,7 +759,7 @@
         "signal": "SG_ ALgtStdFromWhlSpdALgtStdFromWhlSpd : 23|16@0- (0.0009765625,0.0) [-18.0|18.0] \"m/s^2\" IEM",
         "signal_name": "ALgtStdFromWhlSpdALgtStdFromWhlSpd",
         "bit_position": "23",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "0.0009765625",
         "offset": "0.0",
         "min_value": "-18.0",
@@ -899,18 +802,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "IEM"
-      },
-      {
-        "signal": "SG_ ALgtStdFromWhlSpdQf : 5|2@0+ (1,0) [0|3] \"\" IEM",
-        "signal_name": "ALgtStdFromWhlSpdQf",
-        "bit_position": "5",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "IEM"
       }
     ]
   },
@@ -918,20 +809,7 @@
     "BO": "BO_ 1334 BcmChas1NMFr : 8 BBM",
     "message": "BcmChas1NMFr",
     "sender_node": "BBM",
-    "SG": [
-      {
-        "signal": "SG_ ALgtStdFromWhlSpdQf : 5|2@0+ (1,0) [0|3] \"\" IEM",
-        "signal_name": "ALgtStdFromWhlSpdQf",
-        "bit_position": "5",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "IEM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 544 EcmChas1BsgFr41 : 8 VDDM",
@@ -971,18 +849,6 @@
         "offset": "0.0",
         "min_value": "0.0",
         "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AccrPedlRatCntr : 31|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AccrPedlRatCntr",
-        "bit_position": "31",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "Vector__XXX"
       },
@@ -1045,7 +911,7 @@
         "signal": "SG_ PtTqAtWhlFrntActPtTqAtAxleFrntAct : 55|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" PSCM1",
         "signal_name": "PtTqAtWhlFrntActPtTqAtAxleFrntAct",
         "bit_position": "55",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-20000.0",
@@ -1057,7 +923,7 @@
         "signal": "SG_ PtTqAtWhlFrntActPtTqAtWhlFrntLeAct : 39|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" PSCM1",
         "signal_name": "PtTqAtWhlFrntActPtTqAtWhlFrntLeAct",
         "bit_position": "39",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-20000.0",
@@ -1069,24 +935,12 @@
         "signal": "SG_ PtTqAtWhlFrntActPtTqAtWhlFrntRiAct : 23|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" PSCM1",
         "signal_name": "PtTqAtWhlFrntActPtTqAtWhlFrntRiAct",
         "bit_position": "23",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-20000.0",
         "max_value": "20000.0",
         "unit": "NewtonMeter",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ PtTqAtWhlFrntActPtTqAtWhlsFrntQly : 6|3@0+ (1,0) [0|7] \"\" PSCM1",
-        "signal_name": "PtTqAtWhlFrntActPtTqAtWhlsFrntQly",
-        "bit_position": "6",
-        "length_of_bit": "3",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "7",
-        "unit": "",
         "receiver_node": "PSCM1"
       },
       {
@@ -1155,18 +1009,6 @@
         "max_value": "15",
         "unit": "",
         "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ EngSt1WdStsEngSt1WdSts : 11|4@0+ (1,0) [0|15] \"\" Vector__XXX",
-        "signal_name": "EngSt1WdStsEngSt1WdSts",
-        "bit_position": "11",
-        "length_of_bit": "4",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "15",
-        "unit": "",
-        "receiver_node": "Vector__XXX"
       }
     ]
   },
@@ -1222,18 +1064,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "SAS"
-      },
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
       }
     ]
   },
@@ -1241,153 +1071,49 @@
     "BO": "BO_ 1429 EtcToMvemXcpFr01 : 8 ETC",
     "message": "EtcToMvemXcpFr01",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1424 EtcToMvemXcpFr02 : 8 ETC",
     "message": "EtcToMvemXcpFr02",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1425 EtcToMvemXcpFr03 : 8 ETC",
     "message": "EtcToMvemXcpFr03",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1441 EtcToPscm1cChas1XcpFr01 : 8 ETC",
     "message": "EtcToPscm1cChas1XcpFr01",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1409 EtcToPscmChas1XcpFr01 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr01",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1416 EtcToPscmChas1XcpFr02 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr02",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1418 EtcToPscmChas1XcpFr03 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr03",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1420 EtcToPscmChas1XcpFr04 : 8 ETC",
     "message": "EtcToPscmChas1XcpFr04",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ EngSt1WdSts1_UB : 41|1@0+ (1,0) [0|1] \"\" SAS",
-        "signal_name": "EngSt1WdSts1_UB",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1431 EtcToPscmDevelFr : 8 ETC",
@@ -1489,18 +1215,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-        "signal_name": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -1508,20 +1222,7 @@
     "BO": "BO_ 1442 EtcToRasmChas1XcpFr01 : 8 ETC",
     "message": "EtcToRasmChas1XcpFr01",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-        "signal_name": "PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1504 EtcToRbcmChas1DevFr01 : 8 ETC",
@@ -1623,18 +1324,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-        "signal_name": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
       }
     ]
   },
@@ -1642,58 +1331,19 @@
     "BO": "BO_ 1414 EtcToTcmXcpFr01 : 8 ETC",
     "message": "EtcToTcmXcpFr01",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-        "signal_name": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1411 EtcToTcmXcpFr02 : 8 ETC",
     "message": "EtcToTcmXcpFr02",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-        "signal_name": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1421 EtctoVddmBcmXCPFr01 : 8 ETC",
     "message": "EtctoVddmBcmXCPFr01",
     "sender_node": "ETC",
-    "SG": [
-      {
-        "signal": "SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" RBCM",
-        "signal_name": "RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "RBCM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1432 EtctoVddmDevelFr01 : 8 ETC",
@@ -1776,18 +1426,6 @@
         "signal": "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
         "signal_name": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup7",
         "bit_position": "55",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "BBM"
-      },
-      {
-        "signal": "SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-        "signal_name": "VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8",
-        "bit_position": "63",
         "length_of_bit": "8",
         "factor": "1.0",
         "offset": "0.0",
@@ -1910,18 +1548,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "BBM"
-      },
-      {
-        "signal": "SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" BBM",
-        "signal_name": "VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "BBM"
       }
     ]
   },
@@ -1976,18 +1602,6 @@
         "min_value": "0.0",
         "max_value": "15.0",
         "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ PrkgPinionAgReqGroupQF : 11|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "PrkgPinionAgReqGroupQF",
-        "bit_position": "11",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
         "receiver_node": "PSCM1"
       },
       {
@@ -2056,18 +1670,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ PrkgGearReqGroupReqSts1 : 11|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "PrkgGearReqGroupReqSts1",
-        "bit_position": "11",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -2075,39 +1677,13 @@
     "BO": "BO_ 1331 Pscm100FITbChas1NMFr : 8 PSCM2",
     "message": "Pscm100FITbChas1NMFr",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PrkgGearReqGroupReqSts1 : 11|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "PrkgGearReqGroupReqSts1",
-        "bit_position": "11",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1652 Pscm100FITbToVddmChas1DiagResFrame : 8 PSCM2",
     "message": "Pscm100FITbToVddmChas1DiagResFrame",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PrkgGearReqGroupReqSts1 : 11|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "PrkgGearReqGroupReqSts1",
-        "bit_position": "11",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 246 PscmChas1Fr01 : 8 PSCM1",
@@ -2166,7 +1742,7 @@
         "signal": "SG_ FrntSteerFEstimd1 : 47|16@0- (1.0,0.0) [-32768.0|32767.0] \"N\" BBM",
         "signal_name": "FrntSteerFEstimd1",
         "bit_position": "47",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-32768.0",
@@ -2195,18 +1771,6 @@
         "offset": "0",
         "min_value": "0",
         "max_value": "3",
-        "unit": "",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ UBoostReqBySteerFrnt_UB : 57|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "UBoostReqBySteerFrnt_UB",
-        "bit_position": "57",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
         "unit": "",
         "receiver_node": "VDDM"
       },
@@ -2305,7 +1869,7 @@
         "signal": "SG_ SteerWhlTqAddl : 39|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" ASDM,BBM,VDDM",
         "signal_name": "SteerWhlTqAddl",
         "bit_position": "39",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.00390625",
         "offset": "0.0",
         "min_value": "-30.0",
@@ -2329,24 +1893,12 @@
         "signal": "SG_ TqAssAddl : 53|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" ASDM,VDDM",
         "signal_name": "TqAssAddl",
         "bit_position": "53",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.00390625",
         "offset": "0.0",
         "min_value": "-30.0",
         "max_value": "30.0",
         "unit": "NewtonMeter",
-        "receiver_node": "ASDM,VDDM"
-      },
-      {
-        "signal": "SG_ TqAssAddl_UB : 54|1@0+ (1,0) [0|1] \"\" ASDM,VDDM",
-        "signal_name": "TqAssAddl_UB",
-        "bit_position": "54",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "ASDM,VDDM"
       },
       {
@@ -2571,18 +2123,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "ASDM,BBM"
-      },
-      {
-        "signal": "SG_ SteerStsToParkAssi_UB : 0|1@0+ (1,0) [0|1] \"\" ASDM,BBM",
-        "signal_name": "SteerStsToParkAssi_UB",
-        "bit_position": "0",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "ASDM,BBM"
       }
     ]
   },
@@ -2595,24 +2135,12 @@
         "signal": "SG_ PinionSteerAgMax1 : 54|15@0- (0.0009765625,0.0) [-14.5|14.5] \"rad\" VDDM",
         "signal_name": "PinionSteerAgMax1",
         "bit_position": "54",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0009765625",
         "offset": "0.0",
         "min_value": "-14.5",
         "max_value": "14.5",
         "unit": "rad",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ PinionSteerAgMax1_UB : 55|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "PinionSteerAgMax1_UB",
-        "bit_position": "55",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "VDDM"
       },
       {
@@ -2674,7 +2202,7 @@
         "signal": "SG_ PinionSteerAgGroupPinionSteerAg1 : 46|15@0- (0.0009765625,0.0) [-14.5|14.5] \"rad\" ASDM,BBM,VDDM",
         "signal_name": "PinionSteerAgGroupPinionSteerAg1",
         "bit_position": "46",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0009765625",
         "offset": "0.0",
         "min_value": "-14.5",
@@ -2698,7 +2226,7 @@
         "signal": "SG_ PinionSteerAgGroupPinionSteerAgSpd1 : 13|14@0- (0.0078125,0.0) [-50.0|50.0] \"rad/s\" ASDM,BBM,VDDM",
         "signal_name": "PinionSteerAgGroupPinionSteerAgSpd1",
         "bit_position": "13",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.0078125",
         "offset": "0.0",
         "min_value": "-50.0",
@@ -2722,24 +2250,12 @@
         "signal": "SG_ PinionSteerAgGroupSteerWhlTq : 29|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" ASDM,BBM,VDDM",
         "signal_name": "PinionSteerAgGroupSteerWhlTq",
         "bit_position": "29",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.00390625",
         "offset": "0.0",
         "min_value": "-30.0",
         "max_value": "30.0",
         "unit": "NewtonMeter",
-        "receiver_node": "ASDM,BBM,VDDM"
-      },
-      {
-        "signal": "SG_ PinionSteerAgGroupSteerWhlTqQf : 59|2@0+ (1,0) [0|3] \"\" ASDM,BBM,VDDM",
-        "signal_name": "PinionSteerAgGroupSteerWhlTqQf",
-        "bit_position": "59",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
         "receiver_node": "ASDM,BBM,VDDM"
       },
       {
@@ -2760,20 +2276,7 @@
     "BO": "BO_ 1315 PscmChas1NMFr : 8 PSCM1",
     "message": "PscmChas1NMFr",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PinionSteerAgGroupSteerWhlTqQf : 59|2@0+ (1,0) [0|3] \"\" ASDM,BBM,VDDM",
-        "signal_name": "PinionSteerAgGroupSteerWhlTqQf",
-        "bit_position": "59",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "ASDM,BBM,VDDM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1430 PscmDevelpFr : 8 PSCM1",
@@ -2875,18 +2378,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "ETC"
-      },
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
       }
     ]
   },
@@ -2894,248 +2385,79 @@
     "BO": "BO_ 1410 PscmToEtcChas1XcpFr01 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr01",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1410 PscmToEtcChas1XcpFr01 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr01",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1417 PscmToEtcChas1XcpFr02 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr02",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1417 PscmToEtcChas1XcpFr02 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr02",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1419 PscmToEtcChas1XcpFr03 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr03",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1419 PscmToEtcChas1XcpFr03 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr03",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1415 PscmToEtcChas1XcpFr04 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr04",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1415 PscmToEtcChas1XcpFr04 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr04",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1412 PscmToEtcChas1XcpFr05 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr05",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1412 PscmToEtcChas1XcpFr05 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr05",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1423 PscmToEtcChas1XcpFr06 : 8 PSCM1",
     "message": "PscmToEtcChas1XcpFr06",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1423 PscmToEtcChas1XcpFr06 : 8 PSCM2",
     "message": "PscmToEtcChas1XcpFr06",
     "sender_node": "PSCM2",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1648 PscmToVddmChas1DiagResFrame : 8 PSCM1",
     "message": "PscmToVddmChas1DiagResFrame",
     "sender_node": "PSCM1",
-    "SG": [
-      {
-        "signal": "SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 66 RbcmChas1Fr01 : 8 RBCM",
@@ -3237,18 +2559,6 @@
         "max_value": "7",
         "unit": "",
         "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ TakeoverWarnForBackupTakeoverWarnForBackup : 6|3@0+ (1,0) [0|7] \"\" Vector__XXX",
-        "signal_name": "TakeoverWarnForBackupTakeoverWarnForBackup",
-        "bit_position": "6",
-        "length_of_bit": "3",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "7",
-        "unit": "",
-        "receiver_node": "Vector__XXX"
       }
     ]
   },
@@ -3321,7 +2631,7 @@
         "signal": "SG_ AD4IMUStatIMUTemp : 47|16@0- (0.01,0.0) [-50.0|150.0] \"degC\" Vector__XXX",
         "signal_name": "AD4IMUStatIMUTemp",
         "bit_position": "47",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "0.01",
         "offset": "0.0",
         "min_value": "-50.0",
@@ -3362,18 +2672,6 @@
         "offset": "0.0",
         "min_value": "0.0",
         "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "BBM,VDDM"
-      },
-      {
-        "signal": "SG_ SecBrkSysStCntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" BBM,VDDM",
-        "signal_name": "SecBrkSysStCntr",
-        "bit_position": "3",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "BBM,VDDM"
       },
@@ -3503,18 +2801,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ VehSpdLgtForBkpVehSpdLgtQf : 17|2@0+ (1,0) [0|3] \"\" VDDM",
-        "signal_name": "VehSpdLgtForBkpVehSpdLgtQf",
-        "bit_position": "17",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -3593,18 +2879,6 @@
         "min_value": "0",
         "max_value": "3",
         "unit": "",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi : 23|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" VDDM",
-        "signal_name": "WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi",
-        "bit_position": "23",
-        "length_of_bit": "15",
-        "factor": "0.00391",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "125.0027",
-        "unit": "m/s",
         "receiver_node": "VDDM"
       },
       {
@@ -3709,18 +2983,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf : 5|2@0+ (1,0) [0|3] \"\" VDDM",
-        "signal_name": "WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf",
-        "bit_position": "5",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -3812,18 +3074,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ WhlRotToothCntrForBkpWhlRotToothCntrReRi : 31|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" VDDM",
-        "signal_name": "WhlRotToothCntrForBkpWhlRotToothCntrReRi",
-        "bit_position": "31",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -3848,7 +3098,7 @@
         "signal": "SG_ AD4IMUAcceXAcce : 7|32@0- (0.00002,0.0) [-10.0|10.0] \"g\" Vector__XXX",
         "signal_name": "AD4IMUAcceXAcce",
         "bit_position": "7",
-        "length_of_bit": "32@0-",
+        "length_of_bit": "32",
         "factor": "0.00002",
         "offset": "0.0",
         "min_value": "-10.0",
@@ -3872,18 +3122,6 @@
         "signal": "SG_ AD4IMUAcceXCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
         "signal_name": "AD4IMUAcceXCntr",
         "bit_position": "47",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AD4IMUAcceXHead : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUAcceXHead",
-        "bit_position": "43",
         "length_of_bit": "4",
         "factor": "1.0",
         "offset": "0.0",
@@ -3927,7 +3165,7 @@
         "signal": "SG_ AD4IMUAcceYAcce : 7|32@0- (0.00002,0.0) [-10.0|10.0] \"g\" Vector__XXX",
         "signal_name": "AD4IMUAcceYAcce",
         "bit_position": "7",
-        "length_of_bit": "32@0-",
+        "length_of_bit": "32",
         "factor": "0.00002",
         "offset": "0.0",
         "min_value": "-10.0",
@@ -3951,18 +3189,6 @@
         "signal": "SG_ AD4IMUAcceYCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
         "signal_name": "AD4IMUAcceYCntr",
         "bit_position": "47",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AD4IMUAcceYHead : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUAcceYHead",
-        "bit_position": "43",
         "length_of_bit": "4",
         "factor": "1.0",
         "offset": "0.0",
@@ -4006,7 +3232,7 @@
         "signal": "SG_ AD4IMUAcceZAcce : 7|32@0- (0.00002,0.0) [-10.0|10.0] \"g\" Vector__XXX",
         "signal_name": "AD4IMUAcceZAcce",
         "bit_position": "7",
-        "length_of_bit": "32@0-",
+        "length_of_bit": "32",
         "factor": "0.00002",
         "offset": "0.0",
         "min_value": "-10.0",
@@ -4030,18 +3256,6 @@
         "signal": "SG_ AD4IMUAcceZCntr : 47|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
         "signal_name": "AD4IMUAcceZCntr",
         "bit_position": "47",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AD4IMUAcceZHead : 43|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUAcceZHead",
-        "bit_position": "43",
         "length_of_bit": "4",
         "factor": "1.0",
         "offset": "0.0",
@@ -4109,24 +3323,12 @@
         "signal": "SG_ AD4IMUGyroXGyro : 23|32@0- (0.001,0.0) [-500.0|500.0] \"DegPerSec\" Vector__XXX",
         "signal_name": "AD4IMUGyroXGyro",
         "bit_position": "23",
-        "length_of_bit": "32@0-",
+        "length_of_bit": "32",
         "factor": "0.001",
         "offset": "0.0",
         "min_value": "-500.0",
         "max_value": "500.0",
         "unit": "DegPerSec",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AD4IMUGyroXHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUGyroXHead",
-        "bit_position": "11",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
         "receiver_node": "Vector__XXX"
       },
       {
@@ -4188,24 +3390,12 @@
         "signal": "SG_ AD4IMUGyroYGyro : 23|32@0- (0.001,0.0) [-500.0|500.0] \"DegPerSec\" Vector__XXX",
         "signal_name": "AD4IMUGyroYGyro",
         "bit_position": "23",
-        "length_of_bit": "32@0-",
+        "length_of_bit": "32",
         "factor": "0.001",
         "offset": "0.0",
         "min_value": "-500.0",
         "max_value": "500.0",
         "unit": "DegPerSec",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AD4IMUGyroYHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUGyroYHead",
-        "bit_position": "11",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
         "receiver_node": "Vector__XXX"
       },
       {
@@ -4267,24 +3457,12 @@
         "signal": "SG_ AD4IMUGyroZGyro : 23|32@0- (0.001,0.0) [-500.0|500.0] \"DegPerSec\" Vector__XXX",
         "signal_name": "AD4IMUGyroZGyro",
         "bit_position": "23",
-        "length_of_bit": "32@0-",
+        "length_of_bit": "32",
         "factor": "0.001",
         "offset": "0.0",
         "min_value": "-500.0",
         "max_value": "500.0",
         "unit": "DegPerSec",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ AD4IMUGyroZHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUGyroZHead",
-        "bit_position": "11",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
         "receiver_node": "Vector__XXX"
       },
       {
@@ -4305,20 +3483,7 @@
     "BO": "BO_ 1333 RbcmChas1NMFr : 8 RBCM",
     "message": "RbcmChas1NMFr",
     "sender_node": "RBCM",
-    "SG": [
-      {
-        "signal": "SG_ AD4IMUGyroZHead : 11|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" Vector__XXX",
-        "signal_name": "AD4IMUGyroZHead",
-        "bit_position": "11",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "Vector__XXX"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1383 RbcmChas1VFCVectorFr : 8 RBCM",
@@ -5080,18 +4245,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "ETC"
-      },
-      {
-        "signal": "SG_ VFCVectorRBCMVFCid9 : 11|1@0+ (1,0) [0|1] \"\" ETC",
-        "signal_name": "VFCVectorRBCMVFCid9",
-        "bit_position": "11",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "ETC"
       }
     ]
   },
@@ -5195,18 +4348,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "ETC"
-      },
-      {
-        "signal": "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
       }
     ]
   },
@@ -5214,20 +4355,7 @@
     "BO": "BO_ 1653 RbcmToVddmChas1DiagResFrame : 8 RBCM",
     "message": "RbcmToVddmChas1DiagResFrame",
     "sender_node": "RBCM",
-    "SG": [
-      {
-        "signal": "SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 64 SasChas1Fr01 : 8 SAS",
@@ -5250,7 +4378,7 @@
         "signal": "SG_ SteerWhlSnsrAg : 6|15@0- (0.0009765625,0.0) [-14.5|14.5] \"rad\" ASDM,BBM,PSCM1,RBCM,VDDM",
         "signal_name": "SteerWhlSnsrAg",
         "bit_position": "6",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0009765625",
         "offset": "0.0",
         "min_value": "-14.5",
@@ -5262,7 +4390,7 @@
         "signal": "SG_ SteerWhlSnsrAgSpd : 21|14@0- (0.0078125,0.0) [-50.0|50.0] \"rad/s\" ASDM,BBM,PSCM1,RBCM,VDDM",
         "signal_name": "SteerWhlSnsrAgSpd",
         "bit_position": "21",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.0078125",
         "offset": "0.0",
         "min_value": "-50.0",
@@ -5305,18 +4433,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "ASDM,BBM,PSCM1,RBCM,VDDM"
-      },
-      {
-        "signal": "SG_ SteerWhlSnsrQf : 23|2@0+ (1,0) [0|3] \"\" ASDM,BBM,PSCM1,RBCM,VDDM",
-        "signal_name": "SteerWhlSnsrQf",
-        "bit_position": "23",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "ASDM,BBM,PSCM1,RBCM,VDDM"
       }
     ]
   },
@@ -5324,39 +4440,13 @@
     "BO": "BO_ 1319 SasChas1NMFr : 8 SAS",
     "message": "SasChas1NMFr",
     "sender_node": "SAS",
-    "SG": [
-      {
-        "signal": "SG_ SteerWhlSnsrQf : 23|2@0+ (1,0) [0|3] \"\" ASDM,BBM,PSCM1,RBCM,VDDM",
-        "signal_name": "SteerWhlSnsrQf",
-        "bit_position": "23",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "ASDM,BBM,PSCM1,RBCM,VDDM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1650 SasToVddmChas1DiagResFrame : 8 SAS",
     "message": "SasToVddmChas1DiagResFrame",
     "sender_node": "SAS",
-    "SG": [
-      {
-        "signal": "SG_ SteerWhlSnsrQf : 23|2@0+ (1,0) [0|3] \"\" ASDM,BBM,PSCM1,RBCM,VDDM",
-        "signal_name": "SteerWhlSnsrQf",
-        "bit_position": "23",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "ASDM,BBM,PSCM1,RBCM,VDDM"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 512 TcmChas1Fr09 : 8 IEM",
@@ -5367,18 +4457,6 @@
         "signal": "SG_ TrsmClrRdyReq : 21|1@0+ (1,0) [0|1] \"\" VDDM",
         "signal_name": "TrsmClrRdyReq",
         "bit_position": "21",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmClrRdyReq_UB : 20|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmClrRdyReq_UB",
-        "bit_position": "20",
         "length_of_bit": "1",
         "factor": "1",
         "offset": "0",
@@ -5429,18 +4507,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmModAct_UB : 59|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmModAct_UB",
-        "bit_position": "59",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -5459,18 +4525,6 @@
         "min_value": "0.0",
         "max_value": "255.0",
         "unit": "Unitless",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmModNotAvlSts_UB : 48|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmModNotAvlSts_UB",
-        "bit_position": "48",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "VDDM"
       },
       {
@@ -5580,24 +4634,12 @@
         "signal": "SG_ TrsmTqLossTrsmTqEff : 1|10@0+ (0.1,0.0) [0.0|100.0] \"%\" VDDM",
         "signal_name": "TrsmTqLossTrsmTqEff",
         "bit_position": "1",
-        "length_of_bit": "1",
+        "length_of_bit": "10",
         "factor": "0.1",
         "offset": "0.0",
         "min_value": "0.0",
         "max_value": "100.0",
         "unit": "%",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmTqLossTrsmTqLoss : 31|8@0+ (0.5,0.0) [0.0|127.0] \"Unitless\" VDDM",
-        "signal_name": "TrsmTqLossTrsmTqLoss",
-        "bit_position": "31",
-        "length_of_bit": "8",
-        "factor": "0.5",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "127.0",
-        "unit": "Unitless",
         "receiver_node": "VDDM"
       },
       {
@@ -5629,18 +4671,6 @@
         "min_value": "0.0",
         "max_value": "4095.0",
         "unit": "Unitless",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmGearNotAvlSts_UB : 28|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmGearNotAvlSts_UB",
-        "bit_position": "28",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "VDDM"
       },
       {
@@ -5733,18 +4763,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmWhlMotSysSpdReq_UB : 55|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmWhlMotSysSpdReq_UB",
-        "bit_position": "55",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -5793,7 +4811,7 @@
         "signal": "SG_ TrsmN2TrsmNInp : 23|15@0- (1.0,0.0) [-16384.0|16383.0] \"rpm\" VDDM",
         "signal_name": "TrsmN2TrsmNInp",
         "bit_position": "23",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-16384.0",
@@ -5817,24 +4835,12 @@
         "signal": "SG_ TrsmN2TrsmNOutp : 39|15@0- (1.0,0.0) [-16384.0|16383.0] \"rpm\" VDDM",
         "signal_name": "TrsmN2TrsmNOutp",
         "bit_position": "39",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-16384.0",
         "max_value": "16383.0",
         "unit": "rpm",
-        "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmN2TrsmNOutpOk : 5|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmN2TrsmNOutpOk",
-        "bit_position": "5",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "VDDM"
       },
       {
@@ -5879,18 +4885,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "VDDM"
-      },
-      {
-        "signal": "SG_ TrsmShiftInProgD2_UB : 54|1@0+ (1,0) [0|1] \"\" VDDM",
-        "signal_name": "TrsmShiftInProgD2_UB",
-        "bit_position": "54",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "VDDM"
       }
     ]
   },
@@ -5903,24 +4897,12 @@
         "signal": "SG_ PrpsnTqReReq : 55|16@0- (1.0,0.0) [-20000.0|20000.0] \"NewtonMeter\" IEM",
         "signal_name": "PrpsnTqReReq",
         "bit_position": "55",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "1.0",
         "offset": "0.0",
         "min_value": "-20000.0",
         "max_value": "20000.0",
         "unit": "NewtonMeter",
-        "receiver_node": "IEM"
-      },
-      {
-        "signal": "SG_ PrpsnTqReReq_UB : 19|1@0+ (1,0) [0|1] \"\" IEM",
-        "signal_name": "PrpsnTqReReq_UB",
-        "bit_position": "19",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "IEM"
       },
       {
@@ -5989,18 +4971,6 @@
         "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "BBM"
-      },
-      {
-        "signal": "SG_ SecParkBrkSysSt2Cntr : 3|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" BBM",
-        "signal_name": "SecParkBrkSysSt2Cntr",
-        "bit_position": "3",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
-        "unit": "Unitless",
-        "receiver_node": "BBM"
       }
     ]
   },
@@ -6049,24 +5019,12 @@
         "signal": "SG_ AgDataRaw2SafePitchRate : 55|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" RBCM",
         "signal_name": "AgDataRaw2SafePitchRate",
         "bit_position": "55",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "0.000244140625",
         "offset": "0.0",
         "min_value": "-6.0",
         "max_value": "6.0",
         "unit": "rad/s",
-        "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ AgDataRaw2SafePitchRateQf : 37|2@0+ (1,0) [0|3] \"\" RBCM",
-        "signal_name": "AgDataRaw2SafePitchRateQf",
-        "bit_position": "37",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
         "receiver_node": "RBCM"
       },
       {
@@ -6092,18 +5050,6 @@
         "signal": "SG_ RlyPwrDistbnCmd1WdIgnRlyCmd : 58|1@0+ (1,0) [0|1] \"\" RBCM",
         "signal_name": "RlyPwrDistbnCmd1WdIgnRlyCmd",
         "bit_position": "58",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ RlyPwrDistbnCmd1WdIgnRlyCmd_UB : 57|1@0+ (1,0) [0|1] \"\" RBCM",
-        "signal_name": "RlyPwrDistbnCmd1WdIgnRlyCmd_UB",
-        "bit_position": "57",
         "length_of_bit": "1",
         "factor": "1",
         "offset": "0",
@@ -6213,18 +5159,6 @@
         "min_value": "0.0",
         "max_value": "59.0",
         "unit": "s",
-        "receiver_node": "RBCM"
-      },
-      {
-        "signal": "SG_ TiAndDateIndcnYr1 : 46|7@0+ (1.0,0.0) [0.0|99.0] \"Year\" RBCM",
-        "signal_name": "TiAndDateIndcnYr1",
-        "bit_position": "46",
-        "length_of_bit": "7",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "99.0",
-        "unit": "Year",
         "receiver_node": "RBCM"
       },
       {
@@ -7001,18 +5935,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "ETC"
-      },
-      {
-        "signal": "SG_ VFCVectorVCUVFCid9 : 11|1@0+ (1,0) [0|1] \"\" ETC",
-        "signal_name": "VFCVectorVCUVFCid9",
-        "bit_position": "11",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "ETC"
       }
     ]
   },
@@ -7097,18 +6019,6 @@
         "signal": "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
         "signal_name": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup7",
         "bit_position": "55",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
-      },
-      {
-        "signal": "SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8",
-        "bit_position": "63",
         "length_of_bit": "8",
         "factor": "1.0",
         "offset": "0.0",
@@ -7231,18 +6141,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "ETC"
-      },
-      {
-        "signal": "SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" ETC",
-        "signal_name": "VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "ETC"
       }
     ]
   },
@@ -7279,7 +6177,7 @@
         "signal": "SG_ AsyDataWithCmpSafeALatWithCmp : 55|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" PSCM1",
         "signal_name": "AsyDataWithCmpSafeALatWithCmp",
         "bit_position": "55",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0085",
         "offset": "0.0",
         "min_value": "-138.99200000000002",
@@ -7327,7 +6225,7 @@
         "signal": "SG_ AsyDataWithCmpSafeGrdtOfALgt : 31|14@0- (0.00390625,0.0) [-30.0|30.0] \"m/s^3\" PSCM1",
         "signal_name": "AsyDataWithCmpSafeGrdtOfALgt",
         "bit_position": "31",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.00390625",
         "offset": "0.0",
         "min_value": "-30.0",
@@ -7351,19 +6249,7 @@
         "signal": "SG_ AsyDataWithCmpSafeYawRateWithCmp : 7|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1",
         "signal_name": "AsyDataWithCmpSafeYawRateWithCmp",
         "bit_position": "7",
-        "length_of_bit": "16@0-",
-        "factor": "0.000244140625",
-        "offset": "0.0",
-        "min_value": "-6.0",
-        "max_value": "6.0",
-        "unit": "rad/s",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ AsyDataWithCmpSafeYawRateWithCmp : 7|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1",
-        "signal_name": "AsyDataWithCmpSafeYawRateWithCmp",
-        "bit_position": "7",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "0.000244140625",
         "offset": "0.0",
         "min_value": "-6.0",
@@ -7394,7 +6280,7 @@
         "signal": "SG_ ADataRawSafeALat : 23|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" IEM,PSCM1,RBCM",
         "signal_name": "ADataRawSafeALat",
         "bit_position": "23",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0085",
         "offset": "0.0",
         "min_value": "-138.99200000000002",
@@ -7418,7 +6304,7 @@
         "signal": "SG_ ADataRawSafeALgt : 38|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" IEM,PSCM1,RBCM",
         "signal_name": "ADataRawSafeALgt",
         "bit_position": "38",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0085",
         "offset": "0.0",
         "min_value": "-138.99200000000002",
@@ -7442,7 +6328,7 @@
         "signal": "SG_ ADataRawSafeAVert : 55|15@0- (0.0085,0.0) [-138.99200000000002|139.00050000000002] \"m/s^2\" IEM,PSCM1,RBCM",
         "signal_name": "ADataRawSafeAVert",
         "bit_position": "55",
-        "length_of_bit": "15@0-",
+        "length_of_bit": "15",
         "factor": "0.0085",
         "offset": "0.0",
         "min_value": "-138.99200000000002",
@@ -7471,18 +6357,6 @@
         "offset": "0.0",
         "min_value": "0.0",
         "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "IEM,PSCM1,RBCM"
-      },
-      {
-        "signal": "SG_ ADataRawSafeCntr : 15|4@0+ (1.0,0.0) [0.0|15.0] \"Unitless\" IEM,PSCM1,RBCM",
-        "signal_name": "ADataRawSafeCntr",
-        "bit_position": "15",
-        "length_of_bit": "4",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "15.0",
         "unit": "Unitless",
         "receiver_node": "IEM,PSCM1,RBCM"
       },
@@ -7641,24 +6515,12 @@
         "signal": "SG_ LatCtrlReqSafeSteerTqReq : 39|14@0- (0.00390625,0.0) [-30.0|30.0] \"NewtonMeter\" PSCM1",
         "signal_name": "LatCtrlReqSafeSteerTqReq",
         "bit_position": "39",
-        "length_of_bit": "14@0-",
+        "length_of_bit": "14",
         "factor": "0.00390625",
         "offset": "0.0",
         "min_value": "-30.0",
         "max_value": "30.0",
         "unit": "NewtonMeter",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ LatCtrlReqSafeSteerWhlHptcWarnReq : 41|1@0+ (1,0) [0|1] \"\" PSCM1",
-        "signal_name": "LatCtrlReqSafeSteerWhlHptcWarnReq",
-        "bit_position": "41",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
         "receiver_node": "PSCM1"
       },
       {
@@ -7835,18 +6697,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "PSCM1,SAS"
-      },
-      {
-        "signal": "SG_ VehSpdLgtQf : 59|2@0+ (1,0) [0|3] \"\" PSCM1,SAS",
-        "signal_name": "VehSpdLgtQf",
-        "bit_position": "59",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1,SAS"
       }
     ]
   },
@@ -7907,18 +6757,6 @@
         "signal": "SG_ WhlBrkWrm : 36|1@0+ (1,0) [0|1] \"\" Vector__XXX",
         "signal_name": "WhlBrkWrm",
         "bit_position": "36",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "Vector__XXX"
-      },
-      {
-        "signal": "SG_ WhlBrkWrm_UB : 35|1@0+ (1,0) [0|1] \"\" Vector__XXX",
-        "signal_name": "WhlBrkWrm_UB",
-        "bit_position": "35",
         "length_of_bit": "1",
         "factor": "1",
         "offset": "0",
@@ -8101,18 +6939,6 @@
         "max_value": "125.0027",
         "unit": "m/s",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ WhlSpdCircumlFrntWhlSpdCircumlFrntRi : 39|15@0+ (0.00391,0.0) [0.0|125.0027] \"m/s\" PSCM1",
-        "signal_name": "WhlSpdCircumlFrntWhlSpdCircumlFrntRi",
-        "bit_position": "39",
-        "length_of_bit": "15",
-        "factor": "0.00391",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "125.0027",
-        "unit": "m/s",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -8161,7 +6987,7 @@
         "signal": "SG_ AgDataRawSafeRollRate : 7|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1,RBCM",
         "signal_name": "AgDataRawSafeRollRate",
         "bit_position": "7",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "0.000244140625",
         "offset": "0.0",
         "min_value": "-6.0",
@@ -8185,24 +7011,12 @@
         "signal": "SG_ AgDataRawSafeYawRate : 23|16@0- (0.000244140625,0.0) [-6.0|6.0] \"rad/s\" PSCM1,RBCM",
         "signal_name": "AgDataRawSafeYawRate",
         "bit_position": "23",
-        "length_of_bit": "16@0-",
+        "length_of_bit": "16",
         "factor": "0.000244140625",
         "offset": "0.0",
         "min_value": "-6.0",
         "max_value": "6.0",
         "unit": "rad/s",
-        "receiver_node": "PSCM1,RBCM"
-      },
-      {
-        "signal": "SG_ AgDataRawSafeYawRateQf : 41|2@0+ (1,0) [0|3] \"\" PSCM1,RBCM",
-        "signal_name": "AgDataRawSafeYawRateQf",
-        "bit_position": "41",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
         "receiver_node": "PSCM1,RBCM"
       },
       {
@@ -8355,18 +7169,6 @@
         "max_value": "15",
         "unit": "",
         "receiver_node": "PSCM1,SAS"
-      },
-      {
-        "signal": "SG_ VehModMngtGlbSafe1UsgModSts : 11|4@0+ (1,0) [0|15] \"\" PSCM1,SAS",
-        "signal_name": "VehModMngtGlbSafe1UsgModSts",
-        "bit_position": "11",
-        "length_of_bit": "4",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "15",
-        "unit": "",
-        "receiver_node": "PSCM1,SAS"
       }
     ]
   },
@@ -8403,18 +7205,6 @@
         "signal": "SG_ SteerSetgSteerAsscLvl : 62|3@0+ (1,0) [0|7] \"\" PSCM1",
         "signal_name": "SteerSetgSteerAsscLvl",
         "bit_position": "62",
-        "length_of_bit": "3",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "7",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ SteerSetgSteerMod : 50|3@0+ (1,0) [0|7] \"\" PSCM1",
-        "signal_name": "SteerSetgSteerMod",
-        "bit_position": "50",
         "length_of_bit": "3",
         "factor": "1",
         "offset": "0",
@@ -8475,18 +7265,6 @@
         "offset": "0",
         "min_value": "0",
         "max_value": "1",
-        "unit": "",
-        "receiver_node": "SAS"
-      },
-      {
-        "signal": "SG_ CmptmtTFrntQf : 26|2@0+ (1,0) [0|3] \"\" SAS",
-        "signal_name": "CmptmtTFrntQf",
-        "bit_position": "26",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
         "unit": "",
         "receiver_node": "SAS"
       },
@@ -8616,18 +7394,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ WhlFastSpdSafeQF : 5|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlFastSpdSafeQF",
-        "bit_position": "5",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -8712,18 +7478,6 @@
         "signal": "SG_ VehCfgPrmCCPBytePosn7 : 55|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
         "signal_name": "VehCfgPrmCCPBytePosn7",
         "bit_position": "55",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1,RBCM,SAS"
-      },
-      {
-        "signal": "SG_ VehCfgPrmCCPBytePosn8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM,SAS",
-        "signal_name": "VehCfgPrmCCPBytePosn8",
-        "bit_position": "63",
         "length_of_bit": "8",
         "factor": "1.0",
         "offset": "0.0",
@@ -8846,18 +7600,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "PSCM1,RBCM"
-      },
-      {
-        "signal": "SG_ VehCfgPrmExtCCPBytePosn8 : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1,RBCM",
-        "signal_name": "VehCfgPrmExtCCPBytePosn8",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1,RBCM"
       }
     ]
   },
@@ -8930,7 +7672,7 @@
         "signal": "SG_ HvacHexAirTHvacAirTForHeatrFrnt : 36|13@0- (0.1,0.0) [-256.0|255.9] \"degC\" Vector__XXX",
         "signal_name": "HvacHexAirTHvacAirTForHeatrFrnt",
         "bit_position": "36",
-        "length_of_bit": "13@0-",
+        "length_of_bit": "13",
         "factor": "0.1",
         "offset": "0.0",
         "min_value": "-256.0",
@@ -9045,18 +7787,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ ULoWarnULoWarn : 5|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "ULoWarnULoWarn",
-        "bit_position": "5",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -9099,18 +7829,6 @@
         "min_value": "0.0",
         "max_value": "15.0",
         "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ EscStEscSt : 38|3@0+ (1,0) [0|7] \"\" PSCM1",
-        "signal_name": "EscStEscSt",
-        "bit_position": "38",
-        "length_of_bit": "3",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "7",
-        "unit": "",
         "receiver_node": "PSCM1"
       },
       {
@@ -9263,18 +7981,6 @@
         "max_value": "255.0",
         "unit": "Unitless",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ WhlRotToothCntrReRi : 63|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-        "signal_name": "WhlRotToothCntrReRi",
-        "bit_position": "63",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -9311,18 +8017,6 @@
         "signal": "SG_ AgDataCmpQualityRollRateCmpQuality : 15|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
         "signal_name": "AgDataCmpQualityRollRateCmpQuality",
         "bit_position": "15",
-        "length_of_bit": "8",
-        "factor": "1.0",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "255.0",
-        "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ AgDataCmpQualityYawRateCmpQuality : 23|8@0+ (1.0,0.0) [0.0|255.0] \"Unitless\" PSCM1",
-        "signal_name": "AgDataCmpQualityYawRateCmpQuality",
-        "bit_position": "23",
         "length_of_bit": "8",
         "factor": "1.0",
         "offset": "0.0",
@@ -9384,18 +8078,6 @@
         "min_value": "0.0",
         "max_value": "15.0",
         "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ VehMtnStVehMtnSt : 2|3@0+ (1,0) [0|7] \"\" PSCM1",
-        "signal_name": "VehMtnStVehMtnSt",
-        "bit_position": "2",
-        "length_of_bit": "3",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "7",
-        "unit": "",
         "receiver_node": "PSCM1"
       },
       {
@@ -9488,18 +8170,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ SaveSetgToMemPrmnt_UB : 48|1@0+ (1,0) [0|1] \"\" PSCM1",
-        "signal_name": "SaveSetgToMemPrmnt_UB",
-        "bit_position": "48",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -9530,18 +8200,6 @@
         "min_value": "0.0",
         "max_value": "25.0",
         "unit": "Volt",
-        "receiver_node": "PSCM1,SAS"
-      },
-      {
-        "signal": "SG_ VehBattUSysUQf : 49|2@0+ (1,0) [0|3] \"\" PSCM1,SAS",
-        "signal_name": "VehBattUSysUQf",
-        "bit_position": "49",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
         "receiver_node": "PSCM1,SAS"
       },
       {
@@ -9610,18 +8268,6 @@
         "max_value": "1",
         "unit": "",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ DrvModReqForChampnMod_UB : 54|1@0+ (1,0) [0|1] \"\" PSCM1",
-        "signal_name": "DrvModReqForChampnMod_UB",
-        "bit_position": "54",
-        "length_of_bit": "1",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "1",
-        "unit": "",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -9664,18 +8310,6 @@
         "min_value": "0.0",
         "max_value": "15.0",
         "unit": "Unitless",
-        "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ IDcDcActLoSideIDcDcActLoSide : 23|12@0+ (0.1,0.0) [0.0|409.5] \"A\" PSCM1",
-        "signal_name": "IDcDcActLoSideIDcDcActLoSide",
-        "bit_position": "23",
-        "length_of_bit": "12",
-        "factor": "0.1",
-        "offset": "0.0",
-        "min_value": "0.0",
-        "max_value": "409.5",
-        "unit": "A",
         "receiver_node": "PSCM1"
       },
       {
@@ -9780,18 +8414,6 @@
         "max_value": "3",
         "unit": "",
         "receiver_node": "PSCM1"
-      },
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
       }
     ]
   },
@@ -9799,152 +8421,48 @@
     "BO": "BO_ 1313 VddmChas1NMFr : 8 VDDM",
     "message": "VddmChas1NMFr",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 2047 VddmToAllFuncChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToAllFuncChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1908 VddmToPscm100FITbChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToPscm100FITbChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1904 VddmToPscmChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToPscmChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1905 VddmToRasmChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToRasmChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1909 VddmToRbcmChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToRbcmChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1906 VddmToSasChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToSasChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   },
   {
     "BO": "BO_ 1911 VddmToShvcChas1DiagReqFrame : 8 VDDM",
     "message": "VddmToShvcChas1DiagReqFrame",
     "sender_node": "VDDM",
-    "SG": [
-      {
-        "signal": "SG_ WhlSpdCircumlReRiQf : 25|2@0+ (1,0) [0|3] \"\" PSCM1",
-        "signal_name": "WhlSpdCircumlReRiQf",
-        "bit_position": "25",
-        "length_of_bit": "2",
-        "factor": "1",
-        "offset": "0",
-        "min_value": "0",
-        "max_value": "3",
-        "unit": "",
-        "receiver_node": "PSCM1"
-      }
-    ]
+    "SG": []
   }
 ]
