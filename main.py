@@ -19,7 +19,6 @@ def data_to_dbs(data):
             dbs_lines.append(f" SG_ {signal['signal_name']} : {signal['bit_position']}|{signal['length_of_bit']}@{signal['factor']},{signal['offset']} [{signal['min_value']}|{signal['max_value']}] \"{signal['unit']}\" {signal['receiver_node']}")
 
     return dbs_lines
-
 # Generate DBS content
 dbs_content = data_to_dbs(extracted_data)
 
