@@ -1,0 +1,759 @@
+BO_ AsdmChas1Fr01 ASDM:6
+ SG_ PASFuncActive : 15|1@1,0 [0|1] "" VDDM
+ SG_ PASFuncActive_UB : 14|1@1,0 [0|1] "" VDDM
+ SG_ RctaBrkReqQM : 13|1@1,0 [0|1] "" VDDM
+ SG_ RctaBrkReqQM_UB : 12|1@1,0 [0|1] "" VDDM
+ SG_ RcwmBrkReqQM : 11|1@1,0 [0|1] "" VDDM
+ SG_ RcwmBrkReqQM_UB : 10|1@1,0 [0|1] "" VDDM
+BO_ AsdmChas1Fr03 ASDM:8
+ SG_ AgCtrlTqLowrLim : 6|9@0.125,-30.0 [-30.0|30.0] "Nm" PSCM1
+ SG_ AgCtrlTqLowrLim_UB : 13|1@1,0 [0|1] "" PSCM1
+ SG_ AgCtrlTqUpprLim : 43|9@0.125,-30.0 [-30.0|30.0] "Nm" PSCM1
+ SG_ AgCtrlTqUpprLim_UB : 50|1@1,0 [0|1] "" PSCM1
+ SG_ AsyPinionAgReqSafe_UB : 7|1@1,0 [0|1] "" PSCM1
+ SG_ AsyPinionAgReqSafeAsyPinionAgReq : 23|15@0.0009765625,-14.5 [-14.5|17.4990234375] "rad" PSCM1
+ SG_ AsyPinionAgReqSafeAsyPinionAgReqChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ AsyPinionAgReqSafeAsyPinionAgReqCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+BO_ AsdmChas1NMFr ASDM:0
+BO_ BcmChas1Fr01 BBM:6
+ SG_ BrkWssInfoFrnt_UB : 51|1@1,0 [0|1] "" RBCM
+ SG_ BrkWssInfoFrntChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ BrkWssInfoFrntCntr : 55|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+ SG_ BrkWssInfoFrntTTCFactorFL : 7|16@0.00000916,0.7 [0.7|1.3003006] "Unitless" RBCM
+ SG_ BrkWssInfoFrntTTCFactorFR : 23|16@0.00000916,0.7 [0.7|1.3003006] "Unitless" RBCM
+ SG_ BrkWssInfoFrntWssCoreMonRob : 47|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+BO_ BcmChas1Fr02 BBM:9
+ SG_ BrkWssInfoRe_UB : 43|1@1,0 [0|1] "" RBCM
+ SG_ BrkWssInfoReChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ BrkWssInfoReCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+ SG_ BrkWssInfoReTTCFactorRL : 7|16@0.00000916,0.7 [0.7|1.3003006] "Unitless" RBCM
+ SG_ BrkWssInfoReTTCFactorRR : 23|16@0.00000916,0.7 [0.7|1.3003006] "Unitless" RBCM
+ SG_ EpbSts_UB : 40|1@1,0 [0|1] "" RBCM
+ SG_ EpbStsChks : 63|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ EpbStsCntr : 51|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+ SG_ EpbStsEpbSts : 55|4@1,0 [0|15] "" RBCM
+BO_ BcmChas1Fr03 BBM:2
+ SG_ SBMHealthChkCmd : 63|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ SBMHealthChkCmd_UB : 27|1@1,0 [0|1] "" RBCM
+BO_ BcmChas1Fr06 BBM:9
+ SG_ BrkFAct_UB : 5|1@1,0 [0|1] "" RBCM
+ SG_ BrkFActAutParkBrkSpprtReq : 4|1@1,0 [0|1] "" RBCM
+ SG_ BrkFActChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ BrkFActCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+ SG_ BrkFActForce : 23|16@1.0,0.0 [0.0|50000.0] "N" RBCM
+ SG_ RbuCtrlModReqSafe_UB : 6|1@1,0 [0|1] "" RBCM
+ SG_ RbuCtrlModReqSafeBrkSysModCfmd : 39|4@1,0 [0|15] "" RBCM
+ SG_ RbuCtrlModReqSafeChks : 47|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RbuCtrlModReqSafeCntr : 35|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+BO_ BcmChas1Fr07 BBM:17
+ SG_ EpbAvlPrim_UB : 57|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimApplyFunctionalitiesAvailable : 27|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ EpbAvlPrimCntr : 31|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ EpbAvlPrimDriveAwayIntention : 26|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimHostAvailabilityFull : 25|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimHostAvailabilityRelOnly : 24|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimPrimarySystemAvailable : 39|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimReserved1 : 38|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimReserved2 : 37|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimReserved3 : 36|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimReserved4 : 35|1@1,0 [0|1] "" Vector__XXX
+ SG_ EpbAvlPrimRollerTestBench : 34|1@1,0 [0|1] "" Vector__XXX
+ SG_ PrimBrkSysSt_UB : 56|1@1,0 [0|1] "" RBCM
+ SG_ PrimBrkSysStBrkSysSt : 7|4@1,0 [0|15] "" RBCM
+ SG_ PrimBrkSysStChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ PrimBrkSysStCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+BO_ BcmChas1Fr09 BBM:5
+ SG_ ALgtStdFromWhlSpd_UB : 6|1@1,0 [0|1] "" IEM
+ SG_ ALgtStdFromWhlSpdALgtStdFromWhlSpd : 23|16@0.0009765625,0.0 [-18.0|18.0] "m/s^2" IEM
+ SG_ ALgtStdFromWhlSpdChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" IEM
+ SG_ ALgtStdFromWhlSpdCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" IEM
+ SG_ ALgtStdFromWhlSpdQf : 5|2@1,0 [0|3] "" IEM
+BO_ BcmChas1NMFr BBM:0
+BO_ EcmChas1BsgFr41 VDDM:4
+ SG_ AccrPedlRat_UB : 7|1@1,0 [0|1] "" Vector__XXX
+ SG_ AccrPedlRatAccrPedlRat : 6|15@0.00390625,0.0 [0.0|100.0] "%" Vector__XXX
+ SG_ AccrPedlRatChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AccrPedlRatCntr : 31|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ EcmChas1Fr08 VDDM:7
+ SG_ PtTqAtWhlFrntAct_UB : 7|1@1,0 [0|1] "" PSCM1
+ SG_ PtTqAtWhlFrntActChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PtTqAtWhlFrntActCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ PtTqAtWhlFrntActPtTqAtAxleFrntAct : 55|16@1.0,0.0 [-20000.0|20000.0] "NewtonMeter" PSCM1
+ SG_ PtTqAtWhlFrntActPtTqAtWhlFrntLeAct : 39|16@1.0,0.0 [-20000.0|20000.0] "NewtonMeter" PSCM1
+ SG_ PtTqAtWhlFrntActPtTqAtWhlFrntRiAct : 23|16@1.0,0.0 [-20000.0|20000.0] "NewtonMeter" PSCM1
+ SG_ PtTqAtWhlFrntActPtTqAtWhlsFrntQly : 6|3@1,0 [0|7] "" PSCM1
+BO_ EcmChas1Fr31 VDDM:4
+ SG_ EngSt1WdSts_UB : 23|1@1,0 [0|1] "" Vector__XXX
+ SG_ EngSt1WdStsChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ EngSt1WdStsCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ EngSt1WdStsEngSt1WdSts : 11|4@1,0 [0|15] "" Vector__XXX
+BO_ EcmChas1Fr37 VDDM:4
+ SG_ DrvrGearLvrInfoIndcn : 15|3@1,0 [0|7] "" Vector__XXX
+ SG_ DrvrGearLvrInfoIndcn_UB : 12|1@1,0 [0|1] "" Vector__XXX
+ SG_ EngSt1WdSts1 : 11|4@1,0 [0|15] "" SAS
+ SG_ EngSt1WdSts1_UB : 41|1@1,0 [0|1] "" SAS
+BO_ EtcToMvemXcpFr01 ETC:0
+BO_ EtcToMvemXcpFr02 ETC:0
+BO_ EtcToMvemXcpFr03 ETC:0
+BO_ EtcToPscm1cChas1XcpFr01 ETC:0
+BO_ EtcToPscmChas1XcpFr01 ETC:0
+BO_ EtcToPscmChas1XcpFr02 ETC:0
+BO_ EtcToPscmChas1XcpFr03 ETC:0
+BO_ EtcToPscmChas1XcpFr04 ETC:0
+BO_ EtcToPscmDevelFr ETC:8
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PSCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+BO_ EtcToRasmChas1XcpFr01 ETC:0
+BO_ EtcToRbcmChas1DevFr01 ETC:8
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ RBCMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+BO_ EtcToTcmXcpFr01 ETC:0
+BO_ EtcToTcmXcpFr02 ETC:0
+BO_ EtctoVddmBcmXCPFr01 ETC:0
+BO_ EtctoVddmDevelFr01 ETC:8
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq1Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+BO_ EtctoVddmDevelFr02 ETC:8
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ VDDMdevelpsignalgroupreq2Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+BO_ PasChas1Fr02 ASDM:5
+ SG_ PrkgPinionAgReqGroup_UB : 24|1@1,0 [0|1] "" PSCM1
+ SG_ PrkgPinionAgReqGroupParkAssiPinionAgReq : 23|15@0.000976563,-14.5 [-14.5|17.499039821] "rad" PSCM1
+ SG_ PrkgPinionAgReqGroupParkAssiPinionAgReqChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ PrkgPinionAgReqGroupParkAssiPinionAgReqCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ PrkgPinionAgReqGroupQF : 11|2@1,0 [0|3] "" PSCM1
+BO_ PasChas1Fr04 ASDM:4
+ SG_ PrkgGearReqGroup_UB : 10|1@1,0 [0|1] "" VDDM
+ SG_ PrkgGearReqGroupChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ PrkgGearReqGroupCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ PrkgGearReqGroupReqSts1 : 11|1@1,0 [0|1] "" VDDM
+BO_ Pscm100FITbChas1NMFr PSCM2:0
+BO_ Pscm100FITbToVddmChas1DiagResFrame PSCM2:0
+BO_ PscmChas1Fr01 PSCM1:8
+ SG_ DrvrSteerActv_UB : 10|1@1,0 [0|1] "" ASDM
+ SG_ DrvrSteerActvChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ASDM
+ SG_ DrvrSteerActvCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" ASDM
+ SG_ DrvrSteerActvDrvrSteerActv : 11|1@1,0 [0|1] "" ASDM
+ SG_ FrntSteerFEstimd1 : 47|16@1.0,0.0 [-32768.0|32767.0] "N" BBM
+ SG_ FrntSteerFEstimd1_UB : 56|1@1,0 [0|1] "" BBM
+ SG_ UBoostReqBySteerFrnt : 59|2@1,0 [0|3] "" VDDM
+ SG_ UBoostReqBySteerFrnt_UB : 57|1@1,0 [0|1] "" VDDM
+BO_ PscmChas1Fr02 PSCM1:10
+ SG_ LatCtrlModCfmd_UB : 23|1@1,0 [0|1] "" ASDM,BBM,VDDM
+ SG_ LatCtrlModCfmdChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ASDM,BBM,VDDM
+ SG_ LatCtrlModCfmdCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" ASDM,BBM,VDDM
+ SG_ LatCtrlModCfmdLatCtrlMod : 11|4@1,0 [0|15] "" ASDM,BBM,VDDM
+ SG_ SteerServoSts : 40|1@1,0 [0|1] "" ASDM,VDDM
+ SG_ SteerServoSts_UB : 55|1@1,0 [0|1] "" ASDM,VDDM
+ SG_ SteerWhlTqAddl : 39|14@0.00390625,0.0 [-30.0|30.0] "NewtonMeter" ASDM,BBM,VDDM
+ SG_ SteerWhlTqAddl_UB : 41|1@1,0 [0|1] "" ASDM,BBM,VDDM
+ SG_ TqAssAddl : 53|14@0.00390625,0.0 [-30.0|30.0] "NewtonMeter" ASDM,VDDM
+ SG_ TqAssAddl_UB : 54|1@1,0 [0|1] "" ASDM,VDDM
+BO_ PscmChas1Fr03 PSCM1:17
+ SG_ DrvrSteerWhlHldGroup_UB : 1|1@1,0 [0|1] "" ASDM,VDDM
+ SG_ DrvrSteerWhlHldGroupDrvrSteerWhlHld : 7|2@1,0 [0|3] "" ASDM,VDDM
+ SG_ DrvrSteerWhlHldGroupDrvrSteerWhlHldQly : 5|4@1.0,0.0 [0.0|15.0] "Unitless" ASDM,VDDM
+ SG_ SteerErrReq : 46|3@1,0 [0|7] "" VDDM
+ SG_ SteerErrReq_UB : 47|1@1,0 [0|1] "" VDDM
+ SG_ SteerExtFctSts_UB : 43|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsChks : 63|8@1.0,0.0 [0.0|255.0] "Unitless" ASDM
+ SG_ SteerExtFctStsCntr : 51|4@1.0,0.0 [0.0|15.0] "Unitless" ASDM
+ SG_ SteerExtFctStsDrvrSteerOvrd : 52|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsExtFctLowerLimActive : 53|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsExtFctRateLimActive : 54|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsExtFctUpperLimActive : 55|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsExtSafeLimActive : 40|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsLatAgReqNotInRange : 41|1@1,0 [0|1] "" ASDM
+ SG_ SteerExtFctStsLatCtrlReqNotInRange : 42|1@1,0 [0|1] "" ASDM
+ SG_ SteerStsToParkAssi : 15|3@1,0 [0|7] "" ASDM,BBM
+ SG_ SteerStsToParkAssi_UB : 0|1@1,0 [0|1] "" ASDM,BBM
+BO_ PscmChas1Fr06 PSCM1:2
+ SG_ PinionSteerAgMax1 : 54|15@0.0009765625,0.0 [-14.5|14.5] "rad" VDDM
+ SG_ PinionSteerAgMax1_UB : 55|1@1,0 [0|1] "" VDDM
+BO_ PscmChas1Fr07 PSCM1:9
+ SG_ PinionSteerAgGroup_UB : 57|1@1,0 [0|1] "" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupCntr : 63|4@1.0,0.0 [0.0|15.0] "Unitless" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupPinionSteerAg1 : 46|15@0.0009765625,0.0 [-14.5|14.5] "rad" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupPinionSteerAg1Qf : 15|2@1,0 [0|3] "" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupPinionSteerAgSpd1 : 13|14@0.0078125,0.0 [-50.0|50.0] "rad/s" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupPinionSteerAgSpd1Qf : 31|2@1,0 [0|3] "" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupSteerWhlTq : 29|14@0.00390625,0.0 [-30.0|30.0] "NewtonMeter" ASDM,BBM,VDDM
+ SG_ PinionSteerAgGroupSteerWhlTqQf : 59|2@1,0 [0|3] "" ASDM,BBM,VDDM
+BO_ PscmChas1NMFr PSCM1:0
+BO_ PscmDevelpFr PSCM1:8
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ PSCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+BO_ PscmToEtcChas1XcpFr01 PSCM1:0
+BO_ PscmToEtcChas1XcpFr01 PSCM2:0
+BO_ PscmToEtcChas1XcpFr02 PSCM1:0
+BO_ PscmToEtcChas1XcpFr02 PSCM2:0
+BO_ PscmToEtcChas1XcpFr03 PSCM1:0
+BO_ PscmToEtcChas1XcpFr03 PSCM2:0
+BO_ PscmToEtcChas1XcpFr04 PSCM1:0
+BO_ PscmToEtcChas1XcpFr04 PSCM2:0
+BO_ PscmToEtcChas1XcpFr05 PSCM1:0
+BO_ PscmToEtcChas1XcpFr05 PSCM2:0
+BO_ PscmToEtcChas1XcpFr06 PSCM1:0
+BO_ PscmToEtcChas1XcpFr06 PSCM2:0
+BO_ PscmToVddmChas1DiagResFrame PSCM1:0
+BO_ RbcmChas1Fr01 RBCM:8
+ SG_ AsySftyHWLReqBkp : 23|2@1,0 [0|3] "" Vector__XXX
+ SG_ AsySftyHWLReqBkp_UB : 21|1@1,0 [0|1] "" Vector__XXX
+ SG_ SBMHealthChkResp : 63|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ SBMHealthChkResp_UB : 20|1@1,0 [0|1] "" BBM
+ SG_ TakeoverWarnForBackup_UB : 7|1@1,0 [0|1] "" Vector__XXX
+ SG_ TakeoverWarnForBackupChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ TakeoverWarnForBackupCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ TakeoverWarnForBackupTakeoverWarnForBackup : 6|3@1,0 [0|7] "" Vector__XXX
+BO_ RbcmChas1Fr02 RBCM:10
+ SG_ AD4IMUStat_UB : 61|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUStatChks : 31|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUStatCntr : 39|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUStatHead : 35|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUStatIMUStat : 63|2@1,0 [0|3] "" Vector__XXX
+ SG_ AD4IMUStatIMUTemp : 47|16@0.01,0.0 [-50.0|150.0] "degC" Vector__XXX
+ SG_ SecBrkSysSt_UB : 23|1@1,0 [0|1] "" BBM,VDDM
+ SG_ SecBrkSysStBrkSysSt : 7|4@1,0 [0|15] "" BBM,VDDM
+ SG_ SecBrkSysStChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" BBM,VDDM
+ SG_ SecBrkSysStCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" BBM,VDDM
+BO_ RbcmChas1Fr03 RBCM:9
+ SG_ BrkLiOnReqForBkp_UB : 5|1@1,0 [0|1] "" VDDM
+ SG_ BrkLiOnReqForBkpBrkLiOnReqChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ BrkLiOnReqForBkpBrkLiOnReqCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ BrkLiOnReqForBkpBrkLiOnReqSts : 4|1@1,0 [0|1] "" VDDM
+ SG_ VehSpdLgtForBkp_UB : 55|1@1,0 [0|1] "" VDDM
+ SG_ VehSpdLgtForBkpVehSpdLgtA : 30|15@0.00391,0.0 [0.0|125.0027] "m/s" VDDM
+ SG_ VehSpdLgtForBkpVehSpdLgtChks : 47|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ VehSpdLgtForBkpVehSpdLgtCntr : 21|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ VehSpdLgtForBkpVehSpdLgtQf : 17|2@1,0 [0|3] "" VDDM
+BO_ RbcmChas1Fr04 RBCM:7
+ SG_ WhlSpdCircumlFrntForBkp_UB : 40|1@1,0 [0|1] "" VDDM
+ SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntLe : 39|15@0.00391,0.0 [0.0|125.0027] "m/s" VDDM
+ SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntLeQf : 7|2@1,0 [0|3] "" VDDM
+ SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntRiQf : 5|2@1,0 [0|3] "" VDDM
+ SG_ WhlSpdCircumlFrntForBkpWhlSpdCircumlFrntWhlSpdCircumlFrntRi : 23|15@0.00391,0.0 [0.0|125.0027] "m/s" VDDM
+BO_ RbcmChas1Fr05 RBCM:7
+ SG_ WhlSpdCircumlReForBkp_UB : 40|1@1,0 [0|1] "" VDDM
+ SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReLe : 39|15@0.00391,0.0 [0.0|125.0027] "m/s" VDDM
+ SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReLeQf : 7|2@1,0 [0|3] "" VDDM
+ SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReRi : 23|15@0.00391,0.0 [0.0|125.0027] "m/s" VDDM
+ SG_ WhlSpdCircumlReForBkpWhlSpdCircumlReRiQf : 5|2@1,0 [0|3] "" VDDM
+BO_ RbcmChas1Fr06 RBCM:7
+ SG_ WhlRotToothCntrForBkp_UB : 43|1@1,0 [0|1] "" VDDM
+ SG_ WhlRotToothCntrForBkpChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ WhlRotToothCntrForBkpCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ WhlRotToothCntrForBkpWhlRotToothCntrFrntLe : 7|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ WhlRotToothCntrForBkpWhlRotToothCntrFrntRi : 15|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ WhlRotToothCntrForBkpWhlRotToothCntrReLe : 23|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ WhlRotToothCntrForBkpWhlRotToothCntrReRi : 31|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+BO_ RbcmChas1Fr09 RBCM:5
+ SG_ AD4IMUAcceX_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUAcceXAcce : 7|32@0.00002,0.0 [-10.0|10.0] "g" Vector__XXX
+ SG_ AD4IMUAcceXChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUAcceXCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUAcceXHead : 43|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ RbcmChas1Fr10 RBCM:5
+ SG_ AD4IMUAcceY_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUAcceYAcce : 7|32@0.00002,0.0 [-10.0|10.0] "g" Vector__XXX
+ SG_ AD4IMUAcceYChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUAcceYCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUAcceYHead : 43|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ RbcmChas1Fr11 RBCM:5
+ SG_ AD4IMUAcceZ_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUAcceZAcce : 7|32@0.00002,0.0 [-10.0|10.0] "g" Vector__XXX
+ SG_ AD4IMUAcceZChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUAcceZCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUAcceZHead : 43|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ RbcmChas1Fr12 RBCM:5
+ SG_ AD4IMUGyroX_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUGyroXChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUGyroXCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUGyroXGyro : 23|32@0.001,0.0 [-500.0|500.0] "DegPerSec" Vector__XXX
+ SG_ AD4IMUGyroXHead : 11|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ RbcmChas1Fr13 RBCM:5
+ SG_ AD4IMUGyroY_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUGyroYChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUGyroYCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUGyroYGyro : 23|32@0.001,0.0 [-500.0|500.0] "DegPerSec" Vector__XXX
+ SG_ AD4IMUGyroYHead : 11|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ RbcmChas1Fr14 RBCM:5
+ SG_ AD4IMUGyroZ_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ AD4IMUGyroZChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ AD4IMUGyroZCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ AD4IMUGyroZGyro : 23|32@0.001,0.0 [-500.0|500.0] "DegPerSec" Vector__XXX
+ SG_ AD4IMUGyroZHead : 11|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+BO_ RbcmChas1NMFr RBCM:0
+BO_ RbcmChas1VFCVectorFr RBCM:63
+ SG_ VFCVectorRBCMBlockID : 1|2@1.0,0.0 [0.0|3.0] "Unitless" ETC
+ SG_ VFCVectorRBCMVFCid0 : 2|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid1 : 3|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid10 : 12|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid11 : 13|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid12 : 14|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid13 : 15|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid14 : 16|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid15 : 17|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid16 : 18|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid17 : 19|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid18 : 20|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid19 : 21|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid2 : 4|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid20 : 22|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid21 : 23|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid22 : 24|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid23 : 25|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid24 : 26|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid25 : 27|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid26 : 28|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid27 : 29|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid28 : 30|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid29 : 31|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid3 : 5|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid30 : 32|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid31 : 33|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid32 : 34|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid33 : 35|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid34 : 36|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid35 : 37|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid36 : 38|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid37 : 39|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid38 : 40|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid39 : 41|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid4 : 6|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid40 : 42|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid41 : 43|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid42 : 44|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid43 : 45|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid44 : 46|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid45 : 47|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid46 : 48|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid47 : 49|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid48 : 50|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid49 : 51|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid5 : 7|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid50 : 52|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid51 : 53|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid52 : 54|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid53 : 55|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid54 : 56|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid55 : 57|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid56 : 58|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid57 : 59|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid58 : 60|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid59 : 61|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid6 : 8|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid60 : 62|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid61 : 63|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid7 : 9|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid8 : 10|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorRBCMVFCid9 : 11|1@1,0 [0|1] "" ETC
+BO_ RbcmToEtcChas1DevFr01 RBCM:8
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ RBCMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+BO_ RbcmToVddmChas1DiagResFrame RBCM:0
+BO_ SasChas1Fr01 SAS:6
+ SG_ SteerWhlSnsr_UB : 7|1@1,0 [0|1] "" ASDM,BBM,PSCM1,RBCM,VDDM
+ SG_ SteerWhlSnsrAg : 6|15@0.0009765625,0.0 [-14.5|14.5] "rad" ASDM,BBM,PSCM1,RBCM,VDDM
+ SG_ SteerWhlSnsrAgSpd : 21|14@0.0078125,0.0 [-50.0|50.0] "rad/s" ASDM,BBM,PSCM1,RBCM,VDDM
+ SG_ SteerWhlSnsrChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" ASDM,BBM,PSCM1,RBCM,VDDM
+ SG_ SteerWhlSnsrCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" ASDM,BBM,PSCM1,RBCM,VDDM
+ SG_ SteerWhlSnsrQf : 23|2@1,0 [0|3] "" ASDM,BBM,PSCM1,RBCM,VDDM
+BO_ SasChas1NMFr SAS:0
+BO_ SasToVddmChas1DiagResFrame SAS:0
+BO_ TcmChas1Fr09 IEM:2
+ SG_ TrsmClrRdyReq : 21|1@1,0 [0|1] "" VDDM
+ SG_ TrsmClrRdyReq_UB : 20|1@1,0 [0|1] "" VDDM
+BO_ TcmChas1Fr11 IEM:2
+ SG_ TrsmModAct : 58|3@1,0 [0|7] "" VDDM
+ SG_ TrsmModAct_UB : 59|1@1,0 [0|1] "" VDDM
+BO_ TcmChas1Fr12 IEM:2
+ SG_ TrsmModNotAvlSts : 63|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ TrsmModNotAvlSts_UB : 48|1@1,0 [0|1] "" VDDM
+BO_ TcmChas1Fr13 IEM:9
+ SG_ TrsmEngmtLimd_UB : 45|1@1,0 [0|1] "" VDDM
+ SG_ TrsmEngmtLimdChks : 55|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ TrsmEngmtLimdCntr : 43|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ TrsmEngmtLimdTrsmEngmtLimd : 44|1@1,0 [0|1] "" VDDM
+ SG_ TrsmTqLoss_UB : 6|1@1,0 [0|1] "" VDDM
+ SG_ TrsmTqLossChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ TrsmTqLossCntr : 5|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ TrsmTqLossTrsmTqEff : 1|10@0.1,0.0 [0.0|100.0] "%" VDDM
+ SG_ TrsmTqLossTrsmTqLoss : 31|8@0.5,0.0 [0.0|127.0] "Unitless" VDDM
+BO_ TcmChas1Fr14 IEM:2
+ SG_ TrsmGearNotAvlSts : 27|12@1.0,0.0 [0.0|4095.0] "Unitless" VDDM
+ SG_ TrsmGearNotAvlSts_UB : 28|1@1,0 [0|1] "" VDDM
+BO_ TcmChas1Fr15 IEM:6
+ SG_ TrsmFltIndcn : 52|5@1,0 [0|31] "" VDDM
+ SG_ TrsmFltIndcn_UB : 53|1@1,0 [0|1] "" VDDM
+ SG_ TrsmWhlMotSysModReq : 23|3@1,0 [0|7] "" VDDM
+ SG_ TrsmWhlMotSysModReq_UB : 54|1@1,0 [0|1] "" VDDM
+ SG_ TrsmWhlMotSysSpdReq : 7|16@1.0,-20000.0 [-20000.0|45535.0] "rpm" VDDM
+ SG_ TrsmWhlMotSysSpdReq_UB : 55|1@1,0 [0|1] "" VDDM
+BO_ TcmChas1Fr16 IEM:7
+ SG_ TrsmN2_UB : 6|1@1,0 [0|1] "" VDDM
+ SG_ TrsmN2Chks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" VDDM
+ SG_ TrsmN2Cntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" VDDM
+ SG_ TrsmN2TrsmNInp : 23|15@1.0,0.0 [-16384.0|16383.0] "rpm" VDDM
+ SG_ TrsmN2TrsmNInpOk : 4|1@1,0 [0|1] "" VDDM
+ SG_ TrsmN2TrsmNOutp : 39|15@1.0,0.0 [-16384.0|16383.0] "rpm" VDDM
+ SG_ TrsmN2TrsmNOutpOk : 5|1@1,0 [0|1] "" VDDM
+BO_ TCMChas1Fr23 IEM:2
+ SG_ TrsmShiftInProgD2 : 55|1@1,0 [0|1] "" VDDM
+ SG_ TrsmShiftInProgD2_UB : 54|1@1,0 [0|1] "" VDDM
+BO_ VcuChas1Fr01 VDDM:2
+ SG_ PrpsnTqReReq : 55|16@1.0,0.0 [-20000.0|20000.0] "NewtonMeter" IEM
+ SG_ PrpsnTqReReq_UB : 19|1@1,0 [0|1] "" IEM
+BO_ VcuChas1Fr02 VDDM:4
+ SG_ SecParkBrkSysSt2_UB : 23|1@1,0 [0|1] "" BBM
+ SG_ SecParkBrkSysSt2BrkSysSt : 7|4@1,0 [0|15] "" BBM
+ SG_ SecParkBrkSysSt2Chks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" BBM
+ SG_ SecParkBrkSysSt2Cntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" BBM
+BO_ VcuChas1Fr03 VDDM:5
+ SG_ AgDataRaw2Safe_UB : 38|1@1,0 [0|1] "" RBCM
+ SG_ AgDataRaw2SafeChks : 47|8@1.0,0.0 [0.0|255.0] "Unitless" RBCM
+ SG_ AgDataRaw2SafeCntr : 35|4@1.0,0.0 [0.0|15.0] "Unitless" RBCM
+ SG_ AgDataRaw2SafePitchRate : 55|16@0.000244140625,0.0 [-6.0|6.0] "rad/s" RBCM
+ SG_ AgDataRaw2SafePitchRateQf : 37|2@1,0 [0|3] "" RBCM
+BO_ VcuChas1Fr04 VDDM:2
+ SG_ RlyPwrDistbnCmd1WdIgnRlyCmd : 58|1@1,0 [0|1] "" RBCM
+ SG_ RlyPwrDistbnCmd1WdIgnRlyCmd_UB : 57|1@1,0 [0|1] "" RBCM
+BO_ VcuChas1Fr06 VDDM:8
+ SG_ TiAndDateIndcn_UB : 7|1@1,0 [0|1] "" RBCM
+ SG_ TiAndDateIndcnDataValid : 6|1@1,0 [0|1] "" RBCM
+ SG_ TiAndDateIndcnDay : 28|5@1.0,0.0 [1.0|31.0] "Days" RBCM
+ SG_ TiAndDateIndcnHr1 : 20|5@1.0,0.0 [0.0|23.0] "hours" RBCM
+ SG_ TiAndDateIndcnMins1 : 13|6@1.0,0.0 [0.0|59.0] "Mins" RBCM
+ SG_ TiAndDateIndcnMth1 : 35|4@1.0,0.0 [1.0|12.0] "Month" RBCM
+ SG_ TiAndDateIndcnSec1 : 5|6@1.0,0.0 [0.0|59.0] "s" RBCM
+ SG_ TiAndDateIndcnYr1 : 46|7@1.0,0.0 [0.0|99.0] "Year" RBCM
+BO_ VcuChas1VFCVectorFr VDDM:63
+ SG_ VFCVectorVCUBlockID : 1|2@1.0,0.0 [0.0|3.0] "Unitless" ETC
+ SG_ VFCVectorVCUVFCid0 : 2|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid1 : 3|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid10 : 12|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid11 : 13|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid12 : 14|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid13 : 15|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid14 : 16|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid15 : 17|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid16 : 18|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid17 : 19|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid18 : 20|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid19 : 21|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid2 : 4|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid20 : 22|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid21 : 23|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid22 : 24|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid23 : 25|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid24 : 26|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid25 : 27|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid26 : 28|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid27 : 29|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid28 : 30|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid29 : 31|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid3 : 5|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid30 : 32|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid31 : 33|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid32 : 34|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid33 : 35|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid34 : 36|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid35 : 37|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid36 : 38|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid37 : 39|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid38 : 40|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid39 : 41|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid4 : 6|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid40 : 42|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid41 : 43|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid42 : 44|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid43 : 45|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid44 : 46|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid45 : 47|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid46 : 48|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid47 : 49|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid48 : 50|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid49 : 51|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid5 : 7|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid50 : 52|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid51 : 53|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid52 : 54|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid53 : 55|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid54 : 56|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid55 : 57|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid56 : 58|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid57 : 59|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid58 : 60|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid59 : 61|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid6 : 8|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid60 : 62|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid61 : 63|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid7 : 9|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid8 : 10|1@1,0 [0|1] "" ETC
+ SG_ VFCVectorVCUVFCid9 : 11|1@1,0 [0|1] "" ETC
+BO_ VddmChas1DevFr01 BBM:8
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp1Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+BO_ VddmChas1DevFr02 BBM:8
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+ SG_ VDDMdevelpsignalgroupresp2Functiondevpsignalgroup8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" ETC
+BO_ VddmChas1Fr01 VDDM:9
+ SG_ AsyDataWithCmpSafe_UB : 56|1@1,0 [0|1] "" PSCM1
+ SG_ AsyDataWithCmpSafeALat1Qf : 41|2@1,0 [0|3] "" PSCM1
+ SG_ AsyDataWithCmpSafeALatWithCmp : 55|15@0.0085,0.0 [-138.99200000000002|139.00050000000002] "m/s^2" PSCM1
+ SG_ AsyDataWithCmpSafeALgt1Qf : 43|2@1,0 [0|3] "" PSCM1
+ SG_ AsyDataWithCmpSafeChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ AsyDataWithCmpSafeCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ AsyDataWithCmpSafeGrdtOfALgt : 31|14@0.00390625,0.0 [-30.0|30.0] "m/s^3" PSCM1
+ SG_ AsyDataWithCmpSafeYawRateQf : 33|2@1,0 [0|3] "" PSCM1
+ SG_ AsyDataWithCmpSafeYawRateWithCmp : 7|16@0.000244140625,0.0 [-6.0|6.0] "rad/s" PSCM1
+BO_ VddmChas1Fr03 VDDM:9
+ SG_ ADataRawSafe_UB : 56|1@1,0 [0|1] "" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeALat : 23|15@0.0085,0.0 [-138.99200000000002|139.00050000000002] "m/s^2" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeALat1Qf : 11|2@1,0 [0|3] "" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeALgt : 38|15@0.0085,0.0 [-138.99200000000002|139.00050000000002] "m/s^2" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeALgt1Qf : 9|2@1,0 [0|3] "" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeAVert : 55|15@0.0085,0.0 [-138.99200000000002|139.00050000000002] "m/s^2" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeAVertQf : 24|2@1,0 [0|3] "" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" IEM,PSCM1,RBCM
+ SG_ ADataRawSafeCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" IEM,PSCM1,RBCM
+BO_ VddmChas1Fr04 BBM:13
+ SG_ AbsCtrlActv_UB : 10|1@1,0 [0|1] "" PSCM1
+ SG_ AbsCtrlActvChks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ AbsCtrlActvCntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ AbsCtrlActvCtrlSts1 : 11|1@1,0 [0|1] "" PSCM1
+ SG_ AmbTRaw_UB : 55|1@1,0 [0|1] "" PSCM1
+ SG_ AmbTRawAmbTVal : 50|11@0.1,-70.0 [-70.0|134.70000000000002] "degC" PSCM1
+ SG_ AmbTRawQly : 52|2@1,0 [0|3] "" PSCM1
+ SG_ LatCtrlReqSafe_UB : 40|1@1,0 [0|1] "" PSCM1
+ SG_ LatCtrlReqSafeChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ LatCtrlReqSafeCntr : 31|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ LatCtrlReqSafeLatCtrlModReq : 27|4@1,0 [0|15] "" PSCM1
+ SG_ LatCtrlReqSafeSteerTqReq : 39|14@0.00390625,0.0 [-30.0|30.0] "NewtonMeter" PSCM1
+ SG_ LatCtrlReqSafeSteerWhlHptcWarnReq : 41|1@1,0 [0|1] "" PSCM1
+BO_ VddmChas1Fr05 BBM:13
+ SG_ CnvnReq : 23|3@1,0 [0|7] "" Vector__XXX
+ SG_ CnvnReq_UB : 16|1@1,0 [0|1] "" Vector__XXX
+ SG_ DrvrCrsCtrlFctSeld : 20|3@1,0 [0|7] "" Vector__XXX
+ SG_ DrvrCrsCtrlFctSeld_UB : 17|1@1,0 [0|1] "" Vector__XXX
+ SG_ EngRunngReqByParkAssi_UB : 6|1@1,0 [0|1] "" Vector__XXX
+ SG_ EngRunngReqByParkAssi1 : 5|2@1,0 [0|3] "" Vector__XXX
+ SG_ EngRunngReqByParkAssiChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" Vector__XXX
+ SG_ EngRunngReqByParkAssiCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" Vector__XXX
+ SG_ VehSpdLgt_UB : 39|1@1,0 [0|1] "" PSCM1,SAS
+ SG_ VehSpdLgtA : 38|15@0.00391,0.0 [0.0|125.0027] "m/s" PSCM1,SAS
+ SG_ VehSpdLgtChks : 55|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,SAS
+ SG_ VehSpdLgtCntr : 63|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,SAS
+ SG_ VehSpdLgtQf : 59|2@1,0 [0|3] "" PSCM1,SAS
+BO_ VddmChas1Fr08 BBM:6
+ SG_ AmbTIndcdWithUnit_UB : 9|1@1,0 [0|1] "" SAS
+ SG_ AmbTIndcdWithUnitAmbTIndcd : 19|12@0.1,-100.0 [-100.0|309.5] "Unitless" SAS
+ SG_ AmbTIndcdWithUnitAmbTIndcdUnit : 23|2@1,0 [0|3] "" SAS
+ SG_ AmbTIndcdWithUnitQF : 21|2@1,0 [0|3] "" SAS
+ SG_ WhlBrkWrm : 36|1@1,0 [0|1] "" Vector__XXX
+ SG_ WhlBrkWrm_UB : 35|1@1,0 [0|1] "" Vector__XXX
+BO_ VddmChas1Fr10 BBM:13
+ SG_ BrkPedlPsd_UB : 40|1@1,0 [0|1] "" PSCM1
+ SG_ BrkPedlPsdBrkPedlNotPsdSafe : 55|1@1,0 [0|1] "" PSCM1
+ SG_ BrkPedlPsdBrkPedlPsd : 54|1@1,0 [0|1] "" PSCM1
+ SG_ BrkPedlPsdChks : 63|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ BrkPedlPsdCntr : 51|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ BrkPedlPsdQf : 53|2@1,0 [0|3] "" PSCM1
+ SG_ WhlSpdCircumlFrnt_UB : 7|1@1,0 [0|1] "" PSCM1
+ SG_ WhlSpdCircumlFrntChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlSpdCircumlFrntCntr : 31|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ WhlSpdCircumlFrntLe : 6|15@0.00391,0.0 [0.0|125.0027] "m/s" PSCM1
+ SG_ WhlSpdCircumlFrntLeQf : 27|2@1,0 [0|3] "" PSCM1
+ SG_ WhlSpdCircumlFrntRiQf : 25|2@1,0 [0|3] "" PSCM1
+ SG_ WhlSpdCircumlFrntWhlSpdCircumlFrntRi : 39|15@0.00391,0.0 [0.0|125.0027] "m/s" PSCM1
+BO_ VddmChas1Fr14 VDDM:7
+ SG_ AgDataRawSafe_UB : 49|1@1,0 [0|1] "" PSCM1,RBCM
+ SG_ AgDataRawSafeChks : 39|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ AgDataRawSafeCntr : 47|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,RBCM
+ SG_ AgDataRawSafeRollRate : 7|16@0.000244140625,0.0 [-6.0|6.0] "rad/s" PSCM1,RBCM
+ SG_ AgDataRawSafeRollRateQf : 43|2@1,0 [0|3] "" PSCM1,RBCM
+ SG_ AgDataRawSafeYawRate : 23|16@0.000244140625,0.0 [-6.0|6.0] "rad/s" PSCM1,RBCM
+ SG_ AgDataRawSafeYawRateQf : 41|2@1,0 [0|3] "" PSCM1,RBCM
+BO_ VddmChas1Fr19 VDDM:11
+ SG_ VehModMngtGlbSafe1_UB : 32|1@1,0 [0|1] "" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1CarModSts1 : 39|3@1,0 [0|7] "" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1CarModSubtypWdCarModSubtyp : 36|3@1.0,0.0 [0.0|7.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1Chks : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1Cntr : 15|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1EgyLvlElecMai : 27|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1EgyLvlElecSubtyp : 31|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1FltEgyCnsWdSts : 33|1@1,0 [0|1] "" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1PwrLvlElecMai : 19|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1PwrLvlElecSubtyp : 23|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1,SAS
+ SG_ VehModMngtGlbSafe1UsgModSts : 11|4@1,0 [0|15] "" PSCM1,SAS
+BO_ VddmChas1Fr22 VDDM:4
+ SG_ SteerSetg_UB : 51|1@1,0 [0|1] "" PSCM1
+ SG_ SteerSetgPen : 59|4@1,0 [0|15] "" PSCM1
+ SG_ SteerSetgSteerAsscLvl : 62|3@1,0 [0|7] "" PSCM1
+ SG_ SteerSetgSteerMod : 50|3@1,0 [0|7] "" PSCM1
+BO_ VddmChas1Fr23 VDDM:4
+ SG_ CmptmtTFrnt_UB : 23|1@1,0 [0|1] "" SAS
+ SG_ CmptmtTFrntCmptmtTFrnt : 21|11@0.1,-60.0 [-60.0|125.0] "degC" SAS
+ SG_ CmptmtTFrntFanForCmptmtTRunng : 24|1@1,0 [0|1] "" SAS
+ SG_ CmptmtTFrntQf : 26|2@1,0 [0|3] "" SAS
+BO_ VddmChas1Fr24 BBM:9
+ SG_ HsaSt : 57|1@1,0 [0|1] "" Vector__XXX
+ SG_ HsaSt_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ LVPwrSplyErrSts : 51|4@1,0 [0|15] "" Vector__XXX
+ SG_ LVPwrSplyErrSts_UB : 59|1@1,0 [0|1] "" Vector__XXX
+ SG_ WhlFastSpdSafe_UB : 6|1@1,0 [0|1] "" PSCM1
+ SG_ WhlFastSpdSafeA : 14|15@0.00391,0.0 [0.0|125.0027] "m/s" PSCM1
+ SG_ WhlFastSpdSafeChks : 31|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlFastSpdSafeCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ WhlFastSpdSafeQF : 5|2@1,0 [0|3] "" PSCM1
+BO_ VddmChas1Fr30 VDDM:8
+ SG_ VehCfgPrmBlkIDBytePosn1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+ SG_ VehCfgPrmCCPBytePosn8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM,SAS
+BO_ VddmChas1Fr33 VDDM:8
+ SG_ VehCfgPrmExtBlkIDBytePosn1 : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn2 : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn3 : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn4 : 31|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn5 : 39|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn6 : 47|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn7 : 55|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+ SG_ VehCfgPrmExtCCPBytePosn8 : 63|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1,RBCM
+BO_ VddmChas1Fr41 BBM:15
+ SG_ AbsSts : 57|1@1,0 [0|1] "" Vector__XXX
+ SG_ AbsSts_UB : 56|1@1,0 [0|1] "" Vector__XXX
+ SG_ DrvModReq : 61|4@1,0 [0|15] "" PSCM1
+ SG_ DrvModReq_UB : 62|1@1,0 [0|1] "" PSCM1
+ SG_ HvacHexAirT_UB : 38|1@1,0 [0|1] "" Vector__XXX
+ SG_ HvacHexAirTHvacAirTForHeatrFrnt : 36|13@0.1,0.0 [-256.0|255.9] "degC" Vector__XXX
+ SG_ HvacHexAirTHvacAirTForHeatrFrntQf : 37|1@1,0 [0|1] "" Vector__XXX
+ SG_ TelmBookChrgnReq : 25|2@1,0 [0|3] "" Vector__XXX
+ SG_ TelmBookChrgnReq_UB : 63|1@1,0 [0|1] "" Vector__XXX
+ SG_ TelmBookChrgnTyp : 55|3@1,0 [0|7] "" Vector__XXX
+ SG_ TelmBookChrgnTyp_UB : 52|1@1,0 [0|1] "" Vector__XXX
+ SG_ ULoWarn_UB : 6|1@1,0 [0|1] "" PSCM1
+ SG_ ULoWarnChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ ULoWarnCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ ULoWarnULoWarn : 5|2@1,0 [0|3] "" PSCM1
+BO_ VddmChas1Fr44 BBM:4
+ SG_ EscSt_UB : 39|1@1,0 [0|1] "" PSCM1
+ SG_ EscStChks : 47|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ EscStCntr : 35|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ EscStEscSt : 38|3@1,0 [0|7] "" PSCM1
+BO_ VddmChas1Fr46 BBM:11
+ SG_ BrkTracCtrlActv : 20|1@1,0 [0|1] "" PSCM1
+ SG_ BrkTracCtrlActv_UB : 21|1@1,0 [0|1] "" PSCM1
+ SG_ HvacHeatgReq : 23|1@1,0 [0|1] "" Vector__XXX
+ SG_ HvacHeatgReq_UB : 22|1@1,0 [0|1] "" Vector__XXX
+ SG_ WhlRotToothCntr_UB : 5|1@1,0 [0|1] "" PSCM1
+ SG_ WhlRotToothCntrChks : 31|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlRotToothCntrCntr : 19|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ WhlRotToothCntrFrntLe : 39|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlRotToothCntrFrntRi : 47|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlRotToothCntrReLe : 55|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlRotToothCntrReRi : 63|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+BO_ VddmChas1Fr47 VDDM:4
+ SG_ AgDataCmpQuality_UB : 43|1@1,0 [0|1] "" PSCM1
+ SG_ AgDataCmpQualityPitchRateCmpQuality : 7|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ AgDataCmpQualityRollRateCmpQuality : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ AgDataCmpQualityYawRateCmpQuality : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+BO_ VddmChas1Fr48 BBM:4
+ SG_ VehMtnSt_UB : 7|1@1,0 [0|1] "" PSCM1
+ SG_ VehMtnStChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ VehMtnStCntr : 6|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ VehMtnStVehMtnSt : 2|3@1,0 [0|7] "" PSCM1
+BO_ VddmChas1Fr49 VDDM:6
+ SG_ CarTiGlb : 7|32@0.1,0.0 [0.0|429496729.5] "s" PSCM1,SAS
+ SG_ CarTiGlb_UB : 57|1@1,0 [0|1] "" PSCM1,SAS
+ SG_ ProfPenSts1 : 55|4@1,0 [0|15] "" PSCM1
+ SG_ ProfPenSts1_UB : 51|1@1,0 [0|1] "" PSCM1
+ SG_ SaveSetgToMemPrmnt : 50|2@1,0 [0|3] "" PSCM1
+ SG_ SaveSetgToMemPrmnt_UB : 48|1@1,0 [0|1] "" PSCM1
+BO_ VddmChas1Fr50 VDDM:3
+ SG_ VehBattU_UB : 54|1@1,0 [0|1] "" PSCM1,SAS
+ SG_ VehBattUSysU : 63|8@0.1,0.0 [0.0|25.0] "Volt" PSCM1,SAS
+ SG_ VehBattUSysUQf : 49|2@1,0 [0|3] "" PSCM1,SAS
+BO_ VddmChas1Fr53 VDDM:4
+ SG_ BkpOfDstTrvld : 7|21@1.0,0.0 [0.0|2000000.0] "km" PSCM1,SAS
+ SG_ BkpOfDstTrvld_UB : 53|1@1,0 [0|1] "" PSCM1,SAS
+ SG_ DrvModReqForChampnMod : 18|3@1,0 [0|7] "" PSCM1
+ SG_ DrvModReqForChampnMod_UB : 54|1@1,0 [0|1] "" PSCM1
+BO_ VddmChas1Fr54 VDDM:4
+ SG_ IDcDcActLoSide_UB : 4|1@1,0 [0|1] "" PSCM1
+ SG_ IDcDcActLoSideChks : 15|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ IDcDcActLoSideCntr : 3|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ IDcDcActLoSideIDcDcActLoSide : 23|12@0.1,0.0 [0.0|409.5] "A" PSCM1
+BO_ VddmChas1Fr55 BBM:7
+ SG_ WhlSpdCircumlRe_UB : 7|1@1,0 [0|1] "" PSCM1
+ SG_ WhlSpdCircumlReChks : 23|8@1.0,0.0 [0.0|255.0] "Unitless" PSCM1
+ SG_ WhlSpdCircumlReCntr : 31|4@1.0,0.0 [0.0|15.0] "Unitless" PSCM1
+ SG_ WhlSpdCircumlReLe : 6|15@0.00391,0.0 [0.0|125.0027] "m/s" PSCM1
+ SG_ WhlSpdCircumlReLeQf : 27|2@1,0 [0|3] "" PSCM1
+ SG_ WhlSpdCircumlReRi : 39|15@0.00391,0.0 [0.0|125.0027] "m/s" PSCM1
+ SG_ WhlSpdCircumlReRiQf : 25|2@1,0 [0|3] "" PSCM1
+BO_ VddmChas1NMFr VDDM:0
+BO_ VddmToAllFuncChas1DiagReqFrame VDDM:0
+BO_ VddmToPscm100FITbChas1DiagReqFrame VDDM:0
+BO_ VddmToPscmChas1DiagReqFrame VDDM:0
+BO_ VddmToRasmChas1DiagReqFrame VDDM:0
+BO_ VddmToRbcmChas1DiagReqFrame VDDM:0
+BO_ VddmToSasChas1DiagReqFrame VDDM:0
+BO_ VddmToShvcChas1DiagReqFrame VDDM:0
