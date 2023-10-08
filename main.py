@@ -1,89 +1,78 @@
+import sys
+import getopt
+import cantools
 import json
+import os
 
-# Specify the input and output file names
-input_file_name = "ChassisCAN1.dbc"
-output_file_name = "CANoutput.json"
-skipped_file_name = "skipped.txt"
+def dbc_to_json(inputfile):
+    try:
+        # Load the CAN database file using cantools
+        db = cantools.database.load_file(inputfile)
 
-# Initialize a list to store the extracted data
-extracted_data = []
+        # Create a list to store the messages
+        messages_list = []
 
-# Initialize variables to hold the current message information and line counters
-current_bo = None
-bo_line_count = 0  # Counter for BO_ lines
-sg_line_count = 0  # Counter for SG_ lines
+        # Iterate over messages and extract relevant information
+        for message in db.messages:
+            message_info = {
+                "canId": message.frame_id,
+                "pgn": message.frame_id,  # You may adjust this based on your needs
+                "name": message.name,
+                "isExtendedFrame": message.is_extended_frame,
+                "dlc": message.length,
+                "signals": []
+            }
 
-# Initialize a list to store skipped lines
-skipped_lines = []
+            # Iterate over signals in the message
+            for signal in message.signals:
+                signal_info = {
+                    "name": signal.name,
+                    "label": f"{message.name.lower()}.{signal.name.lower()}",
+                    "startBit": signal.start,
+                    "bitLength": signal.length,
+                    "isLittleEndian": signal.byte_order == 'little_endian',
+                    "isSigned": signal.is_signed,
+                    "factor": signal.scale,
+                    "offset": signal.offset,
+                    "min": signal.minimum if signal.minimum is not None else 0,
+                    "max": signal.maximum if signal.maximum is not None else 0,
+                    "sourceUnit": signal.unit,
+                    "dataType": "int",  # Assuming all signals are of integer data type
+                    "comment": signal.comment
+                }
 
-# Open the input file for reading
-with open(input_file_name, "r") as input_file:
-    for line in input_file:
-        # Remove leading and trailing whitespace
-        line = line.strip()
+                message_info["signals"].append(signal_info)
 
-        # Process only lines that start with "BO_" or "SG_"
-        if line.startswith(("BO_", "SG_")):
-            if line.startswith("BO_"):
-                bo_line_count += 1
-                # Save the previous message if it exists
-                if current_bo is not None:
-                    extracted_data.append(current_bo)
+            messages_list.append(message_info)
 
-                # Parse BO_ line to extract message information
-                bo_parts = line.split()
-                if len(bo_parts) >= 6:
-                    current_bo = {
-                        "BO": line,
-                        "message": bo_parts[2],
-                        "sender_node": bo_parts[5],
-                        "SG": []
-                    }
-            elif current_bo is not None:
-                sg_line_count += 1
-                # Parse SG_ line to extract signal information and add it to the current message's "SG" list
-                sg_parts = line.split()
-                if len(sg_parts) >= 8:
-                    current_bo["SG"].append({
-                        "signal": line,
-                        "signal_name": sg_parts[1],
-                        "bit_position": sg_parts[3].split('|')[0],
-                        "length_of_bit": sg_parts[3].split('|')[1].split('@')[0],
-                        "factor": sg_parts[4].split(',')[0].strip('()'),
-                        "offset": sg_parts[4].split(',')[1].strip('()'),
-                        "min_value": sg_parts[5].split('|')[0].strip('[]'),
-                        "max_value": sg_parts[5].split('|')[1].strip('[]'),
-                        "unit": sg_parts[6].strip('"'),
-                        "receiver_node": sg_parts[7]
-                    })
-            else:
-                # Skip lines that start with "SG_" before encountering a "BO_" line
-                skipped_lines.append(line)
+        # Determine the output file name
+        output_file = inputfile.replace('.dbc', '_output.json')  # Adjust the output file name as needed
 
-# Add the last extracted BO_ (if any) to the extracted_data list
-if current_bo is not None:
-    extracted_data.append(current_bo)
+        # Save the output as a JSON file
+        with open(output_file, 'w') as outfile:
+            json.dump(messages_list, outfile, indent=4)
 
-# Convert the extracted data to a JSON structure and write it to the output JSON file
-with open(output_file_name, 'w') as output_file:
-    json.dump(extracted_data, output_file, indent=2)
+        print(f"Conversion completed. Output saved to {output_file}")
+    except cantools.database.exceptions.DecodeError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
 
-print(f"Extracted lines saved to {output_file_name}")
+def main(argv):
+    inputfile = ''
+    try:
+        opts, args = getopt.getopt(argv, "hi:", ["ifile="])
+    except getopt.GetoptError:
+        print('dbc2json.py -i <inputfile>')
+        sys.exit(1)
 
-# Check if all BO_ and SG_ lines are processed
-with open(input_file_name, "r") as input_file:
-    input_lines = [line.strip() for line in input_file if line.startswith(("BO_", "SG_"))]
+    for opt, arg in opts:
+        if opt == '-h':
+            print('CAN_dbc2json.py -i <inputfile>')
+            sys.exit()
+        elif opt in ("-i", "--ifile"):
+            inputfile = arg
 
-if bo_line_count == len([line for line in input_lines if line.startswith("BO_")]) \
-        and sg_line_count == len([line for line in input_lines if line.startswith("SG_")]):
-    print("All lines starting with 'BO_' and 'SG_' are processed.")
-else:
-    print("Some lines starting with 'BO_' or 'SG_' are skipped during processing.")
+    dbc_to_json(inputfile)
 
-# Write skipped lines to a "skipped.txt" file
-if skipped_lines:
-    with open(skipped_file_name, 'w') as skipped_file:
-        for line in skipped_lines:
-            skipped_file.write(line + '\n')
-
-print(f"Skipped lines saved to {skipped_file_name}")
+if __name__ == '__main__':
+    main(sys.argv[1:])
